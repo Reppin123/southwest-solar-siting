@@ -1,0 +1,5 @@
+- Clearly better crafted than v1 when screenshots are compared side by side; no box-everywhere Tailwind look.
+- Design system documented (DESIGN.md) and actually used: one type scale, one palette with roles, spacing scale, consistent components.
+- Feature parity with v1, all interactions work (headless test), no console errors, v1 untouched.
+- References cited with what was taken from each.
+- No em dashes; plain, specific labels.

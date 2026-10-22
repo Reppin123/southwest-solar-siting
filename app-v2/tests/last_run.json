@@ -1,0 +1,487 @@
+[
+ {
+  "check": "test server answers",
+  "ok": true,
+  "detail": "http://localhost:4110/app-v2/"
+ },
+ {
+  "check": "page loads with data",
+  "ok": true,
+  "detail": "3.9 s"
+ },
+ {
+  "check": "Map is the default view",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "sites from all five states",
+  "ok": true,
+  "detail": "25733 sites, ['AZ', 'CA', 'NM', 'NV', 'UT']"
+ },
+ {
+  "check": "map libraries load locally (no CDN scripts)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "no stylesheet or font from another origin",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "self-hosted fonts load (Source Serif 4, IBM Plex Sans)",
+  "ok": true,
+  "detail": "IBM Plex Sans 400, IBM Plex Sans 500, IBM Plex Sans 600, Source Serif 4 200 900"
+ },
+ {
+  "check": "no em dash in any visible text",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "no rounded boxes (corner radius at most 2 px)",
+  "ok": true,
+  "detail": "none"
+ },
+ {
+  "check": "no soft drop shadows",
+  "ok": true,
+  "detail": "none"
+ },
+ {
+  "check": "map key lists exactly the layers that are on, sites first",
+  "ok": true,
+  "detail": "sites, transmission_lines, substations, blm_solar_available, admin_states"
+ },
+ {
+  "check": "default solar ranking matches pipeline rank_solar (top 25, within 2 places)",
+  "ok": true,
+  "detail": "0 mismatches"
+ },
+ {
+  "check": "default dc ranking matches pipeline rank_dc (top 25, within 2 places)",
+  "ok": true,
+  "detail": "0 mismatches"
+ },
+ {
+  "check": "layer on/off: transmission_lines",
+  "ok": true,
+  "detail": "9086 features, map key follows"
+ },
+ {
+  "check": "layer on/off: substations",
+  "ok": true,
+  "detail": "5295 features, map key follows"
+ },
+ {
+  "check": "layer on/off: blm_solar_available",
+  "ok": true,
+  "detail": "19198 features, map key follows"
+ },
+ {
+  "check": "layer on/off: solar_energy_zones",
+  "ok": true,
+  "detail": "26 features, map key follows"
+ },
+ {
+  "check": "layer on/off: ownership",
+  "ok": true,
+  "detail": "28672 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_wilderness",
+  "ok": true,
+  "detail": "1619 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_nca_acec",
+  "ok": true,
+  "detail": "6704 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_critical_habitat",
+  "ok": true,
+  "detail": "3998 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_flood_zone_a",
+  "ok": true,
+  "detail": "22 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_tribal",
+  "ok": true,
+  "detail": "1766 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_military",
+  "ok": true,
+  "detail": "818 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_wetlands",
+  "ok": true,
+  "detail": "30 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_slope_gt5",
+  "ok": true,
+  "detail": "15074 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_urban",
+  "ok": true,
+  "detail": "1186 features, map key follows"
+ },
+ {
+  "check": "layer on/off: excl_nps",
+  "ok": true,
+  "detail": "495 features, map key follows"
+ },
+ {
+  "check": "layer on/off: power_plants",
+  "ok": true,
+  "detail": "3025 features, map key follows"
+ },
+ {
+  "check": "layer on/off: blm_solar_row_cases",
+  "ok": true,
+  "detail": "307 features, map key follows"
+ },
+ {
+  "check": "layer on/off: fiber",
+  "ok": true,
+  "detail": "1105 features, map key follows"
+ },
+ {
+  "check": "layer on/off: water_stress",
+  "ok": true,
+  "detail": "583 features, map key follows"
+ },
+ {
+  "check": "layer on/off: roads_major",
+  "ok": true,
+  "detail": "1728 features, map key follows"
+ },
+ {
+  "check": "layer on/off: data_centers_osm",
+  "ok": true,
+  "detail": "258 features, map key follows"
+ },
+ {
+  "check": "layer on/off: admin_states",
+  "ok": true,
+  "detail": "5 features, map key follows"
+ },
+ {
+  "check": "layer on/off: admin_counties",
+  "ok": true,
+  "detail": "152 features, map key follows"
+ },
+ {
+  "check": "layer on/off: raster_ghi",
+  "ok": true,
+  "detail": "1 features, map key follows"
+ },
+ {
+  "check": "layer on/off: raster_slope",
+  "ok": true,
+  "detail": "1 features, map key follows"
+ },
+ {
+  "check": "layer on/off: candidate sites",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "Source panel opens with source, retrieved date and caveats; Esc closes it",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "basemap switch: satellite",
+  "ok": true,
+  "detail": "satellite"
+ },
+ {
+  "check": "basemap switch: terrain",
+  "ok": true,
+  "detail": "terrain"
+ },
+ {
+  "check": "basemap switch: plain",
+  "ok": true,
+  "detail": "no raster base"
+ },
+ {
+  "check": "basemap switch: street",
+  "ok": true,
+  "detail": "street"
+ },
+ {
+  "check": "click site on map opens scorecard",
+  "ok": true,
+  "detail": "SW-NM-00001"
+ },
+ {
+  "check": "scorecard shows substation, queue, GHI, BLM status, data center fit",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "scorecard opens as a column beside the map (map narrows, nothing covers it)",
+  "ok": true,
+  "detail": "map 1144 -> 752 px, sheet 392 px"
+ },
+ {
+  "check": "selected site outlined in ink over a white halo",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "provisional badge on scorecard",
+  "ok": true,
+  "detail": "SW-NM-00097"
+ },
+ {
+  "check": "Esc closes the scorecard and returns the width to the map",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "weight slider (sun) re-ranks sites",
+  "ok": true,
+  "detail": "sun weight 20 -> 45; top site SW-NM-00001"
+ },
+ {
+  "check": "ranked table synced with new ranking",
+  "ok": true,
+  "detail": "SW-NM-00001"
+ },
+ {
+  "check": "BLM-only filter",
+  "ok": true,
+  "detail": "3,866 of 25,733 sites shown"
+ },
+ {
+  "check": "rail readout follows the filters",
+  "ok": true,
+  "detail": "3,866"
+ },
+ {
+  "check": "state filter (untick UT)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "ranking switch to Solar + Data Center",
+  "ok": true,
+  "detail": "top DC site SW-NM-00001"
+ },
+ {
+  "check": "ranking switch back to Solar",
+  "ok": true,
+  "detail": "top solar site SW-NM-00001"
+ },
+ {
+  "check": "CSV export of current view",
+  "ok": true,
+  "detail": "1963 rows, 55 columns, file southwest_sites_solar_g35-l30-s20-p15-d0_1963.csv"
+ },
+ {
+  "check": "table sorts by column",
+  "ok": true,
+  "detail": "[5508.757, 5180.066, 5174.026, 4947.395, 4936.232]"
+ },
+ {
+  "check": "table row click selects site (and the map flies to it)",
+  "ok": true,
+  "detail": "SW-CA-02558"
+ },
+ {
+  "check": "Summary tab: charts render",
+  "ok": true,
+  "detail": "4 charts"
+ },
+ {
+  "check": "Summary tab: five figures and HTML chart keys",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "Sources and Limits tab: datasets, provisional note, SCOPE limits, appendix link",
+  "ok": true,
+  "detail": "23681 chars"
+ },
+ {
+  "check": "reading tabs hide the controls column",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "Deliverables tab: Excel, memos, BLM brief",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "every deliverable link resolves",
+  "ok": true,
+  "detail": "21 links"
+ },
+ {
+  "check": "Show on map opens the map and the memo's site",
+  "ok": true,
+  "detail": "SW-NM-00001"
+ },
+ {
+  "check": "How to Read This present (tab, page and table of contents)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "How to Read This tab opens with all 10 sections",
+  "ok": true,
+  "detail": "what, ask, good, map, use, score, prep, limits, next, glossary"
+ },
+ {
+  "check": "How to Read This: answers big lines / crowded substations, legend, limits, next steps, glossary",
+  "ok": true,
+  "detail": "13489 chars"
+ },
+ {
+  "check": "How to Read This: colour words match the v2 map (no teal, purple, mustard, red dots)",
+  "ok": true,
+  "detail": "none"
+ },
+ {
+  "check": "How to Read This: no em or en dashes",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "How to Read This: legend swatches drawn from the map colours",
+  "ok": true,
+  "detail": "45 swatches"
+ },
+ {
+  "check": "methodology review appendix renders",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "site memo renders",
+  "ok": true,
+  "detail": "01_SW-NM-00001.md"
+ },
+ {
+  "check": "1440 px layout: no overlapping panels, nothing wraps",
+  "ok": true,
+  "detail": "{\"sidebarOverMap\": false, \"headerWrap\": false, \"tabsHitMode\": false, \"brandHitTabs\": false, \"tableUnderMap\": false, \"docScrollX\": false, \"statesWrap\": false}"
+ },
+ {
+  "check": "screenshot overview 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot scorecard open 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot data center ranking 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot summary tab 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot sources tab 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot How to Read This tab 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot deliverables tab 1440",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "1280 px layout: no overlapping panels, nothing wraps",
+  "ok": true,
+  "detail": "{\"sidebarOverMap\": false, \"headerWrap\": false, \"tabsHitMode\": false, \"brandHitTabs\": false, \"tableUnderMap\": false, \"docScrollX\": false, \"statesWrap\": false}"
+ },
+ {
+  "check": "screenshot overview 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot scorecard open 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot data center ranking 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot summary tab 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot sources tab 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot How to Read This tab 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "screenshot deliverables tab 1280",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "under 1100 px the controls become a drawer and the tabs a menu; masthead fits",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "no console errors or page errors",
+  "ok": true,
+  "detail": "none"
+ },
+ {
+  "check": "project README.md present (run, refresh, sources, limits, folder map)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "v2 serve.py default port 8772 and v2 README explains how to open it",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "index.html: no CDN script, no em dash",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "check": "v1 files unchanged (checksums of app/ before and after)",
+  "ok": true,
+  "detail": "61 files compared"
+ }
+]

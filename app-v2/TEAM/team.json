@@ -1,0 +1,12 @@
+{"goal": "A superior, carefully crafted v2 design of the Southwest siting dashboard with the same content and features, built beside v1 without changing it.",
+ "user_words": "the design right now for the map looks too AI slob. Has tailwind style boxes ... So retain the current, one that we have ... make a new version of this, like, in terms of design ... feel free to look up on Internet for references. But I want a more superior design ... a much superior, well crafted and a much more tasteful page. Page which makes the reader want to engage right.",
+ "deliverable": "~/research/southwest-solar-siting/app-v2 (open at http://localhost:8770/app-v2/), design/DESIGN.md, screenshots and v1 vs v2 comparisons",
+ "workdir": "/Users/akshitbansal/research/southwest-solar-siting/app-v2",
+ "parallel": 1,
+ "tasks": [
+  {"id": "refs", "title": "References and design system", "brief": "briefs/refs.md", "owns": ["design/**"],
+   "accept": ["test -s design/DESIGN.md", "test -s design/tokens.css", "test $(ls design/refs/*.jpg design/refs/*.png 2>/dev/null | wc -l) -ge 6"], "max_minutes": 45},
+  {"id": "build-v2", "title": "Build the redesigned dashboard", "brief": "briefs/build-v2.md", "depends_on": ["refs"],
+   "owns": ["index.html", "app.js", "styles.css", "fonts/**", "vendor/**", "serve.py", "tests/**", "screenshots/**", "README.md"],
+   "accept": ["test -s index.html", "test -s tests/RESULTS.md", "ls screenshots/*.png", "! grep -Eiq '<script[^>]+src=\"https?:' index.html", "! grep -q '—' index.html"], "max_minutes": 100}
+ ]}

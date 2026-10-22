@@ -1,0 +1,5 @@
+# Brief: build-v2 (build the redesigned dashboard)
+Objective: build app-v2 per design/DESIGN.md with full feature parity with v1.
+Owns: index.html, app.js, styles.css, fonts/**, vendor/**, serve.py, tests/**, screenshots/**, README.md (all inside app-v2/). Read-only on design/, ../app/.
+Do: start from v1's logic (copy ../app/app.js behaviour, data loading from ../app/data/), rebuild markup and styles from scratch to DESIGN.md. Build section by section and look at each in headless Chrome (Playwright via /opt/homebrew/bin/uv run --script) at 1440 and 1280. Port v1's headless test to v2 (tests/test_v2.py) with a hard 30 s timeout per step and a progress line every 30 s; all v1 checks must pass on v2, plus How to Read This present. Save screenshots (overview, scorecard open, data center ranking, summary, sources, how to read) at 1440 and 1280, and side-by-side v1 vs v2 comparison images for overview and scorecard. README.md: how to open it (http://localhost:8770/app-v2/ or serve.py), what changed vs v1.
+Done means: tests pass, screenshots and comparisons saved, v1 files unchanged (verify with a checksum listing of ../app before and after), no CDN, no em dashes.

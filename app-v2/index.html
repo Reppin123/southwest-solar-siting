@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Southwest Solar and Data Center Siting</title>
+<link rel="icon" href="data:,">
+<link rel="preload" href="fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="styles.css">
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/chart.umd.min.js"></script>
+</head>
+<body class="is-loading" data-view="map">
+<header id="top">
+  <button id="rail-toggle" class="textbtn rail-toggle" aria-controls="sidebar" aria-expanded="false">Controls</button>
+  <div class="brand">
+    <h1 class="title">Southwest Solar and Data Center Siting</h1>
+    <p class="subtitle">CA, AZ, NV, NM, UT. Screening study from public data, not engineering.</p>
+  </div>
+  <button id="tabs-menu" class="tabs-menu" aria-controls="tabs" aria-expanded="false"><span id="tabs-menu-label">Map</span></button>
+  <nav id="tabs" role="tablist" aria-label="Views">
+    <button role="tab" data-view="map" class="active" aria-selected="true">Map</button>
+    <button role="tab" data-view="summary" aria-selected="false" tabindex="-1">Summary</button>
+    <button role="tab" data-view="sources" aria-selected="false" tabindex="-1">Sources and Limits</button>
+    <button role="tab" data-view="deliverables" aria-selected="false" tabindex="-1">Deliverables</button>
+    <button role="tab" data-view="guide" aria-selected="false" tabindex="-1">How to Read This</button>
+  </nav>
+  <div class="mode" role="group" aria-label="Ranking">
+    <span class="caps mode-label">Rank for</span>
+    <span class="seg">
+      <button id="mode-solar" class="active" data-mode="solar" aria-pressed="true">Solar</button><button id="mode-dc" data-mode="dc" aria-pressed="false">Solar + Data Center</button>
+    </span>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<div id="shell">
+  <aside id="sidebar" aria-label="Weights, filters and layers">
+    <section class="readout" aria-live="polite">
+      <div class="caps">Sites shown</div>
+      <div class="readout-n"><span id="readout-n">0</span> <small id="readout-of"></small></div>
+      <div class="visually-hidden" id="filter-count"></div>
+    </section>
+    <section class="block">
+      <div class="sec-h"><h2 class="caps">Weights</h2><button id="reset-weights" class="textbtn">Reset</button></div>
+      <div id="weights"></div>
+      <p class="hint" id="weights-hint"></p>
+    </section>
+    <section class="block">
+      <div class="sec-h"><h2 class="caps">Filters</h2></div>
+      <div class="states" id="state-filter" role="group" aria-label="States"></div>
+      <label class="rng"><span class="lab"><span>Min acres</span><span id="acres-val"></span></span>
+        <input type="range" id="f-acres" min="600" max="5000" step="100" value="600"></label>
+      <label class="rng"><span class="lab"><span>Max distance to substation</span><span id="dist-val"></span></span>
+        <input type="range" id="f-dist" min="1" max="30" step="1" value="30"></label>
+      <label class="rng"><span class="lab"><span>Min score</span><span id="score-val"></span></span>
+        <input type="range" id="f-score" min="0" max="95" step="1" value="0"></label>
+      <label class="chk"><input type="checkbox" id="f-blm"> BLM solar-available only</label>
+      <label class="chk"><input type="checkbox" id="f-prov"> Hide sites on provisional substations</label>
+      <label class="chk"><input type="checkbox" id="f-queue"> High queue confidence only</label>
+    </section>
+    <section class="block">
+      <div class="sec-h"><h2 class="caps">Layers</h2></div>
+      <div id="layer-list"></div>
+    </section>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <main id="main">
+    <section id="view-map" class="view active" aria-label="Map">
+      <div id="map-col">
+        <div id="map-wrap">
+          <div id="map"></div>
+          <div id="loading" role="status">Loading data</div>
+          <aside id="map-key" aria-label="Map key">
+            <div class="key-h"><h2 class="caps">Map key</h2><button id="key-toggle" class="textbtn" aria-expanded="true" aria-controls="key-body">Hide</button></div>
+            <div id="key-body">
+              <div id="key-groups"></div>
+              <div id="basemap" class="base" role="radiogroup" aria-label="Base map">
+                <span class="base-l">Base</span>
+                <label><input type="radio" name="basemap" value="street" checked><span>Street</span></label>
+                <label><input type="radio" name="basemap" value="satellite"><span>Satellite</span></label>
+                <label><input type="radio" name="basemap" value="terrain"><span>Terrain</span></label>
+                <label><input type="radio" name="basemap" value="none"><span>Plain</span></label>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div id="table-wrap">
+          <div class="table-bar">
+            <h2 id="table-title">Ranked sites</h2>
+            <label class="chk inline"><input type="checkbox" id="view-only" checked> Only sites in map view</label>
+            <span id="table-count" class="meta"></span>
+            <span class="spacer"></span>
+            <button id="export-csv" class="btn">Export CSV</button>
+          </div>
+          <div class="table-scroll"><table id="site-table" class="data"><thead></thead><tbody></tbody></table></div>
+        </div>
+      </div>
+      <aside id="scorecard" class="hidden" aria-label="Site scorecard" tabindex="-1"><div id="sc-inner"></div></aside>
+    </section>
+
+    <section id="view-summary" class="view" aria-label="Summary">
+      <div class="page">
+        <header class="page-h">
+          <h2 class="page-title">Summary</h2>
+          <p class="dek">The candidate sites that pass the current ranking, weights and filters, and the grid queue they would join. Change a weight or a filter on the left and every figure here follows.</p>
+        </header>
+        <div id="tiles" class="stats"></div>
+        <div class="figs">
+          <figure class="fig fig-a"><h3>Candidate sites by state</h3><p class="cap">Sites passing the current filters; BLM solar-available shown separately.</p><div class="ckey" id="k-state"></div><div class="chart-box"><canvas id="c-state"></canvas></div></figure>
+          <figure class="fig fig-b"><h3>Score distribution</h3><p class="cap">Current blended score of filtered sites, 5-point bins. Bars take the map's score colours.</p><div class="ckey" id="k-dist"></div><div class="chart-box"><canvas id="c-dist"></canvas></div></figure>
+          <figure class="fig fig-wide"><h3>Active interconnection queue by state and type (GW)</h3><p class="cap" id="queue-cap"></p><div class="ckey" id="k-queue"></div><div class="chart-box"><canvas id="c-queue"></canvas></div></figure>
+          <figure class="fig fig-wide"><h3>Substations with spare-looking capacity (proxy)</h3><p class="cap" id="proxy-cap"></p><div class="chart-box tall"><canvas id="c-proxy"></canvas></div></figure>
+          <figure class="fig fig-wide"><h3>Substation proxy table</h3><p class="cap">The same substations, with the figures behind the chart.</p><table class="data plain" id="proxy-table"></table></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-sources" class="view" aria-label="Sources and Limits"><div class="page" id="sources-page"></div></section>
+    <section id="view-deliverables" class="view" aria-label="Deliverables"><div class="page" id="deliverables-page"></div></section>
+    <section id="view-guide" class="view" aria-label="How to Read This"><div class="page guide" id="guide-page"></div></section>
+  </main>
+</div>
+
+<div id="modal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-card"><button class="textbtn close" id="modal-close">Close</button><div id="modal-body"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>

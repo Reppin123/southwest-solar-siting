@@ -1,0 +1,134 @@
+/* Southwest siting dashboard v2: design tokens.
+   Source of truth: design/DESIGN.md. Use only these variables in styles.css and in app.js map paint.
+   Every value has one role. Do not add near-duplicates; if a role is missing, add it here first. */
+
+/* ---------- fonts (self-hosted, SIL Open Font License 1.1) ----------
+   Files: fonts/ibm-plex-sans-latin-{400,500,600}-normal.woff2, ibm-plex-sans-latin-400-italic.woff2,
+          fonts/source-serif-4-latin-wght-normal.woff2, source-serif-4-latin-wght-italic.woff2 (variable 200..900)
+   Copies are in design/fonts/ with their LICENSE files; build-v2 copies them into app-v2/fonts/. */
+@font-face { font-family: "IBM Plex Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/ibm-plex-sans-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/ibm-plex-sans-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/ibm-plex-sans-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "IBM Plex Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/ibm-plex-sans-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 200 900; font-display: swap; src: url("fonts/source-serif-4-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 200 900; font-display: swap; src: url("fonts/source-serif-4-latin-wght-italic.woff2") format("woff2"); }
+
+:root {
+  /* ---------- type ---------- */
+  --font-ui: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;     /* controls, tables, labels, data */
+  --font-text: "Source Serif 4", Georgia, "Times New Roman", serif;    /* titles, big figures, reading text */
+  --fs-11: 11px;  /* caps labels, legend notes, table header */
+  --fs-12: 12px;  /* table cells, meta, legend rows, captions */
+  --fs-13: 13px;  /* UI body: controls, scorecard values */
+  --fs-15: 15px;  /* scorecard sub-title, rail readout label, lead captions */
+  --fs-17: 17px;  /* reading body (How to Read, Sources), figure titles */
+  --fs-20: 20px;  /* masthead title, scorecard place name, section titles in pages */
+  --fs-28: 28px;  /* page titles (Summary, Sources and Limits, Deliverables, How to Read This) */
+  --fs-40: 40px;  /* stat-row numbers on Summary */
+  --fs-48: 48px;  /* the scorecard score */
+  --lh-tight: 1.15; /* titles, big figures */
+  --lh-ui: 1.4;     /* controls, tables */
+  --lh-text: 1.6;   /* reading text */
+  --w-regular: 400; --w-medium: 500; --w-semibold: 600;
+  --track-caps: 0.06em; /* letter-spacing for 11px uppercase labels only */
+  --num: tabular-nums lining-nums; /* font-variant-numeric for every number in data */
+  --measure: 68ch;  /* reading column */
+
+  /* ---------- surfaces and ink ---------- */
+  --paper: #FFFFFF;        /* page, rail, scorecard, table: one surface, separated by rules not boxes */
+  --paper-sunk: #F4F3EF;   /* map Plain basemap, table header row, row hover, code-ish wells */
+  --ink: #16181B;          /* primary text, active controls, selected outlines, figure top rules (17.8:1) */
+  --ink-2: #3E434A;        /* secondary text: values in key/value lists, captions under figures (10:1) */
+  --muted: #666B73;        /* labels, units, counts, notes (5.3:1 on paper, 4.7:1 on sunk) */
+  --rule: #E3E1DB;         /* hairlines between rows and sections (decorative, not text) */
+  --rule-strong: #C9C6BE;  /* control tracks, input borders, the rail/map divider */
+  --accent: #1F5370;       /* ONE UI accent: active tab underline, slider fill, focus ring, links, selected table row bar.
+                              Same hue family as the score ramp (step 4) so the UI points at the result. */
+  --accent-wash: #E9F0F3;  /* selected table row background only */
+  --prov: #5B3F99;         /* provisional data (substation not confirmed): ring on map, tag text, note rule */
+  --warn: #8A5300;         /* low queue confidence, soft-constraint hits: tag text and rule */
+  --focus: 0 0 0 2px var(--paper), 0 0 0 4px var(--accent);
+
+  /* ---------- spacing (4 px base) ---------- */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+
+  /* ---------- layout ---------- */
+  --masthead-h: 56px;
+  --rail-w: 296px;        /* controls column; 272px under 1340 px */
+  --sheet-w: 392px;       /* scorecard column when open; 360px under 1340 px */
+  --table-h: 34vh;        /* ranked table pane under the map (min 220px) */
+  --radius: 2px;          /* the only corner radius: buttons, tags, map key, inputs. Nothing rounder. */
+  --hair: 1px solid var(--rule);
+  --hair-strong: 1px solid var(--rule-strong);
+
+  /* ---------- motion ---------- */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --t-fast: 140ms;  /* hover, row highlight */
+  --t-panel: 240ms; /* scorecard column open/close, map key collapse */
+  --t-fly: 900ms;   /* map flyTo to a site (JS duration) */
+
+  /* ---------- map: candidate site score (sequential, one hue, validated) ----------
+     Steps match v1 thresholds: under 60, 60 to 70, 70 to 80, 80 to 90, 90 and over. */
+  --score-1: #80AEBD; --score-2: #5C93A7; --score-3: #3B738D; --score-4: #1F5370; --score-5: #0D324E;
+  --site-edge: #0D324E;     /* polygon outline / point stroke, 0.6px at 0.6 opacity */
+  --site-selected: #16181B; /* selected site: 3px ink outline over a 6px white halo (colour-independent) */
+
+  /* ---------- map: transmission voltage (sequential, one hue, darker + thicker = higher kV) ---------- */
+  --kv-lt115: #D3A08C;   /* width 0.8 */
+  --kv-115:   #C27A62;   /* 115 to 161 kV, width 1.1 */
+  --kv-230:   #A6533F;   /* width 1.5 */
+  --kv-345:   #7F2F22;   /* width 2.0 */
+  --kv-500:   #4F130E;   /* 500 kV and over, width 2.6 */
+  --kv-unknown: #9A9DA3; /* dashed 2 2, width 0.8 */
+
+  /* ---------- map: substations (fill = active queue MW at POI, grey ramp; size = kV) ---------- */
+  --q-unknown: #FFFFFF;  /* no name-matched queue: white fill, ink stroke 1px ("unknown", not empty) */
+  --q-lt500:  #B0A99E;
+  --q-500:    #756E64;   /* 500 to 2,000 MW */
+  --q-2000:   #2E2A26;   /* over 2,000 MW */
+  --q-removed: #D9D6CF;  /* removed as POI by screening: fill and stroke, 0.7 opacity */
+  --sub-stroke: #16181B; /* 0.8px; provisional records get a 2px var(--prov) ring instead */
+
+  /* ---------- map: land ---------- */
+  --blm-available: #D9A521; /* fill 0.30, edge 1px 0.8 */
+  --drecp-dfa:     #C47A1E; /* fill 0.30 */
+  --drecp-variance:#B9A15E; /* fill 0.18 + 45-degree hatch (riskier, not counted as available) */
+  --sez-dev:       #8C4A12; /* outline 1.6px, fill 0.10 */
+  --sez-nondev:    #9A9DA3; /* outline 1px dashed, no fill */
+  --own-blm: #E6CF7E; --own-usfs: #9CC08A; --own-nps: #B59A74; --own-dod: #D69A92;
+  --own-tribal: #B9A3D3; --own-state: #93BFD6; --own-other: #CFCBC3; /* private: unshaded. All at fill 0.40 */
+
+  /* ---------- map: exclusions (hard = solid fill 0.22 + 1px edge; soft = 45-degree hatch + dashed edge) ---------- */
+  --x-wilderness: #2F7A3A; --x-nca: #6F8A1F;      /* NCA/ACEC is soft: hatch */
+  --x-habitat: #C0632C; --x-flood: #2A6FB8; --x-tribal: #6A4AA0; --x-military: #A8343A;
+  --x-wetlands: #3E9DB0;                         /* soft: hatch */
+  --x-slope: #7A5A3C; --x-urban: #4E535A; --x-nps: #6B2F5B;
+
+  /* ---------- map: infrastructure ---------- */
+  --tech-solar: #EDA100; --tech-wind: #1BAF7A; --tech-storage: #4A3AA7; --tech-hydro: #2A78D6;
+  --tech-gas: #EB6834; --tech-coal: #3B3E43; --tech-nuclear: #E87BA4; --tech-geothermal: #E34948; --tech-other: #9A9DA3;
+  --row-cases: #B8336A;   /* active BLM solar ROW case footprints: fill 0.25, edge 1.2px */
+  --fiber: #1B8A6B;       /* fiber PROXY: dashed 4 3, width 1.2 (dash says "proxy") */
+  --roads: #6E7178;       /* width 0.9 */
+  --dc-osm: #2B3A8C;      /* existing data centers: 7px square, white 1px stroke */
+  --water-0: #D0A37A; --water-2: #BD7D4F; --water-3: #9E5832; --water-4: #76381C; --water-5: #4A1B0D; /* fill 0.35 */
+  --state-line: #3A3D42;  /* 1.2px */
+  --county-line: #A9ADB3; /* 0.5px */
+  /* GHI and slope rasters are pre-rendered PNGs in ../app/data/overlays: colours fixed, keep v1 legend values. */
+
+  /* ---------- charts (Summary) ---------- */
+  --chart-grid: #ECEAE5;  /* gridlines, 1px, horizontal only */
+  --chart-axis: #666B73;  /* tick labels = --muted */
+  --chart-all: var(--score-3);       /* "All candidate sites" bars */
+  --chart-blm: var(--blm-available); /* "BLM solar-available" bars */
+  /* queue by type, stacked in this order (validated adjacent): hybrid, solar, storage, wind, gas, other */
+  --queue-hybrid: #2A78D6; --queue-solar: #EDA100; --queue-storage: #4A3AA7; --queue-wind: #1BAF7A;
+  --queue-gas: #EB6834; --queue-other: #9A9DA3;
+}
+
+@media (max-width: 1340px) {
+  :root { --rail-w: 272px; --sheet-w: 360px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --t-fast: 0ms; --t-panel: 0ms; --t-fly: 0ms; }
+}
