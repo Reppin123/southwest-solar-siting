@@ -1,0 +1,127 @@
+{
+ "items": [
+  {
+   "title": "Ranked site table (Excel)",
+   "href": "../deliverables/Southwest_Solar_Sites.xlsx",
+   "kind": "file"
+  },
+  {
+   "title": "BLM application brief",
+   "href": "../deliverables/BLM_Application_Brief.md",
+   "kind": "md"
+  },
+  {
+   "title": "BLM brief sources",
+   "href": "../deliverables/sources_blm.md",
+   "kind": "md"
+  },
+  {
+   "title": "Screening and scoring method",
+   "href": "../data/processed/sites/METHOD.md",
+   "kind": "md"
+  }
+ ],
+ "memos": [
+  {
+   "title": "SW-NM-00001: Do\u00f1a Ana County, NM (solar rank 1, data center rank 1)",
+   "file": "01_SW-NM-00001.md",
+   "href": "../deliverables/site_memos/01_SW-NM-00001.md",
+   "site_id": "SW-NM-00001"
+  },
+  {
+   "title": "SW-NM-00011: Luna County, NM (solar rank 11, data center rank 8)",
+   "file": "02_SW-NM-00011.md",
+   "href": "../deliverables/site_memos/02_SW-NM-00011.md",
+   "site_id": "SW-NM-00011"
+  },
+  {
+   "title": "SW-AZ-00017: Pinal County, AZ (solar rank 17, data center rank 18)",
+   "file": "03_SW-AZ-00017.md",
+   "href": "../deliverables/site_memos/03_SW-AZ-00017.md",
+   "site_id": "SW-AZ-00017"
+  },
+  {
+   "title": "SW-NM-00018: Do\u00f1a Ana County, NM (solar rank 18, data center rank 21)",
+   "file": "04_SW-NM-00018.md",
+   "href": "../deliverables/site_memos/04_SW-NM-00018.md",
+   "site_id": "SW-NM-00018"
+  },
+  {
+   "title": "SW-NM-00022: Do\u00f1a Ana County, NM (solar rank 22, data center rank 56)",
+   "file": "05_SW-NM-00022.md",
+   "href": "../deliverables/site_memos/05_SW-NM-00022.md",
+   "site_id": "SW-NM-00022"
+  },
+  {
+   "title": "SW-CA-00026: San Bernardino County, CA (solar rank 26, data center rank 74)",
+   "file": "06_SW-CA-00026.md",
+   "href": "../deliverables/site_memos/06_SW-CA-00026.md",
+   "site_id": "SW-CA-00026"
+  },
+  {
+   "title": "SW-NM-00030: Eddy County, NM (solar rank 30, data center rank 194)",
+   "file": "07_SW-NM-00030.md",
+   "href": "../deliverables/site_memos/07_SW-NM-00030.md",
+   "site_id": "SW-NM-00030"
+  },
+  {
+   "title": "SW-AZ-00033: Pinal County, AZ (solar rank 33, data center rank 52)",
+   "file": "08_SW-AZ-00033.md",
+   "href": "../deliverables/site_memos/08_SW-AZ-00033.md",
+   "site_id": "SW-AZ-00033"
+  },
+  {
+   "title": "SW-AZ-00034: Cochise County, AZ (solar rank 34, data center rank 57)",
+   "file": "09_SW-AZ-00034.md",
+   "href": "../deliverables/site_memos/09_SW-AZ-00034.md",
+   "site_id": "SW-AZ-00034"
+  },
+  {
+   "title": "SW-NM-00037: Curry County, NM (solar rank 37, data center rank 144)",
+   "file": "10_SW-NM-00037.md",
+   "href": "../deliverables/site_memos/10_SW-NM-00037.md",
+   "site_id": "SW-NM-00037"
+  },
+  {
+   "title": "SW-AZ-00149: Mohave County, AZ (solar rank 149, data center rank 5)",
+   "file": "11_SW-AZ-00149.md",
+   "href": "../deliverables/site_memos/11_SW-AZ-00149.md",
+   "site_id": "SW-AZ-00149"
+  },
+  {
+   "title": "SW-CA-00099: Riverside County, CA (solar rank 99, data center rank 11)",
+   "file": "12_SW-CA-00099.md",
+   "href": "../deliverables/site_memos/12_SW-CA-00099.md",
+   "site_id": "SW-CA-00099"
+  },
+  {
+   "title": "SW-CA-00422: Madera County, CA (solar rank 422, data center rank 15)",
+   "file": "13_SW-CA-00422.md",
+   "href": "../deliverables/site_memos/13_SW-CA-00422.md",
+   "site_id": "SW-CA-00422"
+  },
+  {
+   "title": "SW-AZ-00058: Pima County, AZ (solar rank 58, data center rank 16)",
+   "file": "14_SW-AZ-00058.md",
+   "href": "../deliverables/site_memos/14_SW-AZ-00058.md",
+   "site_id": "SW-AZ-00058"
+  },
+  {
+   "title": "SW-AZ-00104: Cochise County, AZ (solar rank 104, data center rank 20)",
+   "file": "15_SW-AZ-00104.md",
+   "href": "../deliverables/site_memos/15_SW-AZ-00104.md",
+   "site_id": "SW-AZ-00104"
+  },
+  {
+   "title": "Top site memos",
+   "file": "README.md",
+   "href": "../deliverables/site_memos/README.md",
+   "site_id": null
+  }
+ ],
+ "appendix": {
+  "title": "Appendix: independent methodology review (GPT, 2026-10-21)",
+  "href": "data/appendix/METHODOLOGY_REVIEW.md",
+  "kind": "md"
+ }
+}

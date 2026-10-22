@@ -1,0 +1,342 @@
+{
+ "datasets": [
+  {
+   "domain": "grid",
+   "layer": "transmission_lines",
+   "path": "data/processed/grid/transmission_lines.geojson",
+   "source_name": "HIFLD Electric Power Transmission Lines (layer Electric_Power_Transmission_Lines_A)",
+   "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 9086,
+   "caveats": "HIFLD coverage is mostly >=69 kV transmission; distribution lines are absent. Voltages flagged voltage_inferred=Y were estimated by HIFLD; -999999 values are stored as null/unknown. GeoJSON simplified with Douglas-Peucker 0.0003 deg (~30 m), 5-decimal coordinates; use the .gpkg for analysis. Line locations show where lines are, not spare capacity."
+  },
+  {
+   "domain": "grid",
+   "layer": "substations",
+   "path": "data/processed/grid/substations.geojson",
+   "source_name": "HIFLD Electric Substations (last public HIFLD release, ArcGIS Online mirror) + OpenStreetMap power=substation >=115 kV gap fill",
+   "source_url": "https://services5.arcgis.com/HDRa0B57OVrv2E1q/arcgis/rest/services/Electric_Substations/FeatureServer/0 ; https://overpass-api.de/api/interpreter",
+   "retrieved": "2026-10-21",
+   "record_count": 7883,
+   "caveats": "HIFLD Electric Substations is no longer on HIFLD Open; the copy used is a public ArcGIS Online mirror of the last public release (data last edited 2021-02-25), so substations built since are missing unless OSM has them. OSM substations tagged >=115 kV were added only when no HIFLD substation lay within 1500 m; OSM tags are volunteer-mapped and may include plant collector substations (sub_type GENERATION) that are not open POIs. Where HIFLD max voltage is unknown it was filled from a matched OSM record or from the highest-voltage HIFLD line within 200 m (kv_source tells which). HIFLD substations carry no owner; owner is inferred from connected lines and may be wrong at shared/interconnection stations. queue_active_mw uses exact matches of normalised POI names to substation names in the same state; many POIs are line taps or unmatched names, so 0 does not mean no queue. No public data on spare capacity; queue volume is only a congestion proxy."
+  },
+  {
+   "domain": "grid",
+   "layer": "queue_projects",
+   "path": "data/processed/grid/queue_projects.csv",
+   "source_name": "Berkeley Lab Queued Up 2026 Edition project-level data (through end of 2025); CAISO Public Queue Report (Grid Generation Queue)",
+   "source_url": "https://emp.lbl.gov/queues ; https://eta-publications.lbl.gov/sites/default/files/2026-05/lbnl_ix_queue_data_file_thru2025.xlsx ; https://www.caiso.com/documents/publicqueuereport.xlsx",
+   "retrieved": "2026-10-21",
+   "record_count": 6051,
+   "caveats": "Active storage MW here is well below the Queued Up report's state storage totals (ours / report: AZ 0.48, CA 0.87, NM 0.40, NV 0.48, UT 0.46). The report's state storage totals include storage it imputes for hybrid projects (e.g. solar+storage with no storage MW given); the project-level file does not contain those imputed values, so they are missing here. Active solar MW matches the report exactly (ratio AZ 1.00, CA 1.00, NM 1.00, NV 1.00, UT 1.00). NV Energy queue rows have no POI name in Queued Up. Queue data is a snapshot through 2025-12-31; CAISO report is newer but only used to fill blanks. Suspended requests are kept with status=suspended and excluded from active totals, as in the Queued Up report; they still hold queue positions (NV has about 17 GW of suspended solar)."
+  },
+  {
+   "domain": "grid",
+   "layer": "queue_by_county",
+   "path": "data/processed/grid/queue_by_county.csv",
+   "source_name": "derived from queue_projects.csv (status=active)",
+   "source_url": "https://emp.lbl.gov/queues",
+   "retrieved": "2026-10-21",
+   "record_count": 104,
+   "caveats": "Projects with no county are grouped as '(county not reported)'."
+  },
+  {
+   "domain": "grid",
+   "layer": "queue_state_check",
+   "path": "data/processed/grid/queue_state_check.csv",
+   "source_name": "comparison of queue_projects active totals vs Queued Up 2026 workbook sheet '11. Active Cap. Maps' (state x type GW)",
+   "source_url": "https://emp.lbl.gov/queues",
+   "retrieved": "2026-10-21",
+   "record_count": 5,
+   "caveats": "Report state totals cover 5 types (Gas, Offshore Wind, Solar, Storage, Wind); ours_active_gw_all includes all types."
+  },
+  {
+   "domain": "land",
+   "layer": "admin_counties",
+   "path": "data/processed/land/admin_counties.geojson",
+   "source_name": "US Census Bureau cartographic boundary file 2024 (cb_2024_us_county_500k)",
+   "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+   "retrieved": "2026-10-21",
+   "record_count": 152,
+   "caveats": "Cartographic boundary (1:500k) version of TIGER counties."
+  },
+  {
+   "domain": "land",
+   "layer": "admin_states",
+   "path": "data/processed/land/admin_states.geojson",
+   "source_name": "US Census Bureau cartographic boundary file 2024 (cb_2024_us_state_500k)",
+   "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+   "retrieved": "2026-10-21",
+   "record_count": 5,
+   "caveats": "Cartographic boundary (1:500k) version of TIGER states; coastline generalised, offshore water removed."
+  },
+  {
+   "domain": "land",
+   "layer": "blm_solar_available",
+   "path": "data/processed/land/blm_solar_available.geojson",
+   "source_name": "BLM 2024 Western Solar Plan (Utility-Scale Solar Energy Development PEIS) Record of Decision geodatabase, layer Solar_PEIS_ROD_Approved_Plan; BLM Energy Designations, layer 12 BLM DRECP Development Focus Area (DFA); BLM Energy Designations, layer 13 BLM DRECP Variance Land",
+   "source_url": "https://blmsolar.anl.gov/maps/data/2024-solar-peis/BLM-National-Solar-PEIS-ROD.gdb.zip; https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/Energy_Designations/FeatureServer/12; https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/Energy_Designations/FeatureServer/13",
+   "retrieved": "2026-10-21",
+   "record_count": 19319,
+   "caveats": "Western Solar Plan (2024 ROD, Approved Plan) polygons with ApprovedPlan = 'Available', dissolved per state and split into contiguous parts. 'Available' means open to right-of-way applications, not approved or free of conflicts. In California most BLM desert land is labelled 'DRECP/CDCA' in the ROD because it is governed by the DRECP land use plan amendment; for those lands this layer adds BLM DRECP Development Focus Areas and Variance Lands from the BLM Energy Designations service. Variance lands need a variance process and carry more risk than DFAs. Polygons under 1 acre were dropped. GeoJSON for the map: simplify 0.001 deg, holes and parts under 5 acres removed; full resolution in blm_solar_available.gpkg. Acres by state/category: AZ Available (2024 Western Solar Plan ROD): 2,813,958; CA Available (2024 Western Solar Plan ROD): 163,757; CA DRECP Development Focus Area (CA): 388,723; CA DRECP Variance Land (CA): 40,161; NM Available (2024 Western Solar Plan ROD): 4,018,684; NV Available (2024 Western Solar Plan ROD): 8,851,565; UT Available (2024 Western Solar Plan ROD): 4,783,026. Policy note: Interior's 2025 orders added senior review for solar and wind on federal land; availability here is the land-use-plan status only."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_critical_habitat",
+   "path": "data/processed/land/exclusions/critical_habitat.geojson",
+   "source_name": "USFWS Critical Habitat, Final Critical Habitat Features (polygons)",
+   "source_url": "https://services.arcgis.com/QVENGdaPbd4LUkLV/arcgis/rest/services/USFWS_Critical_Habitat/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 4007,
+   "caveats": "Final designated critical habitat polygons only (proposed and line features not included). Species ranges and occupied habitat outside designations (e.g. much desert tortoise habitat) are not captured. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'critical_habitat'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_flood_zone_a",
+   "path": "data/processed/land/exclusions/flood_zone_a.geojson",
+   "source_name": "FEMA National Flood Hazard Layer (NFHL), layer 28 Flood Hazard Zones, zones A/AE/AH/AO/V/VE",
+   "source_url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+   "retrieved": "2026-10-21",
+   "record_count": 102749,
+   "caveats": "FEMA Special Flood Hazard Area zones A, AE, AH, AO, V, VE from the NFHL service (geometry generalised server-side to ~30 m). A99 and AR (levee-protected) are not included. NFHL does not cover every county; unmapped areas (common in rural NV, UT, NM, AZ) are not flood-free. 143 FIRM study areas present. GeoJSON map copy: simplify 0.0005 deg, holes and parts under 2 acres removed and dissolved by ['subtype', 'state']; full resolution in exclusions_full.gpkg layer 'flood_zone_a'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_military",
+   "path": "data/processed/land/exclusions/military.geojson",
+   "source_name": "US Census Bureau TIGER/Line 2024 Military Installations; BLM National Surface Management Agency Area Polygons (SMA_WM.gdb, BLM EGIS hub item 6bf2e737c59d4111be92420ee5ab0b46)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/MIL/tl_2024_us_mil.zip; https://www.arcgis.com/sharing/rest/content/items/6bf2e737c59d4111be92420ee5ab0b46/data",
+   "retrieved": "2026-10-21",
+   "record_count": 818,
+   "caveats": "Military installations (TIGER) plus DOD-managed land (SMA). Military training routes, special use airspace and DOD siting-clearinghouse review areas are not included; those affect tall structures and glare and need DOD consultation. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'military'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_nca_acec",
+   "path": "data/processed/land/exclusions/nca_acec.geojson",
+   "source_name": "BLM National NLCS National Monuments and National Conservation Areas Polygons; BLM National Areas of Critical Environmental Concern, ACEC Designated Polygons",
+   "source_url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_Natl_NLCS_National_Monuments_National_Conservation_Areas_Polygons/FeatureServer/0; https://gis.blm.gov/arcgis/rest/services/lands/BLM_Natl_ACEC/MapServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 7054,
+   "caveats": "BLM National Monuments and National Conservation Areas are hard (excluded from solar under the Western Solar Plan). ACECs are soft here as the brief asks, but note the 2024 Western Solar Plan excludes ACECs from solar on BLM land; on BLM land use blm_solar_available as the controlling layer. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'nca_acec'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_nps",
+   "path": "data/processed/land/exclusions/nps.geojson",
+   "source_name": "BLM National Surface Management Agency Area Polygons (SMA_WM.gdb, BLM EGIS hub item 6bf2e737c59d4111be92420ee5ab0b46)",
+   "source_url": "https://www.arcgis.com/sharing/rest/content/items/6bf2e737c59d4111be92420ee5ab0b46/data",
+   "retrieved": "2026-10-21",
+   "record_count": 495,
+   "caveats": "National Park Service lands from BLM SMA. Not available for solar ROW. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'nps'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_slope_gt5",
+   "path": "data/processed/land/exclusions/slope_gt5.geojson",
+   "source_name": "AWS Open Data Terrain Tiles (terrarium encoding, zoom 11), built mainly from USGS 3DEP / NED elevation",
+   "source_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+   "retrieved": "2026-10-21",
+   "record_count": 15074,
+   "caveats": "Derived: slope.tif aggregated to 6x6-pixel cells (~0.005 deg, ~45-55 ha); a cell is steep when at least half its pixels exceed 5 percent. Pieces under 100 acres were dropped. Use slope.tif for site-level slope; this layer is a screening mask. GeoJSON map copy: simplify 0.002 deg; full resolution in exclusions_full.gpkg layer 'slope_gt5'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_tribal",
+   "path": "data/processed/land/exclusions/tribal.geojson",
+   "source_name": "US Census Bureau TIGER/Line 2024 American Indian / Alaska Native / Native Hawaiian Areas",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/AIANNH/tl_2024_us_aiannh.zip",
+   "retrieved": "2026-10-21",
+   "record_count": 1768,
+   "caveats": "Reservations, off-reservation trust land and other Census tribal areas. Treated as hard for a BLM/private screen; development on tribal land is possible only with the tribe as partner (BIA/tribal process, not BLM). GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'tribal'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_urban",
+   "path": "data/processed/land/exclusions/urban.geojson",
+   "source_name": "US Census Bureau TIGER/Line 2024 Urban Areas (2020 Census)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/UAC20/tl_2024_us_uac20.zip",
+   "retrieved": "2026-10-21",
+   "record_count": 1189,
+   "caveats": "2020 Census urban areas (>= 2,000 housing units or 5,000 people). Hard for utility-scale solar; data center sites near urban edges may still be relevant. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'urban'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_wetlands",
+   "path": "data/processed/land/exclusions/wetlands.geojson",
+   "source_name": "USFWS National Wetlands Inventory map service, wetlands >= 40 acres",
+   "source_url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 1152936,
+   "caveats": "Proxy: only NWI polygons of 40 acres or more are included (full NWI is too heavy), so small wetlands, springs and washes are missing. Includes lakes, ponds and riverine polygons as mapped by NWI. Soft constraint; site-level delineation needed. GeoJSON map copy: simplify 0.002 deg, holes and parts under 20 acres removed and dissolved by ['subtype', 'state']; full resolution in exclusions_full.gpkg layer 'wetlands'."
+  },
+  {
+   "domain": "land",
+   "layer": "exclusion_wilderness",
+   "path": "data/processed/land/exclusions/wilderness.geojson",
+   "source_name": "Wilderness Connect (University of Montana) National Wilderness Preservation System boundaries; BLM National NLCS Wilderness Study Areas Polygons",
+   "source_url": "https://services1.arcgis.com/ERdCHt0sNM6dENSD/arcgis/rest/services/Wilderness_Areas_in_the_United_States/FeatureServer/0; https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_Natl_NLCS_Wilderness_Study_Areas_Polygons/FeatureServer/3",
+   "retrieved": "2026-10-21",
+   "record_count": 1638,
+   "caveats": "Designated wilderness (all agencies) and BLM Wilderness Study Areas. Both are closed to solar ROWs. GeoJSON map copy: simplify 0.0005 deg; full resolution in exclusions_full.gpkg layer 'wilderness'."
+  },
+  {
+   "domain": "land",
+   "layer": "ghi",
+   "path": "data/processed/land/ghi.tif",
+   "source_name": "NREL NSRDB Physical Solar Model v3 GHI multi-year (1998-2016) annual average, 0.04 deg (nsrdbv3_ghi.zip; Internet Archive copy of NREL's file)",
+   "source_url": "https://web.archive.org/web/20240926182851id_/https://www.nrel.gov/gis/assets/data/nsrdbv3_ghi.zip",
+   "retrieved": "2026-10-21",
+   "record_count": 96395,
+   "caveats": "NSRDB PSM v3 multi-year mean 1998-2016 at 0.04 deg (~4 km) cells, so values are smooth at site scale. The bundled metadata text says kWh/m2/year but values (3.7 to 6.3) are kWh/m2/day, matching NREL's published map. A north-south seam near 105W in eastern New Mexico is present in the NSRDB source (satellite coverage boundary), not added here. nrel.gov (now NLR) no longer serves this file; the Internet Archive copy of NREL's original zip was used. Range in the five states: 3.70 to 6.17, median 5.45. ghi_overlay.png is a pre-rendered map overlay (colour ramp 4.0 to 6.4)."
+  },
+  {
+   "domain": "land",
+   "layer": "ownership",
+   "path": "data/processed/land/ownership.gpkg",
+   "source_name": "BLM National Surface Management Agency Area Polygons (SMA_WM.gdb, BLM EGIS hub item 6bf2e737c59d4111be92420ee5ab0b46)",
+   "source_url": "https://www.arcgis.com/sharing/rest/content/items/6bf2e737c59d4111be92420ee5ab0b46/data",
+   "retrieved": "2026-10-21",
+   "record_count": 83826,
+   "caveats": "SMA shows the surface managing agency, not title. BIA lands are mapped to Tribal. ST = state lands (incl. state trust) mapped to State. PVT and UND (private or unknown) are both mapped to Private. FWS, USBR, DOE, local government and other federal are Other. Split-estate minerals are not shown. ownership.geojson keeps state, category, agency and acres per part, parts under 40 acres dropped, map copy: simplify 0.01 deg, holes and parts under 160 acres removed. Acres by state/category: AZ BLM: 12,055,268; AZ DOD: 2,786,007; AZ NPS: 2,624,427; AZ Other: 1,993,635; AZ Private: 12,739,887; AZ State: 9,272,077; AZ Tribal: 20,289,734; AZ USFS: 11,176,734; CA BLM: 15,002,702; CA DOD: 4,324,798; CA NPS: 7,686,844; CA Other: 1,219,684; CA Private: 48,844,592; CA State: 2,645,621; CA Tribal: 701,403; CA USFS: 20,801,937; NM BLM: 13,324,261; NM DOD: 2,671,956; NM NPS: 476,048; NM Other: 708,486; NM Private: 33,893,956; NM State: 9,221,030; NM Tribal: 8,295,411; NM USFS: 9,226,382; NV BLM: 46,801,004; NV DOD: 3,919,171; NV NPS: 772,560; NV Other: 2,790,555; NV Private: 9,514,970; NV State: 116,602; NV Tribal: 1,089,676; NV USFS: 5,761,584; UT BLM: 22,790,640; UT DOD: 1,812,154; UT NPS: 2,098,192; UT Other: 108,901; UT Private: 11,503,984; UT State: 5,379,110; UT Tribal: 2,448,346; UT USFS: 8,194,039"
+  },
+  {
+   "domain": "land",
+   "layer": "slope",
+   "path": "data/processed/land/slope.tif",
+   "source_name": "AWS Open Data Terrain Tiles (terrarium encoding, zoom 11), built mainly from USGS 3DEP / NED elevation",
+   "source_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+   "retrieved": "2026-10-21",
+   "record_count": 222320661,
+   "caveats": "Elevation from AWS Terrain Tiles at zoom 11 (~62 m ground pixels at 35N), which in the US are built mainly from USGS 3DEP/NED, so this is a 3DEP-derived product rather than a direct 3DEP download. Slope computed in Web Mercator with latitude-corrected pixel size, then averaged to a 3 arc-second (~92 m x 76 m) EPSG:4326 grid; averaging smooths short steep pitches. 55.5 percent of the five-state area exceeds 5 percent slope. slope_overlay.png is a pre-rendered overlay of the ~0.005 deg mean slope (transparent under 3 percent)."
+  },
+  {
+   "domain": "land",
+   "layer": "solar_energy_zones",
+   "path": "data/processed/land/solar_energy_zones.geojson",
+   "source_name": "BLM National Rights-of-Way Planning Tool Energy Designations, layer 10 BLM Solar Energy Zone",
+   "source_url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/Energy_Designations/FeatureServer/10",
+   "retrieved": "2026-10-21",
+   "record_count": 26,
+   "caveats": "BLM Solar Energy Zones (2012 PEIS plus later SEZs as carried in the BLM Energy Designations service). Non-developable parts are washes, playas, wetlands and similar features BLM excluded inside each SEZ."
+  },
+  {
+   "domain": "infra",
+   "layer": "power_plants",
+   "path": "data/processed/infra/power_plants.geojson",
+   "source_name": "US EIA Form EIA-860 Annual Electric Generator Report, 2025 data (zip files dated 2026-09-09)",
+   "source_url": "https://www.eia.gov/electricity/data/eia860/",
+   "retrieved": "2026-10-21",
+   "record_count": 3025,
+   "caveats": "Plants are EIA-860 respondents (generally 1 MW and larger). Behind-the-meter and small distributed solar are not included. Proposed generators are self-reported plans and many never get built; treat proposed MW as indicative. Retired plants are kept because retired thermal sites often keep their interconnection and are candidates for reuse; filter on status. 1 plant(s) in the five states had no coordinates in the plant file and were dropped. Generator-level detail is in power_generators.csv; per-state counts in power_plants_by_state.csv."
+  },
+  {
+   "domain": "infra",
+   "layer": "power_generators",
+   "path": "data/processed/infra/power_generators.csv",
+   "source_name": "US EIA Form EIA-860, 2025 data, file 3_1 Generator (Operable, Proposed, Retired and Canceled sheets)",
+   "source_url": "https://www.eia.gov/electricity/data/eia860/",
+   "retrieved": "2026-10-21",
+   "record_count": 5989,
+   "caveats": "status_group 'canceled' is generator status CN from the Retired and Canceled sheet."
+  },
+  {
+   "domain": "infra",
+   "layer": "roads_major",
+   "path": "data/processed/infra/roads_major.geojson",
+   "source_name": "US Census Bureau TIGER/Line 2025 Primary Roads (MTFCC S1100)",
+   "source_url": "https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/",
+   "retrieved": "2026-10-21",
+   "record_count": 1730,
+   "caveats": "Primary roads only (limited-access divided highways, mostly interstates and some US/state routes). Secondary and local access roads are not included; site access roads must be checked separately. App file simplified to 30 m tolerance; full resolution in roads_major.gpkg."
+  },
+  {
+   "domain": "infra",
+   "layer": "fiber",
+   "path": "data/processed/infra/fiber.geojson",
+   "source_name": "PROXY. OpenStreetMap telecom/communication lines (Overpass API) + interstate corridors (TIGER 2025) + Class I main-line rail corridors (BTS NTAD North American Rail Network)",
+   "source_url": "https://overpass-api.de/ ; https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/ ; https://geodata.bts.gov/datasets/usdot::north-american-rail-network-lines",
+   "retrieved": "2026-10-21",
+   "record_count": 1105,
+   "caveats": "This is a PROXY for long-haul fiber, not a carrier route map. No free, complete public map of US long-haul fiber exists; carrier route maps are proprietary or published only as images. OSM coverage of fiber is sparse and uneven; most OSM lines here are utility communication lines (for example SCE, PG&E, TEP) whose medium is not tagged. Interstate and Class I main-line rail corridors are included because published research (Durairajan et al., 'InterTubes', ACM SIGCOMM 2015) found US long-haul fiber is largely co-located with road and rail rights-of-way. Presence of a corridor does not prove fiber or available capacity. FCC Broadband Data Collection reports service availability by location, not routes, so it was not used for route geometry. Confirm fiber availability, carriers and lateral cost with providers before any data center decision. App file simplified to 30 m tolerance; full resolution in fiber.gpkg."
+  },
+  {
+   "domain": "infra",
+   "layer": "water_stress",
+   "path": "data/processed/infra/water_stress.geojson",
+   "source_name": "WRI Aqueduct 4.0 Water Risk Atlas, baseline annual indicators (data version Y2023M07D05)",
+   "source_url": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+   "retrieved": "2026-10-21",
+   "record_count": 583,
+   "caveats": "Aqueduct is a global model at sub-basin scale (baseline period 1979-2019); it does not show local water rights, aquifer yield or utility supply. Use it as a regional screen only. App file simplified coverage-preserving (shared edges kept) at 500 m; full resolution in water_stress.gpkg. Groundwater rules matter more than basin stress for a data center or solar wash-water supply. Arizona: under the 1980 Groundwater Management Act, groundwater in Active Management Areas (AMAs: Phoenix, Pinal, Prescott, Tucson, Santa Cruz, Willcox, Douglas, Ranegras Plain) is regulated by ADWR; new non-exempt uses generally need a grandfathered right, a withdrawal permit or service from a provider, and new subdivisions need an Assured Water Supply. Irrigation Non-expansion Areas (INAs) limit new irrigated acres. Boundaries are in az_ama_ina.geojson. Outside AMAs and INAs groundwater pumping is far less restricted. Other states (general, verify before relying on it): California's Sustainable Groundwater Management Act (SGMA, 2014) requires Groundwater Sustainability Plans in medium and high priority basins, and many basins now limit pumping; Nevada's State Engineer manages designated basins and many are fully or over-appropriated, so new water usually means buying or transferring existing rights; New Mexico's State Engineer administers declared groundwater basins (most of the state) and new appropriations require a permit; Utah's State Engineer (Division of Water Rights) issues appropriations and many basins are closed to new appropriations. Dry or hybrid cooling cuts data center water use sharply; low water stress is not required for a site if cooling design is chosen accordingly."
+  },
+  {
+   "domain": "infra",
+   "layer": "az_ama_ina",
+   "path": "data/processed/infra/az_ama_ina.geojson",
+   "source_name": "Arizona Department of Water Resources, AMA and INA boundaries (AMA_INA_2024 feature service)",
+   "source_url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/AMA_INA_2024/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 11,
+   "caveats": "Boundaries simplified at 100 m. Groundwater rules differ inside each AMA; confirm with ADWR."
+  },
+  {
+   "domain": "infra",
+   "layer": "blm_solar_row_cases",
+   "path": "data/processed/infra/blm_solar_row_cases.geojson",
+   "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+   "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 307,
+   "caveats": "Active cases only (Authorized, Pending, Interim). Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint. MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data. Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases. 47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only. Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+  },
+  {
+   "domain": "infra",
+   "layer": "blm_solar_row_cases_closed",
+   "path": "data/processed/infra/blm_solar_row_cases_closed.geojson",
+   "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+   "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 500,
+   "caveats": "Closed cases (rejected, withdrawn, relinquished, expired or terminated); useful history of where developers have tried. Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint. MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data. Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases. 47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only. Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+  },
+  {
+   "domain": "infra",
+   "layer": "blm_solar_row_cases_table",
+   "path": "data/processed/infra/blm_solar_row_cases.csv",
+   "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+   "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 854,
+   "caveats": "All cases, active and closed, including those without geometry; use centroid_lat/lon for points. Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint. MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data. Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases. 47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only. Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+  },
+  {
+   "domain": "infra",
+   "layer": "data_centers_osm",
+   "path": "data/processed/infra/data_centers_osm.geojson",
+   "source_name": "OpenStreetMap features tagged telecom=data_center or building=data_center (Overpass API)",
+   "source_url": "https://overpass-api.de/",
+   "retrieved": "2026-10-21",
+   "record_count": 258,
+   "caveats": "Volunteer-mapped and incomplete; many data centers are unmapped or unnamed, and one campus can appear as several buildings. No capacity (MW) data. Use as context only."
+  }
+ ],
+ "scope_limits": [
+  "Public maps show where lines and substations are, not how much spare capacity they have. Real capacity comes from the utility through a pre-application or interconnection request; queue congestion is the best public proxy.",
+  "Some substation and line data is incomplete or generalized for security reasons.",
+  "Federal review of solar and wind on public land became stricter in 2025. The BLM brief will confirm the current rules before anything is filed.",
+  "This is a screening study, not engineering. Top sites still need a utility pre-application meeting, title and survey, and environmental review."
+ ],
+ "method_limits": [
+  "Screening, not engineering. Public data shows where lines and substations are, not spare capacity or a usable bay.",
+  "HIFLD substations were last edited 2021-02-25 at the source; OSM additions are unverified.",
+  "Ownership is the surface managing agency (SMA), not title; split estate and private parcel boundaries are not shown.",
+  "Critical habitat covers designated habitat only; species ranges (e.g. desert tortoise) are not mapped here.",
+  "FEMA flood mapping is missing in many rural counties; unmapped is not flood-free.",
+  "Fiber is a proxy. Water stress is a basin score, not a water right.",
+  "Distances are straight-line; gen-tie routing, terrain and crossings are not modelled.",
+  "Weights and decay lengths are policy choices; no sensitivity analysis has been run yet."
+ ],
+ "provisional_note": "A substation record is provisional when it is OSM-only, its voltage came from OSM or was inferred from nearby lines, or its name is UNKNOWN. Screening multiplies the grid score of a site whose nearest substation is provisional by 0.85. 1016 of 2837 usable 115 kV+ substations are provisional. 10,589 of 25,733 ranked sites have a provisional nearest substation; 0 of the top 50 solar sites and 0 of the top 50 data center sites do. Queue congestion is county level with a confidence flag: 6,877 ranked sites high, 18,856 low. Counties with no matched active queue MW get a neutral queue score, not the best one. Fiber is a proxy (99 percent of features are not confirmed fiber), so the data center ranking is weaker than the solar ranking.",
+ "open_items": "Still open after the review: parcel-level BLM legal status and encumbrances, utility territory and real headroom, confirmed fiber, cost and schedule modelling, and weight sensitivity runs."
+}

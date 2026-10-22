@@ -1,0 +1,148 @@
+[00:00] step: start test server
+[00:00] PASS  test server answers  http://localhost:8771/app/
+[00:03] step: load page (first)
+[00:10] PASS  page loads with data  7.2 s
+[00:10] PASS  Map is the default view
+[00:10] step: data covers five states
+[00:11] PASS  sites from all five states  25733 sites, ['AZ', 'CA', 'NM', 'NV', 'UT']
+[00:11] PASS  map libraries load locally (no CDN scripts)
+[00:11] step: ranking parity solar
+[00:13] PASS  default solar ranking matches pipeline rank_solar (top 25, within 2 places)  0 mismatches
+[00:13] step: ranking parity dc
+[00:16] PASS  default dc ranking matches pipeline rank_dc (top 25, within 2 places)  0 mismatches
+[00:18] 25 layers to toggle
+[00:18] step: toggle layer transmission_lines
+[00:19] PASS  layer on/off: transmission_lines  9086 features
+[00:19] step: toggle layer substations
+[00:20] PASS  layer on/off: substations  5295 features
+[00:20] step: toggle layer blm_solar_available
+[00:22] PASS  layer on/off: blm_solar_available  19198 features
+[00:22] step: toggle layer solar_energy_zones
+[00:24] PASS  layer on/off: solar_energy_zones  26 features
+[00:24] step: toggle layer ownership
+[00:26] PASS  layer on/off: ownership  28672 features
+[00:26] step: toggle layer excl_wilderness
+[00:29] PASS  layer on/off: excl_wilderness  1619 features
+[00:29] step: toggle layer excl_nca_acec
+[00:31] PASS  layer on/off: excl_nca_acec  6704 features
+[00:31] step: toggle layer excl_critical_habitat
+[00:33] PASS  layer on/off: excl_critical_habitat  3998 features
+[00:33] step: toggle layer excl_flood_zone_a
+[00:35] PASS  layer on/off: excl_flood_zone_a  22 features
+[00:35] step: toggle layer excl_tribal
+[00:37] PASS  layer on/off: excl_tribal  1766 features
+[00:37] step: toggle layer excl_military
+[00:38] PASS  layer on/off: excl_military  818 features
+[00:38] step: toggle layer excl_wetlands
+[00:41] PASS  layer on/off: excl_wetlands  30 features
+[00:41] step: toggle layer excl_slope_gt5
+[00:43] PASS  layer on/off: excl_slope_gt5  15074 features
+[00:43] step: toggle layer excl_urban
+[00:47] PASS  layer on/off: excl_urban  1186 features
+[00:47] step: toggle layer excl_nps
+[00:48] PASS  layer on/off: excl_nps  495 features
+[00:48] step: toggle layer power_plants
+[00:51] PASS  layer on/off: power_plants  3025 features
+[00:51] step: toggle layer blm_solar_row_cases
+[00:51] PASS  layer on/off: blm_solar_row_cases  307 features
+[00:51] step: toggle layer fiber
+[00:53] PASS  layer on/off: fiber  1105 features
+[00:53] step: toggle layer water_stress
+[00:53] PASS  layer on/off: water_stress  583 features
+[00:53] step: toggle layer roads_major
+[00:55] PASS  layer on/off: roads_major  1728 features
+[00:55] step: toggle layer data_centers_osm
+[00:56] PASS  layer on/off: data_centers_osm  258 features
+[00:56] step: toggle layer admin_states
+[00:57] PASS  layer on/off: admin_states  5 features
+[00:57] step: toggle layer admin_counties
+[00:58] PASS  layer on/off: admin_counties  152 features
+[00:58] step: toggle layer raster_ghi
+[00:59] PASS  layer on/off: raster_ghi  1 features
+[00:59] step: toggle layer raster_slope
+[01:00] PASS  layer on/off: raster_slope  1 features
+[01:00] step: toggle candidate sites layer
+[01:01] PASS  layer on/off: candidate sites
+[01:01] step: close browser (session 1)
+[01:04] step: load page (session 2)
+[01:08] step: basemap satellite
+[01:09] PASS  basemap switch: satellite
+[01:09] step: basemap terrain
+[01:09] PASS  basemap switch: terrain
+[01:09] step: basemap street
+[01:09] PASS  basemap switch: street
+[01:09] step: click top site on map
+[01:09]   jumped to SW-NM-00001
+[01:11]   map idle
+[01:11]   clicking at [876, 334.5]
+[01:11] PASS  click site on map opens scorecard  SW-NM-00001
+[01:11] PASS  scorecard shows substation, queue, GHI, BLM status, data center fit
+[01:11] step: provisional badge
+[01:12] PASS  provisional badge on scorecard  SW-NM-00097
+[01:12] step: weight slider re-ranks
+[01:14] PASS  weight slider (sun) re-ranks sites  sun weight 20 -> 45; top site SW-NM-00001
+[01:14] PASS  ranked table synced with new ranking  SW-NM-00001
+[01:15] step: filters
+[01:18] PASS  BLM-only filter  3,866 of 25,733 sites shown
+[01:19] step: switch Solar + Data Center
+[01:20] PASS  ranking switch to Solar + Data Center  top DC site SW-NM-00001
+[01:21] PASS  ranking switch back to Solar  top solar site SW-NM-00001
+[01:21] step: export CSV of current view
+[01:25] PASS  CSV export of current view  2001 rows, 55 columns, file southwest_sites_solar_g35-l30-s20-p15-d0_2001.csv
+[01:25] step: table sort and row click
+[01:26] PASS  table sorts by column  [5508.757, 5180.066, 5174.026, 4947.395, 4936.232]
+[01:27] PASS  table row click selects site
+[01:27] step: summary tab
+[01:30] PASS  Summary tab: charts render  4 charts
+[01:30] step: sources tab
+[01:30] PASS  Sources and Limits tab: datasets, provisional note, SCOPE limits, appendix link  23532 chars
+[01:30] step: deliverables tab and links
+[01:30] PASS  Deliverables tab: Excel, memos, BLM brief
+[01:30] PASS  every deliverable link resolves  21 links
+[01:30] step: How to Read This tab
+[01:31] PASS  How to Read This tab opens with all 10 sections  what, ask, good, map, use, score, prep, limits, next, glossary
+[01:31] PASS  How to Read This: answers red line / red dots, legend, limits, next steps, glossary  13272 chars
+[01:31] PASS  How to Read This: no em or en dashes
+[01:31] PASS  How to Read This: legend swatches drawn from layers.json  45 swatches
+[01:31] step: memo and appendix pages
+[01:32] PASS  methodology review appendix renders
+[01:32] PASS  site memo renders  01_SW-NM-00001.md
+[01:32] step: close browser (session 2)
+[01:33] step: load page (session 3)
+[01:41] step: layout 1440px
+[01:47] PASS  1440 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[01:47] step: screenshot overview 1440
+[01:52] PASS  screenshot overview 1440
+[01:52] step: screenshot scorecard 1440
+[01:58] PASS  screenshot scorecard open 1440
+[01:58] step: screenshot data center ranking 1440
+[02:05] PASS  screenshot data center ranking 1440
+[02:05] step: screenshot summary 1440
+[02:08] PASS  screenshot summary tab 1440
+[02:08] step: screenshot sources 1440
+[02:09] PASS  screenshot sources tab 1440
+[02:09] step: screenshot How to Read This 1440
+[02:10] PASS  screenshot How to Read This tab 1440
+[02:12] step: layout 1280px
+[02:16] PASS  1280 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[02:16] step: screenshot overview 1280
+[02:17] PASS  screenshot overview 1280
+[02:17] step: screenshot scorecard 1280
+[02:20] PASS  screenshot scorecard open 1280
+[02:20] step: screenshot data center ranking 1280
+[02:25] PASS  screenshot data center ranking 1280
+[02:26] step: screenshot summary 1280
+[02:28] PASS  screenshot summary tab 1280
+[02:28] step: screenshot sources 1280
+[02:29] PASS  screenshot sources tab 1280
+[02:29] step: screenshot How to Read This 1280
+[02:30] PASS  screenshot How to Read This tab 1280
+[02:32] step: close browser (session 3)
+[02:33] PASS  no console errors or page errors  none
+[02:33] step: project checks (README, run_all)
+[02:33] PASS  README.md present (run, refresh, sources, limits, folder map)
+[02:33] PASS  pipeline/run_all.py --help works
+[02:33] PASS  run_all skips completed stages by default (--dry-run, no re-run)  9 of 9 stages skipped
+[02:33] PASS  serve.py default port 8770
+
+76 passed, 0 failed
