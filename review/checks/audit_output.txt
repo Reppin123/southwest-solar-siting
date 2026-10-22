@@ -1,0 +1,14 @@
+queue rows/active/unique IDs 6051 1191 6051
+active MW total / solar / storage 399266.3 176653.1 161400.5
+active matched POI 508 active missing county 1
+county active MW sum 399266.3
+county active sum solar+storage 338053.6
+hybrid active 536 MW 246672.3
+county missing sentinel rows 1
+transmission_lines records 9086 unknown 577 share 6.35 state {'CA': 4949, 'UT': 1848, 'AZ': 1103, 'NM': 742, 'NV': 444}
+substations records 7883 unknown 279 share 3.54 state {'CA': 4337, 'UT': 1433, 'AZ': 949, 'NM': 729, 'NV': 435}
+substation raw last data edit UTC 2021-02-25T21:03:40.427000+00:00
+fiber {'osm_telecom_line': 933, 'proxy_class1_rail_corridor': 116, 'proxy_interstate_corridor': 47, 'osm_fiber_tagged': 9} proxies 1096 of 1105
+ROW table total/active/no coord 854 349 47
+active cases by type Counter({'Solar Development Grant': 278, 'Solar Site Test': 18, 'Solar Development Lease': 16, 'Solar Project Area Test': 8, 'Temporary Use Permits': 5, 'OTHER FEDERAL LAND POLICY AND MANAGEMENT ACT': 4, 'TO BE DEFINED': 4, 'POWER TRANSMISSION FEDERAL LAND POLICY AND MANAGEMENT ACT': 3, 'Power Facility & Transmission': 3, 'WATER FACILITY FEDERAL LAND POLICY AND MANAGEMENT ACT': 3, 'Power Facilities': 2, 'Facility To Highway': 1, 'Wind Development Grant': 1, 'Wind Site Test': 1, 'Power Transmission Line': 1, 'ROADS FEDERAL LAND POLICY AND MANAGEMENT ACT': 1})
+land counts [('blm_solar_available', 19319), ('exclusion_wetlands', 1152936), ('ownership', 83826), ('solar_energy_zones', 26)]
