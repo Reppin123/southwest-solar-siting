@@ -1,0 +1,703 @@
+id,name,max_kv,min_kv,owner,status,lines,state,county,county_fips,volt_class,sub_type,source,osm_id,kv_source,lines_source,lines_hifld,lines_snapped,owner_source,queue_active_mw,queue_n_active,removed_reason
+hifld-201757,TAP201757,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-201758,TAP201758,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-201761,TAP201761,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-203294,TAP203294,115.0,115.0,PACIFICORP,IN SERVICE,3,CA,Del Norte,06015,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-203302,TAP203302,115.0,69.0,PACIFICORP,IN SERVICE,3,CA,Del Norte,06015,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-203323,TAP203323,115.0,115.0,PACIFICORP,IN SERVICE,4,CA,Siskiyou,06093,115-161,TAP,hifld,,hifld,hifld,4.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-203324,TAP203324,115.0,115.0,PACIFICORP,IN SERVICE,3,CA,Siskiyou,06093,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-203327,TAP203327,115.0,69.0,PACIFICORP,IN SERVICE,3,CA,Siskiyou,06093,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-203329,TAP203329,115.0,115.0,PACIFICORP,IN SERVICE,3,CA,Siskiyou,06093,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-203364,TAP203364,115.0,115.0,PACIFICORP,IN SERVICE,3,CA,Modoc,06049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-204604,TAP204604,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-204808,TAP204808,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205184,TAP205184,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205189,TAP205189,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,14,connected_lines,0.0,0,sub_type_excluded
+hifld-205190,TAP205190,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,11,connected_lines,0.0,0,sub_type_excluded
+hifld-205191,TAP205191,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205192,TAP205192,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-205207,TAP205207,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205211,TAP205211,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205214,TAP205214,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205216,TAP205216,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205219,TAP205219,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205220,TAP205220,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205231,TAP205231,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-205232,TAP205232,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-205238,TAP205238,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205239,TAP205239,115.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205240,TAP205240,138.0,138.0,CITY OF MURRAY - (UT),IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-205241,TAP205241,138.0,138.0,CITY OF MURRAY - (UT),IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205243,TAP205243,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205244,TAP205244,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205247,TAP205247,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205248,TAP205248,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205249,TAP205249,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-205255,TAP205255,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-205256,TAP205256,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205257,TAP205257,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205265,TAP205265,138.0,132.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-205274,TAP205274,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205278,TAP205278,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205412,TAP205412,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205413,TAP205413,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-205414,TAP205414,115.0,46.0,PACIFICORP,IN SERVICE,2,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,2.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-205415,TAP205415,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205416,TAP205416,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205424,TAP205424,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205426,TAP205426,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205453,TAP205453,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Emery,49015,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205455,TAP205455,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Emery,49015,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205466,TAP205466,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205467,TAP205467,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-205468,TAP205468,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205471,TAP205471,115.0,115.0,PACIFICORP,IN SERVICE,2,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205473,TAP205473,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205478,TAP205478,115.0,115.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205481,TAP205481,115.0,115.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205484,TAP205484,115.0,115.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205486,TAP205486,115.0,69.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205489,TAP205489,115.0,69.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-205490,TAP205490,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205495,TAP205495,115.0,115.0,CITY OF SPRINGVILLE - (UT),IN SERVICE,4,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205496,TAP205496,115.0,69.0,CITY OF SPRINGVILLE - (UT),IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205499,TAP205499,115.0,115.0,PROVO CITY CORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205501,TAP205501,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205502,TAP205502,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-205503,TAP205503,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205504,TAP205504,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205505,TAP205505,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-205506,TAP205506,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205508,TAP205508,115.0,115.0,SPANISH FORK CITY CORPORATION,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205510,TAP205510,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205934,TAP205934,138.0,138.0,"TRI-STATE G & T ASSN, INC",IN SERVICE,3,UT,Uintah,49047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205940,TAP205940,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Grand,49019,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205943,TAP205943,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Uintah,49047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-205948,TAP205948,138.0,138.0,MOON LAKE ELECTRIC ASSN INC,IN SERVICE,3,UT,Uintah,49047,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205949,TAP205949,138.0,138.0,UTAH MUNICIPAL POWER AGENCY,IN SERVICE,3,UT,Uintah,49047,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-205950,TAP205950,138.0,138.0,UTAH MUNICIPAL POWER AGENCY,IN SERVICE,3,UT,Duchesne,49013,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206095,TAP206095,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206116,TAP206116,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,12,connected_lines,0.0,0,sub_type_excluded
+hifld-206117,TAP206117,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-206118,TAP206118,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-206120,TAP206120,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206121,TAP206121,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206122,TAP206122,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,10,connected_lines,0.0,0,sub_type_excluded
+hifld-206123,TAP206123,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206124,TAP206124,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206125,TAP206125,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206145,TAP206145,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206147,TAP206147,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206150,TAP206150,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206153,TAP206153,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206154,TAP206154,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206155,TAP206155,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206157,TAP206157,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206158,TAP206158,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206164,TAP206164,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206165,TAP206165,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206166,TAP206166,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206168,TAP206168,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206298,TAP206298,115.0,115.0,"DIXIE ESCALANTE R E A, INC",IN SERVICE,1,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,1.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206303,TAP206303,230.0,115.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,12,connected_lines,0.0,0,sub_type_excluded
+hifld-206304,TAP206304,115.0,115.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-206309,TAP206309,230.0,230.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206312,TAP206312,230.0,230.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206360,TAP206360,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206361,TAP206361,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206365,TAP206365,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206368,TAP206368,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206376,TAP206376,230.0,34.5,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206386,TAP206386,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206388,TAP206388,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206389,TAP206389,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206391,TAP206391,230.0,230.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-206392,TAP206392,230.0,230.0,PACIFICORP,IN SERVICE,1,UT,Box Elder,49003,230,TAP,hifld,,hifld,hifld,1.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206393,TAP206393,230.0,138.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206396,TAP206396,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206397,TAP206397,230.0,138.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206402,TAP206402,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206406,TAP206406,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-206407,TAP206407,230.0,138.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-206408,TAP206408,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206413,TAP206413,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206414,TAP206414,138.0,46.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206417,TAP206417,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206459,TAP206459,138.0,46.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206462,TAP206462,138.0,69.0,CITY OF LOGAN - (UT),IN SERVICE,3,UT,Cache,49005,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206464,TAP206464,230.0,132.0,CITY OF LOGAN - (UT),IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206465,TAP206465,138.0,69.0,CITY OF LOGAN - (UT),IN SERVICE,3,UT,Cache,49005,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206471,TAP206471,230.0,69.0,CITY OF LOGAN - (UT),IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206480,TAP206480,230.0,138.0,PACIFICORP,IN SERVICE,3,UT,Beaver,49001,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206536,TAP206536,345.0,230.0,PACIFICORP,IN SERVICE,3,UT,Morgan,49029,345,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206550,TAP206550,230.0,69.0,"DIXIE ESCALANTE R E A, INC",IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206552,TAP206552,230.0,230.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206553,TAP206553,230.0,138.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206554,TAP206554,230.0,115.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206555,TAP206555,138.0,69.0,CITY OF WASHINGTON - (UT),IN SERVICE,4,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206557,TAP206557,138.0,69.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206558,TAP206558,138.0,69.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206559,TAP206559,115.0,69.0,CITY OF WASHINGTON - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206564,TAP206564,138.0,34.5,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206607,TAP206607,115.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-206608,TAP206608,230.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206615,TAP206615,138.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206616,TAP206616,230.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206618,TAP206618,115.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206619,TAP206619,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206621,TAP206621,138.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206622,TAP206622,138.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206632,TAP206632,138.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206642,TAP206642,138.0,69.0,"DIXIE ESCALANTE R E A, INC",IN SERVICE,3,UT,Iron,49021,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206646,TAP206646,230.0,138.0,PACIFICORP,IN SERVICE,3,UT,Kane,49025,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206657,TAP206657,230.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206663,TAP206663,138.0,34.5,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206667,TAP206667,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206670,TAP206670,115.0,34.5,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206671,TAP206671,115.0,115.0,BRIGHAM CITY CORPORATION,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206672,TAP206672,115.0,115.0,BRIGHAM CITY CORPORATION,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206673,TAP206673,115.0,115.0,BRIGHAM CITY CORPORATION,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206676,TAP206676,115.0,115.0,BRIGHAM CITY CORPORATION,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206678,TAP206678,115.0,115.0,BRIGHAM CITY CORPORATION,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206682,TAP206682,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206683,TAP206683,230.0,34.5,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206685,TAP206685,161.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206687,TAP206687,230.0,230.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206692,TAP206692,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-206694,TAP206694,230.0,69.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206695,TAP206695,161.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206696,TAP206696,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,10,connected_lines,0.0,0,sub_type_excluded
+hifld-206699,TAP206699,230.0,34.5,PACIFICORP,IN SERVICE,3,UT,Weber,49057,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206700,TAP206700,161.0,34.5,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206701,TAP206701,161.0,69.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,3.0,12,connected_lines,0.0,0,sub_type_excluded
+hifld-206703,TAP206703,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206704,TAP206704,138.0,46.0,PACIFICORP,IN SERVICE,2,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206717,TAP206717,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,11,connected_lines,0.0,0,sub_type_excluded
+hifld-206718,TAP206718,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-206721,TAP206721,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-206722,TAP206722,161.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-206723,TAP206723,161.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,11,connected_lines,0.0,0,sub_type_excluded
+hifld-206725,TAP206725,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206728,TAP206728,161.0,69.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-206729,TAP206729,345.0,138.0,PACIFICORP,IN SERVICE,3,UT,Wasatch,49051,345,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206731,TAP206731,138.0,138.0,HEBER LIGHT AND POWER COMPANY,IN SERVICE,3,UT,Wasatch,49051,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206732,TAP206732,138.0,69.0,HEBER LIGHT AND POWER COMPANY,IN SERVICE,2,UT,Wasatch,49051,115-161,TAP,hifld,,hifld,hifld,2.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-206733,TAP206733,138.0,138.0,HEBER LIGHT AND POWER COMPANY,IN SERVICE,3,UT,Wasatch,49051,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206735,TAP206735,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206739,TAP206739,115.0,34.5,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206742,TAP206742,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206743,TAP206743,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206744,TAP206744,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206748,TAP206748,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206750,TAP206750,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206753,TAP206753,138.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-206754,TAP206754,169.0,69.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206758,TAP206758,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206772,TAP206772,138.0,69.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206776,TAP206776,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206783,TAP206783,115.0,115.0,"DIXIE ESCALANTE R E A, INC",IN SERVICE,3,UT,Iron,49021,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-206799,TAP206799,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206801,TAP206801,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-206803,TAP206803,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206806,TAP206806,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-206815,TAP206815,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207429,TAP207420,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207431,TAP207422,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-207432,TAP207423,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207434,TAP207425,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207436,TAP207427,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207440,TAP207431,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207443,TAP207433,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207444,TAP207434,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207450,TAP207439,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207455,TAP207444,138.0,138.0,PACIFICORP,IN SERVICE,1,UT,Beaver,49001,115-161,TAP,hifld,,hifld,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207457,TAP207446,138.0,115.0,PACIFICORP,IN SERVICE,4,UT,Beaver,49001,115-161,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-207459,TAP207448,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Piute,49031,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207461,TAP207449,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Piute,49031,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207468,TAP207454,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207470,TAP207456,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207472,TAP207457,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-207473,TAP207458,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207475,TAP207460,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207481,TAP207466,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Wayne,49055,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207482,TAP207467,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Wayne,49055,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207484,TAP207469,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Wayne,49055,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-207488,TAP207473,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,10,connected_lines,0.0,0,sub_type_excluded
+hifld-207492,TAP207476,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-207495,TAP207479,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-207496,TAP207480,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-207497,TAP207481,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Sevier,49041,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-207974,TAP207928,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Carbon,49007,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-207979,TAP207933,115.0,69.0,HURRICANE CITY POWER,IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-208020,TAP207974,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-208029,TAP207983,138.0,46.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208030,TAP207984,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-208032,TAP207986,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208037,TAP207991,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208039,TAP207993,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208041,TAP207995,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208042,TAP207996,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208045,TAP207999,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208048,TAP208002,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208049,TAP208003,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-208050,TAP208004,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208054,TAP208008,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208055,TAP208009,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-208056,TAP208010,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Salt Lake,49035,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-208082,TAP208035,138.0,46.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208085,TAP208037,115.0,115.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-208918,TAP208823,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208923,TAP208827,128.0,128.0,PACIFICORP,IN SERVICE,3,UT,Millard,49027,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208925,TAP208829,128.0,128.0,PACIFICORP,IN SERVICE,3,UT,Millard,49027,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-208936,TAP208840,128.0,128.0,PACIFICORP,IN SERVICE,3,UT,Millard,49027,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208947,TAP208851,128.0,128.0,PACIFICORP,IN SERVICE,3,UT,Millard,49027,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-208963,TAP208867,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Duchesne,49013,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-208966,TAP208870,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Duchesne,49013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208969,TAP208873,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Duchesne,49013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208983,TAP208887,138.0,69.0,PACIFICORP,IN SERVICE,3,UT,Beaver,49001,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-208989,TAP208893,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208992,TAP208896,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208994,TAP208897,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-208996,TAP208899,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Uintah,49047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-209517,TAP209517,115.0,69.0,PACIFICORP,IN SERVICE,8,UT,Utah,49049,115-161,TAP,hifld,,inferred_from_lines,snap_200m,0.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-209582,TAP209582,230.0,115.0,PACIFICORP,IN SERVICE,2,UT,Davis,49011,230,TAP,hifld,,hifld,hifld,2.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-209586,TAP209586,345.0,69.0,NORTHERN WASCO COUNTY PUD,IN SERVICE,3,UT,Morgan,49029,345,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-209595,TAP209595,345.0,345.0,PACIFICORP,IN SERVICE,1,UT,Morgan,49029,345,TAP,hifld,,hifld,hifld,1.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-209614,TAP209614,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-209616,TAP209616,115.0,115.0,PACIFICORP,IN SERVICE,2,UT,Davis,49011,115-161,TAP,hifld,,hifld,hifld,2.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-209623,TAP209623,115.0,115.0,PACIFICORP,IN SERVICE,2,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,2.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-209624,TAP209624,115.0,115.0,CITY OF SPRINGVILLE - (UT),IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-209625,TAP209625,115.0,69.0,NORTHERN WASCO COUNTY PUD,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-209652,TAP209652,115.0,115.0,CITY OF ST GEORGE - (UT),IN SERVICE,3,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-209653,TAP209653,115.0,115.0,CITY OF ST GEORGE - (UT),IN SERVICE,2,UT,Washington,49053,115-161,TAP,hifld,,hifld,hifld,2.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-209658,TAP209658,138.0,138.0,PACIFICORP,IN SERVICE,1,UT,San Juan,49037,115-161,TAP,hifld,,hifld,hifld,1.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-209670,TAP209670,115.0,69.0,NORTHERN WASCO COUNTY PUD,IN SERVICE,3,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-209671,TAP209671,115.0,115.0,PACIFICORP,IN SERVICE,2,UT,Utah,49049,115-161,TAP,hifld,,hifld,hifld,2.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-209680,TAP209680,115.0,115.0,PACIFICORP,IN SERVICE,2,UT,Summit,49043,115-161,TAP,hifld,,hifld,hifld,2.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-209681,TAP209681,138.0,115.0,PACIFICORP,IN SERVICE,2,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,2.0,12,connected_lines,0.0,0,sub_type_excluded
+hifld-209684,TAP209684,138.0,115.0,PACIFICORP,IN SERVICE,5,UT,Tooele,49045,115-161,TAP,hifld,,inferred_from_lines,snap_200m,0.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-209686,TAP209686,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Tooele,49045,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-209697,TAP209697,138.0,138.0,PACIFICORP,IN SERVICE,3,UT,Beaver,49001,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-209711,TAP209711,115.0,115.0,PACIFICORP,IN SERVICE,3,UT,Box Elder,49003,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-209783,TAP209783,115.0,69.0,PACIFICORP,IN SERVICE,2,UT,Weber,49057,115-161,TAP,hifld,,hifld,hifld,2.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-209784,TAP209784,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-209785,TAP209785,230.0,115.0,PACIFICORP,IN SERVICE,3,UT,Cache,49005,230,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-209787,TAP209787,115.0,69.0,PACIFICORP,IN SERVICE,3,UT,Beaver,49001,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-301337,DEADEND301337,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,1,CA,Kern,06029,115-161,DEAD END,hifld,,hifld,hifld,1.0,1,connected_lines,0.0,0,sub_type_excluded
+hifld-302417,TAP302417,115.0,115.0,,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,5,,0.0,0,sub_type_excluded
+hifld-302425,LENKURT TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302427,TAP302427,161.0,161.0,,IN SERVICE,1,AZ,Yuma,04027,115-161,TAP,hifld,,inferred_from_lines,hifld,1.0,2,,0.0,0,sub_type_excluded
+hifld-302428,LAMMERS TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-302430,WILMINGTON (STATION C) TAP,138.0,138.0,,IN SERVICE,3,CA,Los Angeles,06037,115-161,TAP,hifld,,hifld,hifld,3.0,6,,0.0,0,sub_type_excluded
+hifld-302436,TAP302436,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-302437,PRAXAIR TAP STATION,115.0,115.0,FARMINGTON ELECTRIC UTILITY,IN SERVICE,4,NM,San Juan,35045,115-161,TAP,hifld,,hifld,hifld,4.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302438,AMINAS TAP,115.0,115.0,DEMING ELECTRIC POWER COOPERATIVE,IN SERVICE,2,NM,Hidalgo,35023,115-161,TAP,hifld,,hifld,hifld,2.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-302439,TANKER TAP,115.0,115.0,MORENO VALLEY UTILITY,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302441,TRUMAN TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302450,EDENVALE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-302452,TAP302452,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302460,TAP302460,115.0,115.0,,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,4,,0.0,0,sub_type_excluded
+hifld-302474,VACAVILLE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Solano,06095,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302477,ELDORADO TAP,115.0,115.0,,IN SERVICE,3,NM,Santa Fe,35049,115-161,TAP,hifld,,hifld,hifld,3.0,3,,0.0,0,sub_type_excluded
+hifld-302478,EDES TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302482,TAP302482,115.0,,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302485,SIGNETICS TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302486,SHREDDER TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Mateo,06081,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302487,NORTHWEST TAP,120.0,120.0,SIERRA PACIFIC POWER COMPANY,IN SERVICE,4,NV,Washoe,32031,115-161,TAP,hifld,,hifld,hifld,4.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302502,GEYSERS TAP 1,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302512,MESA TAP,115.0,115.0,NAVAJO TRIBAL UTILITY AUTHORITY,IN SERVICE,2,NM,San Juan,35045,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302517,MENAUL TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302526,TAP302526,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Barbara,06083,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-302527,TAP302527,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302528,TAP302528,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Luis Obispo,06079,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302531,TAP302531,115.0,115.0,MORA-SAN MIGUEL ELECTRIC COOPERATIVE,IN SERVICE,3,NM,San Miguel,35047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302534,S.L.A.C. TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Mateo,06081,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302537,TAP302537,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302547,TAP302547,115.0,66.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302548,TAP302548,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tulare,06107,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302549,TAP302549,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302550,STONY POINT TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302551,MAXWELL TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302555,MABURY TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302564,MAYBERRY TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302567,JEFFERSON TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302574,TAP302574,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302577,MARANA TAP,115.0,115.0,TRICO ELECTRIC COOPERATIVE,IN SERVICE,3,AZ,Pima,04019,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302584,SALT WELLS TAP,230.0,230.0,SIERRA PACIFIC POWER COMPANY,IN SERVICE,3,NV,Churchill,32001,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302585,ROSSMOOR TAP 2,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-302608,TAP302608,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tulare,06107,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302616,TAP302616,115.0,69.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,4,NM,Grant,35017,115-161,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302620,DOME TAP,161.0,161.0,,IN SERVICE,3,AZ,Yuma,04027,115-161,TAP,hifld,,hifld,hifld,3.0,3,,0.0,0,sub_type_excluded
+hifld-302624,WINGATE TAP,115.0,115.0,CONTINENTAL DIVIDE ELECTIC COOPERATIVE,IN SERVICE,3,NM,McKinley,35031,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302629,PIT 7 TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Shasta,06089,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302631,EASTRIDGE TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302640,TAP302640,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302651,TAP302651,230.0,230.0,PACIFICORP,IN SERVICE,3,CA,Modoc,06049,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302658,NORTH TOWER TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-302668,TAP302668,230.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Plumas,06063,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302674,TAP302674,115.0,115.0,KIT CARSON ELECTRIC COOPERATIVE,IN SERVICE,3,NM,Colfax,35007,115-161,TAP,hifld,,inferred_from_lines,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302681,WOODLAND BIOMASS TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302687,TAP302687,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Nevada,06057,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302694,TAP302694,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302701,STENT TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302702,TAP302702,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tuolumne,06109,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302705,PROCESSING SITE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Lake,06033,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-302725,TAP302725,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-302742,TAP302742,138.0,138.0,NEVADA POWER COMPANY,IN SERVICE,1,NV,Clark,32003,115-161,TAP,hifld,,inferred_from_lines,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302750,TAP302750,230.0,230.0,NEVADA POWER COMPANY,IN SERVICE,3,NV,Clark,32003,230,TAP,hifld,,inferred_from_lines,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302752,WESTINGHOUSE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-302761,TAP302761,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Fresno,06019,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-302769,TAP302769,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,Placer,06061,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-303324,DEADEND303324,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,1,CA,Kings,06031,115-161,DEAD END,hifld,,hifld,hifld,1.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-303738,BLACKWATER TIE,345.0,69.0,ROOSEVELT COUNTY ELECTRIC COOPERATIVE,IN SERVICE,2,NM,Roosevelt,35041,345,SUBSTATION,hifld,,hifld,hifld,2.0,2,connected_lines,0.0,0,hvdc_converter
+hifld-304165,EDDY AC-DC-AC TIE,345.0,69.0,CENTRAL VALLEY COOPERATIVE,IN SERVICE,8,NM,Eddy,35015,345,SUBSTATION,hifld,,hifld,hifld,8.0,10,connected_lines,0.0,0,hvdc_converter
+hifld-305112,GEYSERS TAP 6,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305119,IBM COTTLE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305120,TAP305120,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,1,CA,Fresno,06019,115-161,TAP,hifld,,hifld,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305127,CASTRO VALLEY TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305129,ATWATER TAP,115.0,115.0,MERCED IRRIGATION DISTRICT,IN SERVICE,3,CA,Merced,06047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305136,IBM BAILEY TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-305143,GEYSERS TAP  9,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305146,DEEPWATER TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305149,TAP305149,115.0,,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305151,TAP305151,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305159,IMHOFF TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-305164,TAP305164,115.0,115.0,SACRAMENTO MUNICIPAL UTILITY DISTRICT,IN SERVICE,3,CA,Sacramento,06067,115-161,TAP,hifld,,hifld,hifld,3.0,13,connected_lines,0.0,0,sub_type_excluded
+hifld-305171,KASSON TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305177,TAP305177,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Merced,06047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305178,TAP305178,115.0,115.0,FARMER'S ELECTIRC COOPERATIVE,IN SERVICE,3,NM,Curry,35009,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305179,TAP305179,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305180,JARALES TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Valencia,35061,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305188,TAP305188,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305190,GEYSERS TAP 3,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305202,UNITED COGEN TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Mateo,06081,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305211,TAP305211,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305218,TAP305218,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Butte,06007,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305222,TAP305222,138.0,138.0,SAN DIEGO GAS & ELECTRIC,IN SERVICE,3,CA,Orange,06059,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305236,LOCKHEED 1 TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305238,TAP305238,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305241,BOLLMAN TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,4,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,4.0,10,connected_lines,0.0,0,sub_type_excluded
+hifld-305242,TAP305242,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,1,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305249,TAP305249,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305283,TAP305283,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305285,INDIAN HOSPITAL TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305303,WARNE TAP,230.0,230.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Los Angeles,06037,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305309,TAP305309,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305316,TAP305316,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,inferred_from_lines,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305325,TAP305325,115.0,,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Fresno,06019,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305326,RITA TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305336,DOMTAR #2 TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305340,TAP305340,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305355,TAP305355,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305369,STOCKTON A TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-305371,HILLTOP TAP,230.0,230.0,PACIFICORP,IN SERVICE,3,CA,Modoc,06049,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305374,TAP305374,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Butte,06007,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305378,DEEPWATER TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305379,ROSSMOOR TAP 1,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-305388,TAP305388,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Madera,06039,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305389,BEL AIR TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305392,MEJIA TAP (NS LINE),115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,2,NM,Santa Fe,35049,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305396,ORTIZ TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305399,TAP305399,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305410,TAP305410,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305413,TAP305413,115.0,115.0,EL PASO ELECTRIC POWER COMPANY,IN SERVICE,3,NM,Doña Ana,35013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305425,TAP305425,115.0,115.0,FARMER'S ELECTIRC COOPERATIVE,IN SERVICE,3,NM,Quay,35037,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305439,BUNKER TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305442,CUCHILLO TAP,115.0,115.0,SIERRA ELECTRIC COOPERATIVE,IN SERVICE,3,NM,Sierra,35051,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305449,LAS POSITAS TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,4,CA,Alameda,06001,230,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-305461,SHIPROCK TAP,115.0,115.0,NAVAJO TRIBAL UTILITY AUTHORITY,IN SERVICE,3,NM,San Juan,35045,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-305464,MWD EASTSIDE RES TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305465,TAP305465,115.0,60.0,SACRAMENTO MUNICIPAL UTILITY DISTRICT,IN SERVICE,3,CA,Sacramento,06067,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305470,LOST HORIZON TAP,115.0,115.0,CONTINENTAL DIVIDE ELECTIC COOPERATIVE,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305475,TAP305475,115.0,70.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305476,LAWRENCE TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-305547,RISER305547,115.0,66.0,AZUSA LIGHT & POWER,IN SERVICE,2,CA,San Bernardino,06071,115-161,RISER,hifld,,inferred_from_lines,snap_200m,0.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-306365,ARCOGEN,230.0,230.0,,IN SERVICE,2,CA,Los Angeles,06037,230,SUBSTATION,hifld,,hifld,hifld,2.0,2,,0.0,0,generator_or_collector
+hifld-307770,RISER307770,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,2,CA,Santa Clara,06085,115-161,RISER,hifld,,hifld,hifld,2.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-307801,RISER307801,138.0,138.0,NEVADA POWER COMPANY,IN SERVICE,1,NV,Clark,32003,115-161,RISER,hifld,,hifld,hifld,1.0,1,connected_lines,0.0,0,sub_type_excluded
+hifld-307845,MEADOW LANE TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307856,KIRKER TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,15,connected_lines,0.0,0,sub_type_excluded
+hifld-307860,TAP307860,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307866,EDES TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307869,AIDLIN TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307870,TAP307870,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307873,TAP307873,115.0,115.0,REDDING ELECTRIC UTILITY,IN SERVICE,3,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-307882,TAP307882,115.0,69.0,CENTRAL VALLEY ELECTRIC COOPERATIVE,IN SERVICE,3,NM,Chaves,35005,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307883,STATION L (SCATTERGOOD) TAP,230.0,230.0,LOS ANGELES DEPARTMENT OF WATER & POWER,IN SERVICE,3,CA,Los Angeles,06037,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307889,TAP307889,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,2,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,2.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-307893,TAP307893,500.0,,,IN SERVICE,3,NV,Clark,32003,500+,TAP,hifld,,hifld,hifld,3.0,3,,0.0,0,sub_type_excluded
+hifld-307898,AVENA TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY AND MODESTO IRRIGATION DISTRICT,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-307899,TAP307899,115.0,115.0,CENTRAL VALLEY COOPERATIVE,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-307905,WEST LOOP TAP STATION,115.0,115.0,NAVAJO TRIBAL UTILITY AUTHORITY,IN SERVICE,2,NM,San Juan,35045,115-161,TAP,hifld,,hifld,hifld,2.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307906,TAP307906,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307918,TAP307918,115.0,115.0,TID,IN SERVICE,3,CA,Stanislaus,06099,115-161,TAP,hifld,,hifld,hifld,3.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-307919,TAP307919,115.0,66.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307923,VALLEY HOME TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY AND MODESTO IRRIGATION DISTRICT,IN SERVICE,2,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,2.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-307926,TAP307926,236.0,236.0,NV ENERGY,IN SERVICE,3,NV,Clark,32003,230,TAP,hifld,,inferred_from_lines,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307929,TAP307929,120.0,,SIERRA PACIFIC POWER COMPANY,IN SERVICE,3,NV,Churchill,32001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307930,TAP307930,115.0,115.0,CENTRAL VALLEY COOPERATIVE,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307943,CAJALCO TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307972,TAP307972,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Fresno,06019,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307977,LOCKHEED 2 TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307979,TAP307979,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307981,WOODLAND TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-307983,TAP307983,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307985,TAP307985,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307993,ROWE TAP,115.0,115.0,CENTRAL NEW MEXICO ELECTRIC COOPERATIVE,IN SERVICE,3,NM,San Miguel,35047,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-307999,TAP307999,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Stanislaus,06099,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-308006,TULLOCH TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Calaveras,06009,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308008,TAP308008,115.0,46.0,SPRINGER ELECTRIC COOPERATIVE,IN SERVICE,3,NM,Colfax,35007,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308012,TAP308012,115.0,115.0,LEA COUNTY ELECTRIC COOPERATIVE,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308022,VALLEY HOME TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY AND MODESTO IRRIGATION DISTRICT,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-308031,JESSUP TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308038,TAP308038,138.0,138.0,NEVADA POWER COMPANY,IN SERVICE,2,NV,Clark,32003,115-161,TAP,hifld,,inferred_from_lines,hifld,2.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-308047,MIGUEL LUJAN TAP (NS LINE),115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,1,NM,Santa Fe,35049,115-161,TAP,hifld,,hifld,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308052,WINROCK TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308056,ELECTRA TAP 2,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Amador,06005,230,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-308066,TAP308066,115.0,115.0,CENTRAL VALLEY COOPERATIVE,IN SERVICE,3,NM,Eddy,35015,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-308068,BUNKER 2 TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308078,TAP308078,500.0,,,IN SERVICE,3,NV,Clark,32003,500+,TAP,hifld,,hifld,hifld,3.0,3,,0.0,0,sub_type_excluded
+hifld-308085,ELECTRA TAP 1,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Amador,06005,230,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-308090,TAP308090,115.0,115.0,REDDING ELECTRIC UTILITY,IN SERVICE,3,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-308093,CARQUINEZ TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Solano,06095,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308110,FAIRWAY TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Barbara,06083,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308112,TAP308112,115.0,70.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308122,TAP308122,115.0,115.0,CENTRAL VALLEY COOPERATIVE,IN SERVICE,3,NM,Chaves,35005,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308124,WOLFSKILL TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Solano,06095,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308126,TAP308126,115.0,115.0,REDDING ELECTRIC UTILITY,IN SERVICE,3,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-308127,COAL TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308130,FIRST ST TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Valencia,35061,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308149,GEYSERS TAP 2,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308150,HALLDALE TAP,138.0,138.0,,IN SERVICE,3,CA,Los Angeles,06037,115-161,TAP,hifld,,hifld,hifld,3.0,6,,0.0,0,sub_type_excluded
+hifld-308154,TAP308154,115.0,115.0,FARMER'S ELECTIRC COOPERATIVE,IN SERVICE,3,NM,Curry,35009,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-308156,RAINSVILLE TAP,115.0,115.0,MORA-SAN MIGUEL ELECTRIC COOPERATIVE,IN SERVICE,2,NM,Mora,35033,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308167,TAP308167,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,Madera,06039,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-308168,TAP308168,115.0,,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,Butte,06007,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-308172,TAP308172,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,San Francisco,06075,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-308379,SANTA MARIA COGEN,115.0,,,NOT AVAILABLE,0,CA,Santa Barbara,06083,115-161,SUBSTATION,hifld,,hifld,snap_200m,0.0,0,,0.0,0,generator_or_collector
+hifld-310117,COPPER MOUNTAIN SOLAR 2,230.0,,,NOT AVAILABLE,0,NV,Clark,32003,230,SUBSTATION,hifld,,hifld,snap_200m,0.0,0,,0.0,0,generator_or_collector
+hifld-310155,DEADEND310155,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,1,CA,Solano,06095,230,DEAD END,hifld,,hifld,hifld,1.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310539,TAP310539,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310541,IMHOFF TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-310542,TAP310542,115.0,70.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Fresno,06019,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310547,AVENA TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY AND MODESTO IRRIGATION DISTRICT,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,7,connected_lines,0.0,0,sub_type_excluded
+hifld-310554,TAP310554,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310561,TAP310561,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Fresno,06019,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310562,CHURCH ROCK TAP,115.0,115.0,NAVAJO TRIBAL UTILITY AUTHORITY,IN SERVICE,3,NM,McKinley,35031,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310564,TAP310564,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310571,TAP310571,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310572,DUMBARTON TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Alameda,06001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310575,NEWCOMB TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310576,JAMES BLACK TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Shasta,06089,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310579,BOLLMAN TAP 1,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,4,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,4.0,10,connected_lines,0.0,0,sub_type_excluded
+hifld-310582,TAP310582,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,2,CA,Solano,06095,115-161,TAP,hifld,,hifld,hifld,2.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310604,TAP310604,115.0,115.0,NEVADA POWER COMPANY,IN SERVICE,3,NV,Clark,32003,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310610,TAP310610,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310617,TAP310617,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Barbara,06083,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310622,GEYSERS TAP 7,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310626,TAP310626,115.0,115.0,MORENO VALLEY UTILITY,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310628,OWENS ILLINOIS TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-310640,CLAREMONT AND MONTANO TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310643,TAP310643,138.0,138.0,NEVADA POWER COMPANY,IN SERVICE,3,NV,Clark,32003,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-310654,KIRTLAND  TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310680,TAP310680,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Solano,06095,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310681,BANNING TAP,115.0,115.0,SOUTHERN CALIFORNIA EDISON,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310684,SPRING GAP TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tuolumne,06109,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310705,TAP310705,115.0,115.0,REDDING ELECTRIC UTILITY,IN SERVICE,3,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,3.0,9,connected_lines,0.0,0,sub_type_excluded
+hifld-310710,TAP310710,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-310727,HASSAYAMPA TAP,230.0,230.0,ARIZONA PUBLIC SERVICE COMPANY,IN SERVICE,3,AZ,Maricopa,04013,230,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-310728,EVERGREEN TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310734,BEARDSLEY TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tuolumne,06109,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310737,TAP310737,230.0,230.0,PACIFICORP,IN SERVICE,3,CA,Modoc,06049,230,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310740,TAP310740,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Barbara,06083,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310743,ELSINORE TAP,115.0,115.0,AZUSA LIGHT & POWER,IN SERVICE,4,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,4.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310748,TAP310748,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Kern,06029,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310749,EVERGREEN TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310765,DALY CITY TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Mateo,06081,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-310767,TAP310767,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,3.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-310770,MORENO TAP,115.0,115.0,MORENO VALLEY UTILITY,IN SERVICE,3,CA,Riverside,06065,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310779,TAP310779,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Tuolumne,06109,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310787,STUDIO TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310788,MELONES TAP 1,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Calaveras,06009,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310801,TAP310801,115.0,115.0,,IN SERVICE,3,NM,Lea,35025,115-161,TAP,hifld,,hifld,hifld,3.0,5,,0.0,0,sub_type_excluded
+hifld-310807,GEYSERS TAP  8,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310815,RINCON TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310817,TAP310817,230.0,,NEVADA POWER COMPANY,IN SERVICE,3,NV,Clark,32003,230,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310837,ZAMORA TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310841,TAP310841,115.0,66.0,AZUSA LIGHT & POWER,IN SERVICE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310853,PIT 5 TAP,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Shasta,06089,230,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310869,TAP310869,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Sonoma,06097,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310871,KASSON TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,hifld,3.0,11,connected_lines,0.0,0,sub_type_excluded
+hifld-310875,CARLTON HILLS TAP,138.0,138.0,SAN DIEGO GAS & ELECTRIC,IN SERVICE,4,CA,San Diego,06073,115-161,TAP,hifld,,hifld,hifld,4.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-310883,TAP310883,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Yolo,06113,115-161,TAP,hifld,,hifld,hifld,3.0,5,connected_lines,0.0,0,sub_type_excluded
+hifld-310889,CORNELL TAP,115.0,115.0,PUBLIC SERVICE COMPANY OF NEW MEXICO,IN SERVICE,3,NM,Bernalillo,35001,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310890,TAP310890,138.0,138.0,NEVADA POWER COMPANY,IN SERVICE,3,NV,Clark,32003,115-161,TAP,hifld,,hifld,hifld,3.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310892,MELONES TAP 2,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Calaveras,06009,115-161,TAP,hifld,,hifld,hifld,3.0,6,connected_lines,0.0,0,sub_type_excluded
+hifld-310893,MOFFET FIELD TAP,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,3,CA,Santa Clara,06085,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310894,TAP310894,230.0,69.0,GRAHAM COUNTY ELECTRIC COOPERATIVE INCORPORATED,IN SERVICE,3,AZ,Graham,04009,230,TAP,hifld,,inferred_from_lines,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310895,TAP310895,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE,2,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,hifld,2.0,8,connected_lines,0.0,0,sub_type_excluded
+hifld-310901,TAP310901,115.0,115.0,REDDING ELECTRIC UTILITY,IN SERVICE,1,CA,Shasta,06089,115-161,TAP,hifld,,hifld,hifld,1.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-310915,TAP310915,115.0,115.0,SOUTHERN CALIFORNIA EDISON,NOT AVAILABLE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310917,TAP310917,115.0,115.0,AZUSA LIGHT & POWER,NOT AVAILABLE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310918,TAP310918,115.0,,AZUSA LIGHT & POWER,NOT AVAILABLE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310926,TAP310926,115.0,115.0,SOUTHERN CALIFORNIA EDISON,NOT AVAILABLE,3,CA,San Bernardino,06071,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-311000,TAP311000,132.0,132.0,ARIZONA PUBLIC SERVICE COMPANY,NOT AVAILABLE,3,AZ,Maricopa,04013,115-161,TAP,hifld,,hifld,hifld,3.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310929,TAP310929,500.0,,,NOT AVAILABLE,4,AZ,Maricopa,04013,500+,TAP,hifld,,hifld,hifld,4.0,2,,0.0,0,sub_type_excluded
+hifld-310930,TAP310930,500.0,,,NOT AVAILABLE,4,AZ,Maricopa,04013,500+,TAP,hifld,,hifld,hifld,4.0,2,,0.0,0,sub_type_excluded
+hifld-310934,TAP310934,115.0,115.0,,NOT AVAILABLE,3,AZ,Maricopa,04013,115-161,TAP,hifld,,hifld,hifld,3.0,2,,0.0,0,sub_type_excluded
+hifld-310938,TAP310938,230.0,230.0,UNS ELECTRIC INCORPORATED,NOT AVAILABLE,3,AZ,Mohave,04015,230,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310944,TAP310944,138.0,66.0,,NOT AVAILABLE,2,NV,Nye,32023,115-161,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,2,,0.0,0,sub_type_excluded
+hifld-310948,TAP310948,230.0,230.0,,NOT AVAILABLE,2,AZ,Mohave,04015,230,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,2,,0.0,0,sub_type_excluded
+hifld-310953,TAP310953,230.0,138.0,NEVADA POWER COMPANY,NOT AVAILABLE,3,NV,Clark,32003,230,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310962,TAP310962,230.0,,AIC,NOT AVAILABLE,3,AZ,Pima,04019,230,TAP,hifld,,hifld,hifld,3.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-310968,TAP310968,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,San Joaquin,06077,115-161,TAP,hifld,,hifld,snap_200m,-999999.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310969,TAP310969,115.0,115.0,CENTRAL VALLEY ELECTRIC COOPERATIVE,NOT AVAILABLE,3,NM,Chaves,35005,115-161,TAP,hifld,,hifld,hifld,3.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-310971,TAP310971,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,4,CA,Contra Costa,06013,115-161,TAP,hifld,,hifld,snap_200m,-999999.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310980,TAP310980,500.0,500.0,,NOT AVAILABLE,2,AZ,Maricopa,04013,500+,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,2,,0.0,0,sub_type_excluded
+hifld-310981,UNKOWN,115.0,60.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,4,CA,Contra Costa,06013,115-161,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,4,connected_lines,0.0,0,sub_type_excluded
+hifld-310982,TAP310982,115.0,115.0,PACIFIC GAS & ELECTRIC COMPANY,NOT AVAILABLE,3,CA,Contra Costa,06013,115-161,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,3,connected_lines,0.0,0,sub_type_excluded
+hifld-310983,TAP310983,115.0,33.0,AZUSA LIGHT & POWER,NOT AVAILABLE,2,CA,Riverside,06065,115-161,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,2,connected_lines,0.0,0,sub_type_excluded
+hifld-310989,TAP310989,230.0,230.0,,NOT AVAILABLE,2,AZ,Mohave,04015,230,TAP,hifld,,inferred_from_lines,snap_200m,-999999.0,2,,0.0,0,sub_type_excluded
+hifld-310990,TAP310990,230.0,69.0,,IN SERVICE,3,AZ,Mohave,04015,230,TAP,hifld,,inferred_from_lines,snap_200m,0.0,3,,0.0,0,sub_type_excluded
+hifld-310991,TAP310991,138.0,138.0,,NOT AVAILABLE,3,AZ,Mohave,04015,115-161,TAP,hifld,,hifld,hifld,3.0,2,,0.0,0,sub_type_excluded
+hifld-310992,TAP310992,138.0,138.0,,NOT AVAILABLE,3,AZ,Mohave,04015,115-161,TAP,hifld,,hifld,hifld,3.0,2,,0.0,0,sub_type_excluded
+hifld-310993,TAP310993,138.0,138.0,,NOT AVAILABLE,3,AZ,Mohave,04015,115-161,TAP,hifld,,hifld,hifld,3.0,2,,0.0,0,sub_type_excluded
+osm-way-1531341165,SunZia HVDC Converter Station,525.0,500.0,,IN SERVICE (OSM),0,AZ,Pinal,04021,500+,CONVERTER,osm,way/1531341165,osm,snap_200m,,0,,0.0,0,hvdc_converter
+osm-way-1531341163,SunZia HVDC Converter Station,525.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,500+,CONVERTER,osm,way/1531341163,osm,snap_200m,,0,,0.0,0,hvdc_converter
+osm-way-1569903732,,500.0,500.0,,IN SERVICE (OSM),0,UT,Uintah,49047,500+,COMPENSATION,osm,way/1569903732,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-374247112,Robinson Summit Substation,500.0,500.0,,IN SERVICE (OSM),0,NV,White Pine,32033,500+,DISTRIBUTION,osm,way/374247112,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1421052427,,500.0,500.0,,IN SERVICE (OSM),0,AZ,Coconino,04005,500+,GENERATION,osm,way/1421052427,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1092413200,Avery,500.0,230.0,Arizona Public Service,IN SERVICE (OSM),0,AZ,Maricopa,04013,500+,INDUSTRIAL,osm,way/1092413200,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-734085311,Mesa-Mira Loma western transition station,500.0,500.0,Southern California Edison,IN SERVICE (OSM),0,CA,San Bernardino,06071,500+,TRANSITION,osm,way/734085311,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-1531507818,,500.0,500.0,,IN SERVICE (OSM),0,AZ,La Paz,04012,500+,GENERATION,osm,way/1531507818,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1531507820,,500.0,69.0,,IN SERVICE (OSM),0,AZ,La Paz,04012,500+,GENERATION,osm,way/1531507820,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1531507821,,500.0,69.0,,IN SERVICE (OSM),0,AZ,La Paz,04012,500+,GENERATION,osm,way/1531507821,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1569594749,,500.0,500.0,,IN SERVICE (OSM),0,AZ,Yuma,04027,500+,GENERATION,osm,way/1569594749,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1531564063,,500.0,500.0,,IN SERVICE (OSM),0,CA,Riverside,06065,500+,GENERATION,osm,way/1531564063,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1493538641,,345.0,34.5,,IN SERVICE (OSM),0,NM,Lincoln,35027,345,GENERATION,osm,way/1493538641,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1493538638,SunZia Wind Substation 1,345.0,34.5,,IN SERVICE (OSM),0,NM,Lincoln,35027,345,GENERATION,osm,way/1493538638,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-909604105,,345.0,345.0,,IN SERVICE (OSM),0,NM,Curry,35009,345,GENERATION,osm,way/909604105,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1532147143,,345.0,34.5,,IN SERVICE (OSM),0,NM,Lincoln,35027,345,GENERATION,osm,way/1532147143,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1493538637,SunZia Wind Farm Substation 2,345.0,34.5,,IN SERVICE (OSM),0,NM,Lincoln,35027,345,GENERATION,osm,way/1493538637,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1116071702,,345.0,345.0,SIERRA PACIFIC POWER COMPANY,IN SERVICE (OSM),2,NV,Washoe,32031,345,GENERATION,osm,way/1116071702,osm,snap_200m,,2,connected_lines,0.0,0,generator_or_collector
+osm-way-702227243,,345.0,345.0,,IN SERVICE (OSM),0,UT,Beaver,49001,345,GENERATION,osm,way/702227243,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1493538616,,345.0,34.5,,IN SERVICE (OSM),0,NM,Lincoln,35027,345,GENERATION,osm,way/1493538616,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1174300389,,345.0,345.0,,IN SERVICE (OSM),0,NM,Rio Arriba,35039,345,GENERATION,osm,way/1174300389,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1104941606,,345.0,345.0,,IN SERVICE (OSM),0,NM,Chaves,35005,345,GENERATION,osm,way/1104941606,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1104844308,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1104844308,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1104844294,,345.0,345.0,,IN SERVICE (OSM),0,NM,Catron,35003,345,GENERATION,osm,way/1104844294,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1095349331,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1095349331,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1095349285,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1095349285,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1095331596,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1095331596,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1420870271,SunZia Substation,345.0,34.5,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1420870271,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1095331585,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1095331585,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1380356992,San Juan Solar Substation,345.0,345.0,,IN SERVICE (OSM),0,NM,San Juan,35045,345,SUBSTATION,osm,way/1380356992,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1058593875,,345.0,345.0,,IN SERVICE (OSM),0,NM,Roosevelt,35041,345,GENERATION,osm,way/1058593875,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1058593873,,345.0,345.0,,IN SERVICE (OSM),0,NM,Roosevelt,35041,345,GENERATION,osm,way/1058593873,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1058593868,,345.0,345.0,,IN SERVICE (OSM),0,NM,Roosevelt,35041,345,GENERATION,osm,way/1058593868,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1058593866,,345.0,345.0,,IN SERVICE (OSM),0,NM,Roosevelt,35041,345,GENERATION,osm,way/1058593866,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1021841652,,345.0,345.0,,IN SERVICE (OSM),0,NM,Torrance,35057,345,GENERATION,osm,way/1021841652,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1473440687,,345.0,345.0,,IN SERVICE (OSM),0,UT,Utah,49049,345,INDUSTRIAL,osm,way/1473440687,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1113194296,,345.0,345.0,,IN SERVICE (OSM),0,AZ,Mohave,04015,345,GENERATION,osm,way/1113194296,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1170440885,,345.0,345.0,,IN SERVICE (OSM),0,AZ,Coconino,04005,345,GENERATION,osm,way/1170440885,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1164902445,,345.0,345.0,,IN SERVICE (OSM),2,AZ,Mohave,04015,345,GENERATION,osm,way/1164902445,osm,snap_200m,,2,,0.0,0,generator_or_collector
+osm-way-1024051998,,345.0,345.0,PacifiCorp,IN SERVICE (OSM),2,UT,Utah,49049,345,INDUSTRIAL,osm,way/1024051998,osm,snap_200m,,2,osm_operator,0.0,0,sub_type_excluded
+osm-way-1473436977,,345.0,345.0,,IN SERVICE (OSM),0,UT,Utah,49049,345,GENERATION,osm,way/1473436977,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1223950431,Hamlin Substation,230.0,230.0,AES,IN SERVICE (OSM),0,CA,San Bernardino,06071,230,GENERATION,osm,way/1223950431,osm,snap_200m,,0,osm_operator,0.0,0,generator_or_collector
+osm-way-498168327,Scatterwash Substation,230.0,230.0,Arizona Public Service,IN SERVICE (OSM),0,AZ,Maricopa,04013,230,DISTRIBUTION,osm,way/498168327,osm,snap_200m,,0,osm_operator,100.0,1,sub_type_excluded
+osm-way-1411367391,,230.0,230.0,,IN SERVICE (OSM),0,AZ,Pinal,04021,230,GENERATION,osm,way/1411367391,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1253848635,Google Data Center,230.0,230.0,,IN SERVICE (OSM),0,NV,Clark,32003,230,INDUSTRIAL,osm,way/1253848635,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-628897161,Pleasant Hill Substation,230.0,230.0,,IN SERVICE (OSM),0,NM,Curry,35009,230,DISTRIBUTION,osm,way/628897161,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1120726656,,230.0,230.0,,IN SERVICE (OSM),0,NV,Clark,32003,230,GENERATION,osm,way/1120726656,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-413449177,,230.0,230.0,,IN SERVICE (OSM),0,CA,San Luis Obispo,06079,230,GENERATION,osm,way/413449177,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1203381426,,230.0,230.0,,IN SERVICE (OSM),0,NV,Clark,32003,230,GENERATION,osm,way/1203381426,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1417668095,,230.0,230.0,,IN SERVICE (OSM),2,AZ,Pinal,04021,230,GENERATION,osm,way/1417668095,osm,snap_200m,,2,,0.0,0,generator_or_collector
+osm-way-1391914134,,230.0,230.0,Western Area Power Administration,IN SERVICE (OSM),0,CA,Yuba,06115,230,MINOR_DISTRIBUTION,osm,way/1391914134,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-1091128477,,230.0,230.0,,IN SERVICE (OSM),0,AZ,Maricopa,04013,230,MINOR_DISTRIBUTION,osm,way/1091128477,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-737372060,,230.0,230.0,PACIFIC GAS & ELECTRIC COMPANY,IN SERVICE (OSM),6,CA,Alameda,06001,230,TRANSITION,osm,way/737372060,osm,snap_200m,,6,connected_lines,0.0,0,sub_type_excluded
+osm-way-542734200,TS1 Substation,230.0,230.0,Arizona Public Service,IN SERVICE (OSM),2,AZ,Maricopa,04013,230,DISTRIBUTION,osm,way/542734200,osm,snap_200m,,2,osm_operator,0.0,0,sub_type_excluded
+osm-way-691494481,,230.0,230.0,BONNEVILLE POWER ADMINISTRATION,IN SERVICE (OSM),2,CA,Kern,06029,230,GENERATION,osm,way/691494481,osm,snap_200m,,2,connected_lines,0.0,0,generator_or_collector
+osm-way-896354047,,230.0,230.0,,IN SERVICE (OSM),0,CA,Imperial,06025,230,GENERATION,osm,way/896354047,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-896355479,,230.0,230.0,,IN SERVICE (OSM),0,CA,Imperial,06025,230,GENERATION,osm,way/896355479,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-896355485,,230.0,230.0,,IN SERVICE (OSM),0,CA,Imperial,06025,230,GENERATION,osm,way/896355485,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1073692896,,230.0,230.0,,IN SERVICE (OSM),0,CA,Imperial,06025,230,GENERATION,osm,way/1073692896,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1073230949,,230.0,230.0,,IN SERVICE (OSM),0,CA,Monterey,06053,230,GENERATION,osm,way/1073230949,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1058284417,Las Aguilas Switching Station,230.0,230.0,Pacific Gas and Electric Company,IN SERVICE (OSM),1,CA,San Benito,06069,230,GENERATION,osm,way/1058284417,osm,snap_200m,,1,osm_operator,0.0,0,generator_or_collector
+osm-way-882367100,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),2,CA,Riverside,06065,230,GENERATION,osm,way/882367100,osm,snap_200m,,2,connected_lines,0.0,0,generator_or_collector
+osm-way-869738681,,220.0,220.0,,IN SERVICE (OSM),0,CA,Riverside,06065,230,GENERATION,osm,way/869738681,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1104360195,,220.0,220.0,,IN SERVICE (OSM),0,CA,Riverside,06065,230,GENERATION,osm,way/1104360195,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1176915941,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),1,CA,Riverside,06065,230,GENERATION,osm,way/1176915941,osm,snap_200m,,1,connected_lines,0.0,0,generator_or_collector
+osm-way-1176915957,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),4,CA,Riverside,06065,230,GENERATION,osm,way/1176915957,osm,snap_200m,,4,connected_lines,0.0,0,generator_or_collector
+osm-way-1058276492,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),1,CA,Riverside,06065,230,GENERATION,osm,way/1058276492,osm,snap_200m,,1,connected_lines,0.0,0,generator_or_collector
+osm-way-596972639,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),2,CA,Kern,06029,230,GENERATION,osm,way/596972639,osm,snap_200m,,2,connected_lines,0.0,0,generator_or_collector
+osm-way-845128897,,220.0,220.0,UNKNOWN,IN SERVICE (OSM),1,CA,Riverside,06065,230,GENERATION,osm,way/845128897,osm,snap_200m,,1,connected_lines,0.0,0,generator_or_collector
+osm-way-1310961560,,138.0,138.0,,IN SERVICE (OSM),0,UT,Carbon,49007,115-161,GENERATION,osm,way/1310961560,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1259091756,,138.0,138.0,,IN SERVICE (OSM),0,UT,Box Elder,49003,115-161,DISTRIBUTION,osm,way/1259091756,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1323688179,,138.0,138.0,,IN SERVICE (OSM),0,UT,Tooele,49045,115-161,GENERATION,osm,way/1323688179,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1328454043,,138.0,138.0,PACIFICORP,IN SERVICE (OSM),2,UT,Utah,49049,115-161,DISTRIBUTION,osm,way/1328454043,osm,snap_200m,,2,connected_lines,0.0,0,sub_type_excluded
+osm-way-1234993140,,138.0,138.0,MOON LAKE ELECTRIC ASSN INC,IN SERVICE (OSM),1,UT,Duchesne,49013,115-161,DISTRIBUTION,osm,way/1234993140,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1169714289,,138.0,138.0,PACIFICORP,IN SERVICE (OSM),1,UT,San Juan,49037,115-161,GENERATION,osm,way/1169714289,osm,snap_200m,,1,connected_lines,0.0,0,generator_or_collector
+osm-way-912609119,,138.0,138.0,,IN SERVICE (OSM),0,UT,Davis,49011,115-161,DISTRIBUTION,osm,way/912609119,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-911503140,,138.0,138.0,,IN SERVICE (OSM),0,UT,Salt Lake,49035,115-161,DISTRIBUTION,osm,way/911503140,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-955062652,,138.0,138.0,PACIFICORP,IN SERVICE (OSM),2,UT,Salt Lake,49035,115-161,DISTRIBUTION,osm,way/955062652,osm,snap_200m,,2,connected_lines,0.0,0,sub_type_excluded
+osm-way-1009030346,,138.0,138.0,,IN SERVICE (OSM),0,UT,Salt Lake,49035,115-161,DISTRIBUTION,osm,way/1009030346,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1108375724,,138.0,138.0,PACIFICORP,IN SERVICE (OSM),4,UT,Salt Lake,49035,115-161,DISTRIBUTION,osm,way/1108375724,osm,snap_200m,,4,connected_lines,0.0,0,sub_type_excluded
+osm-way-685346858,,138.0,138.0,PACIFICORP,IN SERVICE (OSM),1,UT,Utah,49049,115-161,DISTRIBUTION,osm,way/685346858,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1110077269,,138.0,138.0,Rocky Mountain Power,IN SERVICE (OSM),3,UT,Utah,49049,115-161,DISTRIBUTION,osm,way/1110077269,osm,snap_200m,,3,osm_operator,0.0,0,sub_type_excluded
+osm-way-1211352147,Mayflower Substation,138.0,138.0,Rocky Mountain Power,IN SERVICE (OSM),1,UT,Wasatch,49051,115-161,DISTRIBUTION,osm,way/1211352147,osm,snap_200m,,1,osm_operator,0.0,0,sub_type_excluded
+osm-way-1068033379,Orange Grove Substation,138.0,138.0,TUCSON ELECTRIC POWER COMPANY,IN SERVICE (OSM),2,AZ,Pima,04019,115-161,DISTRIBUTION,osm,way/1068033379,osm,snap_200m,,2,connected_lines,0.0,0,sub_type_excluded
+osm-way-895034043,Kino Substation,138.0,13.8,Tucson Electric Power,IN SERVICE (OSM),0,AZ,Pima,04019,115-161,DISTRIBUTION,osm,way/895034043,osm,snap_200m,,0,osm_operator,150.0,1,sub_type_excluded
+osm-way-582714490,,138.0,138.0,Tucson Electric Power,IN SERVICE (OSM),0,AZ,Pima,04019,115-161,DISTRIBUTION,osm,way/582714490,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-1217914905,Google Data Center,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/1217914905,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1241192123,,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/1241192123,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-394317689,,120.0,120.0,SIERRA PACIFIC POWER COMPANY,IN SERVICE (OSM),1,NV,Storey,32029,115-161,DISTRIBUTION,osm,way/394317689,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1524720009,,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/1524720009,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1524720007,,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/1524720007,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-423863049,Tesla Gigafactory,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/423863049,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1292773720,,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/1292773720,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1131222574,,120.0,120.0,SIERRA PACIFIC POWER COMPANY,IN SERVICE (OSM),1,NV,Humboldt,32013,115-161,DISTRIBUTION,osm,way/1131222574,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-700963232,,120.0,120.0,,IN SERVICE (OSM),0,NV,Storey,32029,115-161,INDUSTRIAL,osm,way/700963232,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-889978037,,120.0,120.0,,IN SERVICE (OSM),0,NV,Mineral,32021,115-161,GENERATION,osm,way/889978037,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-1280381470,,115.0,115.0,Pacific Gas and Electric Company,IN SERVICE (OSM),1,CA,Yolo,06113,115-161,GENERATION,osm,way/1280381470,osm,snap_200m,,1,osm_operator,0.0,0,generator_or_collector
+osm-way-1097883112,,115.0,115.0,,IN SERVICE (OSM),0,NV,Humboldt,32013,115-161,GENERATION,osm,way/1097883112,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-337697782,,115.0,115.0,,IN SERVICE (OSM),1,NM,Cibola,35006,115-161,DISTRIBUTION,osm,way/337697782,osm,snap_200m,,1,,0.0,0,sub_type_excluded
+osm-way-1474290842,Humminbird Substation,115.0,115.0,,IN SERVICE (OSM),0,CA,Santa Clara,06085,115-161,TRANSITION,osm,way/1474290842,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1552705228,San Benito Substation,115.0,115.0,Pacific Gas and Electric Company,IN SERVICE (OSM),1,CA,San Benito,06069,115-161,MINOR_DISTRIBUTION,osm,way/1552705228,osm,snap_200m,,1,osm_operator,0.0,0,sub_type_excluded
+osm-way-1430102610,Markham Substation,115.0,115.0,Pacific Gas and Electric Company,IN SERVICE (OSM),1,CA,Santa Clara,06085,115-161,GENERATION,osm,way/1430102610,osm,snap_200m,,1,osm_operator,0.0,0,generator_or_collector
+osm-way-545072177,,115.0,115.0,,IN SERVICE (OSM),0,AZ,Pinal,04021,115-161,DISTRIBUTION,osm,way/545072177,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-583063491,,115.0,115.0,,IN SERVICE (OSM),0,AZ,Pima,04019,115-161,INDUSTRIAL,osm,way/583063491,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1147401980,,115.0,115.0,ARIZONA PUBLIC SERVICE COMPANY,IN SERVICE (OSM),1,AZ,La Paz,04012,115-161,DISTRIBUTION,osm,way/1147401980,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1339361401,,115.0,115.0,,IN SERVICE (OSM),2,AZ,Pinal,04021,115-161,GENERATION,osm,way/1339361401,osm,snap_200m,,2,,0.0,0,generator_or_collector
+osm-way-360180016,Fiesta Substation,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE (OSM),1,NM,Eddy,35015,115-161,DISTRIBUTION,osm,way/360180016,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1266586949,,115.0,115.0,,IN SERVICE (OSM),0,CA,San Joaquin,06077,115-161,MINOR_DISTRIBUTION,osm,way/1266586949,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-357946747,Lakewood Substation,115.0,115.0,,IN SERVICE (OSM),1,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/357946747,osm,snap_200m,,1,,0.0,0,sub_type_excluded
+osm-way-366780734,Capitan Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Chaves,35005,115-161,DISTRIBUTION,osm,way/366780734,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1218971819,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1218971819,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1344833737,Bensing Substation,115.0,115.0,LEA COUNTY ELECTRIC COOPERATIVE,IN SERVICE (OSM),1,NM,Lea,35025,115-161,DISTRIBUTION,osm,way/1344833737,osm,snap_200m,,1,connected_lines,155.0,1,sub_type_excluded
+osm-way-1343918509,Irish Hills Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1343918509,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1081876614,,115.0,115.0,CONTINENTAL DIVIDE ELECTIC COOPERATIVE,IN SERVICE (OSM),1,NM,Cibola,35006,115-161,DISTRIBUTION,osm,way/1081876614,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1286444315,,115.0,115.0,,IN SERVICE (OSM),1,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1286444315,osm,snap_200m,,1,,0.0,0,sub_type_excluded
+osm-way-1284513776,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1284513776,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1264749539,,115.0,115.0,,IN SERVICE (OSM),0,NM,Lea,35025,115-161,INDUSTRIAL,osm,way/1264749539,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1096249690,,115.0,115.0,UNKNOWN,IN SERVICE (OSM),1,NM,Torrance,35057,115-161,INDUSTRIAL,osm,way/1096249690,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-366769471,Brasher Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Chaves,35005,115-161,DISTRIBUTION,osm,way/366769471,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1191496041,South Substation,115.0,115.0,Meta,IN SERVICE (OSM),0,NM,Valencia,35061,115-161,INDUSTRIAL,osm,way/1191496041,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-1122510836,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1122510836,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1172324782,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,DISTRIBUTION,osm,way/1172324782,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1172322511,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,DISTRIBUTION,osm,way/1172322511,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1122510839,,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1122510839,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1158145600,DCP Zia Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Lea,35025,115-161,INDUSTRIAL,osm,way/1158145600,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1122510840,Wood Draw Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,DISTRIBUTION,osm,way/1122510840,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-1149778397,Lynch Substation,115.0,115.0,,IN SERVICE (OSM),1,NM,Lea,35025,115-161,INDUSTRIAL,osm,way/1149778397,osm,snap_200m,,1,,0.0,0,sub_type_excluded
+osm-way-1128253529,,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE (OSM),1,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/1128253529,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-1415818917,Manzanita Substation,115.0,12.5,Public Service Company of New Mexico,IN SERVICE (OSM),0,NM,Bernalillo,35001,115-161,DISTRIBUTION,osm,way/1415818917,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-901807716,Encino Sub,115.0,115.0,,IN SERVICE (OSM),1,NM,Sandoval,35043,115-161,GENERATION,osm,way/901807716,osm,snap_200m,,1,,0.0,0,generator_or_collector
+osm-way-397877460,Cimarron Solar Facility,115.0,115.0,First Solar,IN SERVICE (OSM),1,NM,Colfax,35007,115-161,TRANSMISSION,osm,way/397877460,osm,snap_200m,,1,osm_operator,0.0,0,generator_or_collector
+osm-way-690333137,CV Lusk Substation,115.0,115.0,,IN SERVICE (OSM),0,NM,Eddy,35015,115-161,INDUSTRIAL,osm,way/690333137,osm,snap_200m,,0,,0.0,0,sub_type_excluded
+osm-way-690514054,Hopi Substation,115.0,115.0,SOUTHWEST PUBLIC SERVICE COMPANY,IN SERVICE (OSM),1,NM,Eddy,35015,115-161,DISTRIBUTION,osm,way/690514054,osm,snap_200m,,1,connected_lines,0.0,0,sub_type_excluded
+osm-way-697035190,Kewa Substation,115.0,115.0,Public Service Company of New Mexico,IN SERVICE (OSM),1,NM,Sandoval,35043,115-161,MINOR_DISTRIBUTION,osm,way/697035190,osm,snap_200m,,1,osm_operator,0.0,0,sub_type_excluded
+osm-way-712415588,BDD Substation,115.0,115.0,,IN SERVICE (OSM),1,NM,Santa Fe,35049,115-161,INDUSTRIAL,osm,way/712415588,osm,snap_200m,,1,,0.0,0,sub_type_excluded
+osm-way-725427991,,115.0,115.0,,IN SERVICE (OSM),0,NM,Valencia,35061,115-161,GENERATION,osm,way/725427991,osm,snap_200m,,0,,0.0,0,generator_or_collector
+osm-way-757092656,Depot Substation,115.0,115.0,Meta,IN SERVICE (OSM),0,NM,Valencia,35061,115-161,INDUSTRIAL,osm,way/757092656,osm,snap_200m,,0,osm_operator,0.0,0,sub_type_excluded
+osm-way-877949267,Mendoza Substation,115.0,115.0,City of Gallup,IN SERVICE (OSM),1,NM,McKinley,35031,115-161,DISTRIBUTION,osm,way/877949267,osm,snap_200m,,1,osm_operator,0.0,0,sub_type_excluded
+osm-way-450363418,,115.0,115.0,,IN SERVICE (OSM),1,AZ,Pinal,04021,115-161,DISTRIBUTION,osm,way/450363418,osm,snap_200m,,1,,0.0,0,sub_type_excluded

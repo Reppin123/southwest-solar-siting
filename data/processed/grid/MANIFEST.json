@@ -1,0 +1,354 @@
+{
+ "domain": "grid",
+ "generated": "2026-10-21",
+ "script": "pipeline/process_grid.py",
+ "layers": [
+  {
+   "layer": "transmission_lines",
+   "path": "data/processed/grid/transmission_lines.geojson",
+   "full_res_path": "data/processed/grid/transmission_lines.gpkg",
+   "source_name": "HIFLD Electric Power Transmission Lines (layer Electric_Power_Transmission_Lines_A)",
+   "source_url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0",
+   "retrieved": "2026-10-21",
+   "record_count": 9086,
+   "raw_record_count_bbox": 11178,
+   "stats": {
+    "by_volt_class": {
+     "<115": 4452,
+     "115-161": 2660,
+     "230": 1079,
+     "unknown": 577,
+     "345": 163,
+     "500+": 155
+    },
+    "by_state": {
+     "CA": 4949,
+     "UT": 1848,
+     "AZ": 1103,
+     "NM": 742,
+     "NV": 444
+    },
+    "pieces_500kv_plus_by_state": {
+     "AZ": 48,
+     "CA": 73,
+     "NM": 3,
+     "NV": 28,
+     "UT": 3
+    },
+    "km_by_volt_class": {
+     "115-161": 31854.0,
+     "230": 30027.0,
+     "345": 12358.0,
+     "500+": 15133.0,
+     "<115": 30305.0,
+     "unknown": 3338.0
+    }
+   },
+   "fields": {
+    "id": "hifld-<HIFLD ID>-<state>; lines crossing a state border are split into one piece per state",
+    "hifld_id": "HIFLD line ID",
+    "voltage_kv": "HIFLD VOLTAGE in kV; null where HIFLD reports -999999 (unknown)",
+    "volt_class": "<115, 115-161, 230 (162-299 kV), 345 (300-499 kV), 500+, unknown",
+    "owner": "HIFLD OWNER",
+    "status": "HIFLD STATUS",
+    "state": "TIGER state the piece lies in",
+    "line_type": "HIFLD TYPE (AC/DC, overhead/underground)",
+    "sub_1": "HIFLD SUB_1 endpoint",
+    "sub_2": "HIFLD SUB_2 endpoint",
+    "voltage_inferred": "HIFLD INFERRED flag (Y = voltage inferred by HIFLD)",
+    "hifld_source": "HIFLD SOURCE",
+    "length_km": "piece length in EPSG:5070"
+   },
+   "caveats": [
+    "HIFLD coverage is mostly >=69 kV transmission; distribution lines are absent.",
+    "Voltages flagged voltage_inferred=Y were estimated by HIFLD; -999999 values are stored as null/unknown.",
+    "GeoJSON simplified with Douglas-Peucker 0.0003 deg (~30 m), 5-decimal coordinates; use the .gpkg for analysis.",
+    "Line locations show where lines are, not spare capacity."
+   ]
+  },
+  {
+   "layer": "substations",
+   "path": "data/processed/grid/substations.geojson",
+   "full_res_path": "data/processed/grid/substations.gpkg",
+   "source_name": "HIFLD Electric Substations (last public HIFLD release, ArcGIS Online mirror) + OpenStreetMap power=substation >=115 kV gap fill",
+   "source_url": "https://services5.arcgis.com/HDRa0B57OVrv2E1q/arcgis/rest/services/Electric_Substations/FeatureServer/0 ; https://overpass-api.de/api/interpreter",
+   "retrieved": "2026-10-21",
+   "record_count": 7883,
+   "raw_record_count_bbox": 9148,
+   "stats": {
+    "by_source": {
+     "hifld": 7553,
+     "osm": 330
+    },
+    "by_state": {
+     "CA": 4337,
+     "UT": 1433,
+     "AZ": 949,
+     "NM": 729,
+     "NV": 435
+    },
+    "by_volt_class": {
+     "<115": 4065,
+     "115-161": 2395,
+     "230": 875,
+     "unknown": 279,
+     "345": 154,
+     "500+": 115
+    },
+    "kv_source": {
+     "hifld": 7011,
+     "osm": 330,
+     "None": 279,
+     "inferred_from_lines": 180,
+     "osm_match": 83
+    },
+    "with_queue_poi_match": 208,
+    "osm_crosscheck": {
+     "osm_substations_ge115kv": 2194,
+     "osm_matched_to_hifld_within_m": 1500,
+     "osm_matched": 1856,
+     "osm_added": 330,
+     "osm_added_by_state": {
+      "NM": 111,
+      "CA": 77,
+      "AZ": 57,
+      "NV": 56,
+      "UT": 29
+     },
+     "hifld_voltage_filled_from_osm": 83,
+     "hifld_voltage_inferred_from_lines": 180
+    },
+    "osm_query": "area[\"ISO3166-2\"=\"US-<ST>\"]; nwr[\"power\"=\"substation\"][\"voltage\"~\"(^|;)(11[5-9]|1[2-9][0-9]|[2-9][0-9]{2})[0-9]{3}($|;)\"](area); out center tags;",
+    "osm_retrieved": "2026-10-21"
+   },
+   "fields": {
+    "id": "hifld-<HIFLD ID> or osm-<type>-<osm id>",
+    "name": "HIFLD NAME (UNKNOWNnnnn = unnamed) or OSM name",
+    "max_kv": "max voltage kV (see kv_source)",
+    "min_kv": "min voltage kV",
+    "owner": "OSM operator for OSM records; for HIFLD records (no owner field) the most common OWNER of HIFLD lines within 200 m",
+    "status": "HIFLD STATUS or 'IN SERVICE (OSM)'",
+    "lines": "HIFLD LINES if >0, else count of distinct HIFLD lines within 200 m",
+    "state": "TIGER 2024 state containing the point",
+    "county": "TIGER 2024 county name containing the point",
+    "county_fips": "5-digit county FIPS",
+    "volt_class": "class of max_kv (same bins as lines)",
+    "sub_type": "HIFLD TYPE (SUBSTATION, TAP, RISER...) or OSM substation=* tag",
+    "source": "hifld or osm",
+    "osm_id": "OSM element for source=osm",
+    "kv_source": "hifld | osm_match (HIFLD unknown, taken from OSM match) | inferred_from_lines | osm | null",
+    "lines_source": "hifld or snap_200m",
+    "lines_hifld": "raw HIFLD LINES",
+    "lines_snapped": "distinct HIFLD lines within 200 m",
+    "owner_source": "osm_operator or connected_lines",
+    "queue_active_mw": "active Queued Up MW whose POI name matches this substation name (approximate)",
+    "queue_n_active": "count of those projects"
+   },
+   "caveats": [
+    "HIFLD Electric Substations is no longer on HIFLD Open; the copy used is a public ArcGIS Online mirror of the last public release (data last edited 2021-02-25), so substations built since are missing unless OSM has them.",
+    "OSM substations tagged >=115 kV were added only when no HIFLD substation lay within 1500 m; OSM tags are volunteer-mapped and may include plant collector substations (sub_type GENERATION) that are not open POIs.",
+    "Where HIFLD max voltage is unknown it was filled from a matched OSM record or from the highest-voltage HIFLD line within 200 m (kv_source tells which).",
+    "HIFLD substations carry no owner; owner is inferred from connected lines and may be wrong at shared/interconnection stations.",
+    "queue_active_mw uses exact matches of normalised POI names to substation names in the same state; many POIs are line taps or unmatched names, so 0 does not mean no queue.",
+    "No public data on spare capacity; queue volume is only a congestion proxy."
+   ]
+  },
+  {
+   "layer": "queue_projects",
+   "path": "data/processed/grid/queue_projects.csv",
+   "source_name": "Berkeley Lab Queued Up 2026 Edition project-level data (through end of 2025); CAISO Public Queue Report (Grid Generation Queue)",
+   "source_url": "https://emp.lbl.gov/queues ; https://eta-publications.lbl.gov/sites/default/files/2026-05/lbnl_ix_queue_data_file_thru2025.xlsx ; https://www.caiso.com/documents/publicqueuereport.xlsx",
+   "retrieved": "2026-10-21",
+   "record_count": 6051,
+   "stats": {
+    "by_status": {
+     "withdrawn": 4245,
+     "active": 1191,
+     "operational": 494,
+     "suspended": 114,
+     "unknown": 7
+    },
+    "active_by_state_type_mw": {
+     "AZ": {
+      "gas": 3412.0,
+      "hybrid": 65664.0,
+      "other": 18927.0,
+      "solar": 2576.0,
+      "storage": 11623.0,
+      "wind": 4408.0
+     },
+     "CA": {
+      "gas": 690.0,
+      "hybrid": 113009.0,
+      "other": 2859.0,
+      "solar": 5524.0,
+      "storage": 53570.0,
+      "wind": 2281.0
+     },
+     "NM": {
+      "gas": 1601.0,
+      "hybrid": 12763.0,
+      "other": 518.0,
+      "solar": 3628.0,
+      "storage": 6070.0,
+      "wind": 3328.0
+     },
+     "NV": {
+      "gas": 4651.0,
+      "hybrid": 35034.0,
+      "other": 4663.0,
+      "solar": 2658.0,
+      "storage": 7952.0,
+      "wind": 0.0
+     },
+     "UT": {
+      "gas": 2814.0,
+      "hybrid": 20202.0,
+      "other": 564.0,
+      "solar": 2052.0,
+      "storage": 5824.0,
+      "wind": 402.0
+     }
+    },
+    "active_with_poi_sub_match": 508,
+    "active_total": 1191,
+    "filled_from_caiso": "poi/county filled from CAISO report where Queued Up blank (see source column)"
+   },
+   "fields": {
+    "queue_id": "<entity>:<q_id>, with #n suffix where LBNL repeats a q_id (unique)",
+    "entity": "transmission provider (ISO or utility)",
+    "poi_name": "point of interconnection as reported",
+    "state": "state",
+    "county": "TIGER 2024 county name (first listed county for multi-county projects)",
+    "type": "solar / storage / wind / gas / hybrid (any multi-type) / other",
+    "mw": "sum of mw_1+mw_2+mw_3 (generator + storage nameplate, matches LBNL capacity totals)",
+    "status": "active / withdrawn / operational, plus suspended (LBNL 'suspended', not counted as active, matching the report) and unknown (LBNL 'unknown')",
+    "queue_date": "date entered queue",
+    "source": "data source",
+    "status_raw": "LBNL q_status",
+    "type_clean": "LBNL type_clean",
+    "mw_solar": "solar component MW",
+    "mw_storage": "battery / other-storage component MW",
+    "county_fips": "county FIPS",
+    "project_name": "project name (LBNL, else CAISO report)",
+    "utility": "utility",
+    "service": "ERIS/NRIS etc",
+    "study_phase": "LBNL IA_phase_clean",
+    "prop_date": "proposed online date",
+    "q_year": "queue year",
+    "poi_sub_id": "matched substations.geojson id (approximate name match) or blank"
+   },
+   "caveats": [
+    "Active storage MW here is well below the Queued Up report's state storage totals (ours / report: AZ 0.48, CA 0.87, NM 0.40, NV 0.48, UT 0.46). The report's state storage totals include storage it imputes for hybrid projects (e.g. solar+storage with no storage MW given); the project-level file does not contain those imputed values, so they are missing here. Active solar MW matches the report exactly (ratio AZ 1.00, CA 1.00, NM 1.00, NV 1.00, UT 1.00).",
+    "NV Energy queue rows have no POI name in Queued Up.",
+    "Queue data is a snapshot through 2025-12-31; CAISO report is newer but only used to fill blanks.",
+    "Suspended requests are kept with status=suspended and excluded from active totals, as in the Queued Up report; they still hold queue positions (NV has about 17 GW of suspended solar)."
+   ]
+  },
+  {
+   "layer": "queue_by_county",
+   "path": "data/processed/grid/queue_by_county.csv",
+   "source_name": "derived from queue_projects.csv (status=active)",
+   "source_url": "https://emp.lbl.gov/queues",
+   "retrieved": "2026-10-21",
+   "record_count": 104,
+   "fields": {
+    "state": "state",
+    "county": "TIGER county name",
+    "active_mw_total": "sum of mw for active projects",
+    "active_mw_solar": "solar component MW",
+    "active_mw_storage": "storage component MW",
+    "n_projects": "active project count",
+    "county_fips": "county FIPS"
+   },
+   "caveats": [
+    "Projects with no county are grouped as '(county not reported)'."
+   ]
+  },
+  {
+   "layer": "queue_state_check",
+   "path": "data/processed/grid/queue_state_check.csv",
+   "source_name": "comparison of queue_projects active totals vs Queued Up 2026 workbook sheet '11. Active Cap. Maps' (state x type GW)",
+   "source_url": "https://emp.lbl.gov/queues",
+   "retrieved": "2026-10-21",
+   "record_count": 5,
+   "fields": {
+    "state": "see column name; ratio = ours / report",
+    "ours_active_gw_all": "see column name; ratio = ours / report",
+    "ours_active_gw_solar": "see column name; ratio = ours / report",
+    "ours_active_gw_storage": "see column name; ratio = ours / report",
+    "ours_n_active": "see column name; ratio = ours / report",
+    "lbnl_report_gw_5types": "see column name; ratio = ours / report",
+    "lbnl_report_gw_solar": "see column name; ratio = ours / report",
+    "lbnl_report_gw_storage": "see column name; ratio = ours / report",
+    "solar_ratio": "see column name; ratio = ours / report",
+    "storage_ratio": "see column name; ratio = ours / report"
+   },
+   "comparison": [
+    {
+     "state": "AZ",
+     "ours_active_gw_all": 106.609,
+     "ours_active_gw_solar": 50.159,
+     "ours_active_gw_storage": 28.402,
+     "ours_n_active": 273,
+     "lbnl_report_gw_5types": 118.391,
+     "lbnl_report_gw_solar": 50.159,
+     "lbnl_report_gw_storage": 59.112,
+     "solar_ratio": 1.0,
+     "storage_ratio": 0.48
+    },
+    {
+     "state": "CA",
+     "ours_active_gw_all": 177.933,
+     "ours_active_gw_solar": 64.116,
+     "ours_active_gw_storage": 100.112,
+     "ours_n_active": 460,
+     "lbnl_report_gw_5types": 189.276,
+     "lbnl_report_gw_solar": 64.116,
+     "lbnl_report_gw_storage": 114.835,
+     "solar_ratio": 1.0,
+     "storage_ratio": 0.872
+    },
+    {
+     "state": "NM",
+     "ours_active_gw_all": 27.909,
+     "ours_active_gw_solar": 14.977,
+     "ours_active_gw_storage": 6.92,
+     "ours_n_active": 144,
+     "lbnl_report_gw_5types": 37.904,
+     "lbnl_report_gw_solar": 14.977,
+     "lbnl_report_gw_storage": 17.434,
+     "solar_ratio": 1.0,
+     "storage_ratio": 0.397
+    },
+    {
+     "state": "NV",
+     "ours_active_gw_all": 54.958,
+     "ours_active_gw_solar": 29.201,
+     "ours_active_gw_storage": 16.093,
+     "ours_n_active": 173,
+     "lbnl_report_gw_5types": 67.86,
+     "lbnl_report_gw_solar": 29.201,
+     "lbnl_report_gw_storage": 33.658,
+     "solar_ratio": 1.0,
+     "storage_ratio": 0.478
+    },
+    {
+     "state": "UT",
+     "ours_active_gw_all": 31.857,
+     "ours_active_gw_solar": 18.199,
+     "ours_active_gw_storage": 9.873,
+     "ours_n_active": 141,
+     "lbnl_report_gw_5types": 43.018,
+     "lbnl_report_gw_solar": 18.199,
+     "lbnl_report_gw_storage": 21.597,
+     "solar_ratio": 1.0,
+     "storage_ratio": 0.457
+    }
+   ],
+   "caveats": [
+    "Report state totals cover 5 types (Gas, Offshore Wind, Solar, Storage, Wind); ours_active_gw_all includes all types."
+   ]
+  }
+ ]
+}

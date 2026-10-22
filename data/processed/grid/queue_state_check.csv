@@ -1,0 +1,6 @@
+state,ours_active_gw_all,ours_active_gw_solar,ours_active_gw_storage,ours_n_active,lbnl_report_gw_5types,lbnl_report_gw_solar,lbnl_report_gw_storage,solar_ratio,storage_ratio
+AZ,106.609,50.159,28.402,273,118.391,50.159,59.112,1.0,0.48
+CA,177.933,64.116,100.112,460,189.276,64.116,114.835,1.0,0.872
+NM,27.909,14.977,6.92,144,37.904,14.977,17.434,1.0,0.397
+NV,54.958,29.201,16.093,173,67.86,29.201,33.658,1.0,0.478
+UT,31.857,18.199,9.873,141,43.018,18.199,21.597,1.0,0.457

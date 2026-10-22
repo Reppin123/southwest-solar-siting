@@ -1,0 +1,22 @@
+layer,hard_features,sites_intersecting,overlap_acres
+exclusions_full.gpkg:nps,495,0,0.0
+exclusions_full.gpkg:wilderness,1638,0,0.0
+exclusions_full.gpkg:nca_acec,5602,0,0.0
+exclusions_full.gpkg:critical_habitat,4007,0,0.0
+exclusions_full.gpkg:flood_zone_a,102749,0,0.0
+exclusions_full.gpkg:tribal,1768,0,0.0
+exclusions_full.gpkg:military,818,0,0.0
+exclusions_full.gpkg:wetlands,0,0,0.0
+exclusions_full.gpkg:urban,1189,0,0.0
+exclusions_full.gpkg:slope_gt5,15074,0,0.0
+exclusions/critical_habitat.geojson,4007,0,0.0
+exclusions/flood_zone_a.geojson,22,0,0.0
+exclusions/military.geojson,818,0,0.0
+exclusions/nca_acec.geojson,5602,0,0.0
+exclusions/nps.geojson,495,0,0.0
+exclusions/slope_gt5.geojson,15074,0,0.0
+exclusions/tribal.geojson,1768,0,0.0
+exclusions/urban.geojson,1189,0,0.0
+exclusions/wetlands.geojson,0,0,0.0
+exclusions/wilderness.geojson,1638,0,0.0
+ownership.gpkg: Tribal/NPS/DOD,2808,0,0.0

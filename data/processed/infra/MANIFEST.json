@@ -1,0 +1,377 @@
+[
+  {
+    "layer": "power_plants",
+    "path": "data/processed/infra/power_plants.geojson",
+    "source_name": "US EIA Form EIA-860 Annual Electric Generator Report, 2025 data (zip files dated 2026-09-09)",
+    "source_url": "https://www.eia.gov/electricity/data/eia860/",
+    "retrieved": "2026-10-21",
+    "record_count": 3025,
+    "counts_by_state": {
+      "CA": 2250,
+      "AZ": 254,
+      "NM": 214,
+      "UT": 155,
+      "NV": 152
+    },
+    "fields": {
+      "plant_id": "EIA plant code",
+      "plant": "plant name",
+      "utility": "operating utility",
+      "state": "state",
+      "county": "county",
+      "lat": "latitude",
+      "lon": "longitude",
+      "tech": "dominant technology class by MW among operable+proposed generators (solar, wind, storage, gas, coal, nuclear, hydro, geothermal, oil, biomass, other)",
+      "technologies": "EIA technology names, largest MW first (up to 4)",
+      "mw": "nameplate MW for the plant's status (operable MW if operating, else proposed MW, else retired MW)",
+      "mw_operable": "nameplate MW of operable generators (status OP, SB, OS, OA)",
+      "mw_proposed": "nameplate MW of proposed generators (planned, under construction, etc.)",
+      "mw_retired": "nameplate MW of retired generators",
+      "status": "operating / proposed / retired / canceled (plant level, derived from generator statuses)",
+      "status_codes": "EIA generator status codes present at the plant",
+      "n_generators": "generator rows at the plant",
+      "first_operating_year": "earliest operating year of operable units",
+      "last_operating_year": "latest operating year of operable units",
+      "balancing_authority": "EIA balancing authority code",
+      "sector": "EIA sector",
+      "grid_voltage_kv": "reported grid interconnection voltage (kV)",
+      "td_owner": "transmission/distribution system owner"
+    },
+    "caveats": [
+      "Plants are EIA-860 respondents (generally 1 MW and larger). Behind-the-meter and small distributed solar are not included.",
+      "Proposed generators are self-reported plans and many never get built; treat proposed MW as indicative.",
+      "Retired plants are kept because retired thermal sites often keep their interconnection and are candidates for reuse; filter on status.",
+      "1 plant(s) in the five states had no coordinates in the plant file and were dropped.",
+      "Generator-level detail is in power_generators.csv; per-state counts in power_plants_by_state.csv."
+    ]
+  },
+  {
+    "layer": "power_generators",
+    "path": "data/processed/infra/power_generators.csv",
+    "source_name": "US EIA Form EIA-860, 2025 data, file 3_1 Generator (Operable, Proposed, Retired and Canceled sheets)",
+    "source_url": "https://www.eia.gov/electricity/data/eia860/",
+    "retrieved": "2026-10-21",
+    "record_count": 5989,
+    "fields": {
+      "plant_id": "plant id",
+      "plant": "plant",
+      "state": "state",
+      "county": "county",
+      "generator_id": "generator id",
+      "technology": "technology",
+      "tech_class": "tech class",
+      "prime_mover": "prime mover",
+      "energy_source": "energy source",
+      "mw": "mw",
+      "status_code": "status code",
+      "status_group": "status group",
+      "operating_year": "operating year",
+      "planned_retirement_year": "planned retirement year",
+      "retirement_year": "retirement year",
+      "proposed_year": "proposed year",
+      "proposed_effective_year": "proposed effective year"
+    },
+    "caveats": [
+      "status_group 'canceled' is generator status CN from the Retired and Canceled sheet."
+    ]
+  },
+  {
+    "layer": "roads_major",
+    "path": "data/processed/infra/roads_major.geojson",
+    "source_name": "US Census Bureau TIGER/Line 2025 Primary Roads (MTFCC S1100)",
+    "source_url": "https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/",
+    "retrieved": "2026-10-21",
+    "record_count": 1730,
+    "counts_by_class": {
+      "other": 652,
+      "interstate": 441,
+      "state_highway": 423,
+      "us_highway": 214
+    },
+    "fields": {
+      "id": "TIGER LINEARID",
+      "name": "TIGER full name",
+      "route_type": "TIGER RTTYP (I interstate, U US, S state, C county, M common name, O other)",
+      "road_class": "interstate / us_highway / state_highway / other",
+      "mtfcc": "MAF/TIGER feature class code",
+      "state": "state the segment was clipped to"
+    },
+    "caveats": [
+      "Primary roads only (limited-access divided highways, mostly interstates and some US/state routes). Secondary and local access roads are not included; site access roads must be checked separately.",
+      "App file simplified to 30 m tolerance; full resolution in roads_major.gpkg."
+    ]
+  },
+  {
+    "layer": "fiber",
+    "path": "data/processed/infra/fiber.geojson",
+    "source_name": "PROXY. OpenStreetMap telecom/communication lines (Overpass API) + interstate corridors (TIGER 2025) + Class I main-line rail corridors (BTS NTAD North American Rail Network)",
+    "source_url": "https://overpass-api.de/ ; https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/ ; https://geodata.bts.gov/datasets/usdot::north-american-rail-network-lines",
+    "retrieved": "2026-10-21",
+    "record_count": 1105,
+    "counts_by_basis": {
+      "osm_telecom_line": 933,
+      "proxy_class1_rail_corridor": 116,
+      "proxy_interstate_corridor": 47,
+      "osm_fiber_tagged": 9
+    },
+    "km_by_basis": {
+      "osm_fiber_tagged": 2.0,
+      "osm_telecom_line": 285.0,
+      "proxy_class1_rail_corridor": 14501.0,
+      "proxy_interstate_corridor": 20123.0
+    },
+    "fields": {
+      "id": "feature id (osm_way_<id> or proxy_*)",
+      "basis": "osm_fiber_tagged (OSM line tagged fibre), osm_telecom_line (OSM communication/telecom line, medium unknown), proxy_interstate_corridor, proxy_class1_rail_corridor",
+      "is_proxy": "true unless the OSM feature is explicitly tagged as fibre",
+      "name": "name (OSM name, interstate name, or railroad + subdivision)",
+      "operator": "OSM operator or railroad owner",
+      "medium": "OSM telecom:medium / cable tag",
+      "location": "OSM location tag (underground/overhead)",
+      "state": "state"
+    },
+    "caveats": [
+      "This is a PROXY for long-haul fiber, not a carrier route map. No free, complete public map of US long-haul fiber exists; carrier route maps are proprietary or published only as images.",
+      "OSM coverage of fiber is sparse and uneven; most OSM lines here are utility communication lines (for example SCE, PG&E, TEP) whose medium is not tagged.",
+      "Interstate and Class I main-line rail corridors are included because published research (Durairajan et al., 'InterTubes', ACM SIGCOMM 2015) found US long-haul fiber is largely co-located with road and rail rights-of-way. Presence of a corridor does not prove fiber or available capacity.",
+      "FCC Broadband Data Collection reports service availability by location, not routes, so it was not used for route geometry.",
+      "Confirm fiber availability, carriers and lateral cost with providers before any data center decision.",
+      "App file simplified to 30 m tolerance; full resolution in fiber.gpkg."
+    ]
+  },
+  {
+    "layer": "water_stress",
+    "path": "data/processed/infra/water_stress.geojson",
+    "source_name": "WRI Aqueduct 4.0 Water Risk Atlas, baseline annual indicators (data version Y2023M07D05)",
+    "source_url": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+    "retrieved": "2026-10-21",
+    "record_count": 583,
+    "counts_by_bws_label": {
+      "Extremely High (>80%)": 195,
+      "Arid and Low Water Use": 125,
+      "Low (<10%)": 96,
+      "Low - Medium (10-20%)": 64,
+      "High (40-80%)": 53,
+      "Medium - High (20-40%)": 44,
+      "No Data": 6
+    },
+    "fields": {
+      "aq_id": "Aqueduct unit id (HydroBASINS level 6 basin x state)",
+      "pfaf_id": "HydroBASINS Pfafstetter basin id",
+      "gid_1": "GADM state id",
+      "state": "state",
+      "area_km2": "unit area km2",
+      "bws_raw": "baseline water stress: ratio of total withdrawals to available renewable supply",
+      "bws_score": "baseline water stress score 0-5 (5 = extremely high)",
+      "bws_cat": "category: -1 arid and low water use, 0 low (<10%), 1 low-medium (10-20%), 2 medium-high (20-40%), 3 high (40-80%), 4 extremely high (>80%)",
+      "bws_label": "text label for bws_cat",
+      "bwd_score": "baseline water depletion score 0-5",
+      "bwd_label": "label",
+      "iav_score": "interannual variability score 0-5",
+      "iav_label": "label",
+      "sev_score": "seasonal variability score 0-5",
+      "sev_label": "label",
+      "gtd_raw": "groundwater table decline (cm/yr)",
+      "gtd_score": "groundwater table decline score 0-5",
+      "gtd_label": "label",
+      "drr_score": "drought risk score 0-5",
+      "drr_label": "label",
+      "water_stress": "copy of bws_score (0-5); the field screening uses"
+    },
+    "caveats": [
+      "Aqueduct is a global model at sub-basin scale (baseline period 1979-2019); it does not show local water rights, aquifer yield or utility supply. Use it as a regional screen only.",
+      "App file simplified coverage-preserving (shared edges kept) at 500 m; full resolution in water_stress.gpkg.",
+      "Groundwater rules matter more than basin stress for a data center or solar wash-water supply. Arizona: under the 1980 Groundwater Management Act, groundwater in Active Management Areas (AMAs: Phoenix, Pinal, Prescott, Tucson, Santa Cruz, Willcox, Douglas, Ranegras Plain) is regulated by ADWR; new non-exempt uses generally need a grandfathered right, a withdrawal permit or service from a provider, and new subdivisions need an Assured Water Supply. Irrigation Non-expansion Areas (INAs) limit new irrigated acres. Boundaries are in az_ama_ina.geojson. Outside AMAs and INAs groundwater pumping is far less restricted.",
+      "Other states (general, verify before relying on it): California's Sustainable Groundwater Management Act (SGMA, 2014) requires Groundwater Sustainability Plans in medium and high priority basins, and many basins now limit pumping; Nevada's State Engineer manages designated basins and many are fully or over-appropriated, so new water usually means buying or transferring existing rights; New Mexico's State Engineer administers declared groundwater basins (most of the state) and new appropriations require a permit; Utah's State Engineer (Division of Water Rights) issues appropriations and many basins are closed to new appropriations.",
+      "Dry or hybrid cooling cuts data center water use sharply; low water stress is not required for a site if cooling design is chosen accordingly."
+    ]
+  },
+  {
+    "layer": "az_ama_ina",
+    "path": "data/processed/infra/az_ama_ina.geojson",
+    "source_name": "Arizona Department of Water Resources, AMA and INA boundaries (AMA_INA_2024 feature service)",
+    "source_url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/AMA_INA_2024/FeatureServer/0",
+    "retrieved": "2026-10-21",
+    "record_count": 11,
+    "fields": {
+      "name": "AMA or INA name",
+      "abbr": "ADWR abbreviation",
+      "kind": "AMA (Active Management Area) or INA (Irrigation Non-expansion Area)",
+      "state": "AZ"
+    },
+    "caveats": [
+      "Boundaries simplified at 100 m. Groundwater rules differ inside each AMA; confirm with ADWR."
+    ]
+  },
+  {
+    "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+    "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+    "retrieved": "2026-10-21",
+    "fields": {
+      "case_id": "MLRS case serial number",
+      "legacy_case_id": "LR2000 legacy serial number",
+      "project_name": "case name in MLRS (often blank)",
+      "customer": "applicant or holder (one customer per record)",
+      "customer_role": "customer relationship (Applicant, Holder/billee, ...)",
+      "case_type": "BLM product (e.g. Solar Development Grant, Solar Site Test)",
+      "case_type_code": "MLRS case type number",
+      "commodity": "MLRS commodity",
+      "status": "case disposition (Authorized, Pending, Interim, Closed)",
+      "active": "true if status is Authorized, Pending or Interim",
+      "status_date": "disposition date (UTC)",
+      "field_office": "BLM jurisdiction office",
+      "state": "state",
+      "acres": "acres recorded in MLRS",
+      "mw": "MW as stated in the MLRS case name (e.g. 'Sunbeam Ridge Solar LLC, 1338MW'); null when the name states none. MLRS has no MW field",
+      "mw_est_low": "rough MW estimate = acres / 7 (SCOPE rule of thumb; Solar Development grants/leases only)",
+      "mw_est_high": "rough MW estimate = acres / 5",
+      "geom_source": "MLRS geometry source (MIGRATE, LLD/CLS)",
+      "centroid_lat": "representative point latitude",
+      "centroid_lon": "representative point longitude"
+    },
+    "layer": "blm_solar_row_cases",
+    "path": "data/processed/infra/blm_solar_row_cases.geojson",
+    "record_count": 307,
+    "counts_by_state_status": {
+      "AZ": {
+        "Authorized": 6,
+        "Closed": 94,
+        "Interim": 2,
+        "Pending": 56
+      },
+      "CA": {
+        "Authorized": 35,
+        "Closed": 223,
+        "Interim": 5,
+        "Pending": 34
+      },
+      "NM": {
+        "Authorized": 1,
+        "Closed": 19,
+        "Interim": 1,
+        "Pending": 13
+      },
+      "NV": {
+        "Authorized": 44,
+        "Closed": 159,
+        "Interim": 6,
+        "Pending": 128
+      },
+      "UT": {
+        "Authorized": 4,
+        "Closed": 10,
+        "Pending": 14
+      }
+    },
+    "caveats": [
+      "Active cases only (Authorized, Pending, Interim).",
+      "Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint.",
+      "MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data.",
+      "Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases.",
+      "47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only.",
+      "Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+    ]
+  },
+  {
+    "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+    "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+    "retrieved": "2026-10-21",
+    "fields": {
+      "case_id": "MLRS case serial number",
+      "legacy_case_id": "LR2000 legacy serial number",
+      "project_name": "case name in MLRS (often blank)",
+      "customer": "applicant or holder (one customer per record)",
+      "customer_role": "customer relationship (Applicant, Holder/billee, ...)",
+      "case_type": "BLM product (e.g. Solar Development Grant, Solar Site Test)",
+      "case_type_code": "MLRS case type number",
+      "commodity": "MLRS commodity",
+      "status": "case disposition (Authorized, Pending, Interim, Closed)",
+      "active": "true if status is Authorized, Pending or Interim",
+      "status_date": "disposition date (UTC)",
+      "field_office": "BLM jurisdiction office",
+      "state": "state",
+      "acres": "acres recorded in MLRS",
+      "mw": "MW as stated in the MLRS case name (e.g. 'Sunbeam Ridge Solar LLC, 1338MW'); null when the name states none. MLRS has no MW field",
+      "mw_est_low": "rough MW estimate = acres / 7 (SCOPE rule of thumb; Solar Development grants/leases only)",
+      "mw_est_high": "rough MW estimate = acres / 5",
+      "geom_source": "MLRS geometry source (MIGRATE, LLD/CLS)",
+      "centroid_lat": "representative point latitude",
+      "centroid_lon": "representative point longitude"
+    },
+    "layer": "blm_solar_row_cases_closed",
+    "path": "data/processed/infra/blm_solar_row_cases_closed.geojson",
+    "record_count": 500,
+    "caveats": [
+      "Closed cases (rejected, withdrawn, relinquished, expired or terminated); useful history of where developers have tried.",
+      "Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint.",
+      "MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data.",
+      "Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases.",
+      "47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only.",
+      "Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+    ]
+  },
+  {
+    "source_name": "BLM Mineral and Land Records System (MLRS), BLM Natl MLRS Land Use Authorization - Rights of Way, filtered to commodity SOLAR ENERGY FACILITIES",
+    "source_url": "https://nlsdbpubgis.blm.gov/arcgishub/rest/services/HUB/BLM_Natl_MLRS_LUA_ROW/FeatureServer/0",
+    "retrieved": "2026-10-21",
+    "fields": {
+      "case_id": "MLRS case serial number",
+      "legacy_case_id": "LR2000 legacy serial number",
+      "project_name": "case name in MLRS (often blank)",
+      "customer": "applicant or holder (one customer per record)",
+      "customer_role": "customer relationship (Applicant, Holder/billee, ...)",
+      "case_type": "BLM product (e.g. Solar Development Grant, Solar Site Test)",
+      "case_type_code": "MLRS case type number",
+      "commodity": "MLRS commodity",
+      "status": "case disposition (Authorized, Pending, Interim, Closed)",
+      "active": "true if status is Authorized, Pending or Interim",
+      "status_date": "disposition date (UTC)",
+      "field_office": "BLM jurisdiction office",
+      "state": "state",
+      "acres": "acres recorded in MLRS",
+      "mw": "MW as stated in the MLRS case name (e.g. 'Sunbeam Ridge Solar LLC, 1338MW'); null when the name states none. MLRS has no MW field",
+      "mw_est_low": "rough MW estimate = acres / 7 (SCOPE rule of thumb; Solar Development grants/leases only)",
+      "mw_est_high": "rough MW estimate = acres / 5",
+      "geom_source": "MLRS geometry source (MIGRATE, LLD/CLS)",
+      "centroid_lat": "representative point latitude",
+      "centroid_lon": "representative point longitude"
+    },
+    "layer": "blm_solar_row_cases_table",
+    "path": "data/processed/infra/blm_solar_row_cases.csv",
+    "record_count": 854,
+    "caveats": [
+      "All cases, active and closed, including those without geometry; use centroid_lat/lon for points.",
+      "Polygons are BLM's geocoding of each case's legal land description to PLSS, often to whole sections or aliquots; they show where a case sits, not the project footprint.",
+      "MLRS has no MW field. mw is parsed from the case name text where the applicant wrote it (not verified; may be AC or DC); mw_est_low/high are acreage-based estimates (5 to 7 acres per MW) and are not project data.",
+      "Includes all solar-commodity ROW case types (development grants, site and project-area testing, leases, related transmission and access). Filter on case_type for development cases.",
+      "47 case(s) had no mapped geometry in MLRS; they are listed in blm_solar_row_cases.csv only.",
+      "Data reflect MLRS as published on the BLM hub at retrieval; check MLRS (mlrs.blm.gov) for current status before relying on any case."
+    ]
+  },
+  {
+    "layer": "data_centers_osm",
+    "path": "data/processed/infra/data_centers_osm.geojson",
+    "source_name": "OpenStreetMap features tagged telecom=data_center or building=data_center (Overpass API)",
+    "source_url": "https://overpass-api.de/",
+    "retrieved": "2026-10-21",
+    "record_count": 258,
+    "counts_by_state": {
+      "CA": 116,
+      "AZ": 64,
+      "NV": 39,
+      "UT": 22,
+      "NM": 17
+    },
+    "fields": {
+      "id": "OSM element id",
+      "name": "OSM name",
+      "operator": "OSM operator",
+      "osm_tag": "tag that matched",
+      "city": "OSM addr:city",
+      "state": "state"
+    },
+    "caveats": [
+      "Volunteer-mapped and incomplete; many data centers are unmapped or unnamed, and one campus can appear as several buildings. No capacity (MW) data. Use as context only."
+    ]
+  }
+]

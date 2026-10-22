@@ -1,0 +1,6 @@
+ranking,field,sites,sites_using_excluded_poi,examples
+top 50 solar,nearest_sub_id,50,0,
+top 50 solar,nearest_sub230_id,50,0,
+top 50 dc,nearest_sub_id,50,0,
+top 50 dc,nearest_sub230_id,50,0,
+"v1 top 50 (before fixes, for reference)",nearest_sub_id,50,0,
