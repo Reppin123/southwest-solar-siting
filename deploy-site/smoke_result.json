@@ -1,0 +1,57 @@
+{
+ "url": "https://southwest-solar-siting.akshitbansal1313.workers.dev",
+ "when": "2026-10-22 01:25 PDT",
+ "checks": [
+  {
+   "check": "landing 200 with title",
+   "ok": true,
+   "detail": "Southwest Solar and Data Center Siting"
+  },
+  {
+   "check": "landing links to v2, v1, How to Read, Excel, memos, review",
+   "ok": true,
+   "detail": "42 links"
+  },
+  {
+   "check": "site memo renders as HTML",
+   "ok": true,
+   "detail": "app/doc.html?f=../deliverables/site_memos/01_SW-NM-00001.md"
+  },
+  {
+   "check": "v2 map loads all sites",
+   "ok": true,
+   "detail": "25733 sites, ['AZ', 'CA', 'NM', 'NV', 'UT'], 3.1 s"
+  },
+  {
+   "check": "v2 map draws candidate sites",
+   "ok": true,
+   "detail": "25733 rendered features"
+  },
+  {
+   "check": "v2 ranked table filled",
+   "ok": true,
+   "detail": "400 rows"
+  },
+  {
+   "check": "v2 scorecard opens for the top site",
+   "ok": true,
+   "detail": "SW-NM-00001"
+  },
+  {
+   "check": "v2 #guide opens How to Read This",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "v1 map loads all sites",
+   "ok": true,
+   "detail": "25733 sites"
+  },
+  {
+   "check": "no console errors, page errors or failed requests",
+   "ok": true,
+   "detail": "none"
+  }
+ ],
+ "errors": []
+}
