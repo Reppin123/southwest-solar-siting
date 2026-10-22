@@ -1,0 +1,212 @@
+2026-10-21 18:17:28,148 fetch_infra INFO start fetch (force=False only=files)
+2026-10-21 18:17:28,148 fetch_infra INFO download https://www.eia.gov/electricity/data/eia860/xls/eia8602025.zip -> data/raw/infra/eia860/eia8602025.zip
+2026-10-21 18:18:08,355 fetch_infra INFO done eia8602025.zip (23.6 MB)
+2026-10-21 18:18:08,357 fetch_infra INFO download https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip -> data/raw/infra/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:18:10,159 fetch_infra INFO done cb_2024_us_state_500k.zip (3.2 MB)
+2026-10-21 18:18:10,160 fetch_infra INFO download https://www2.census.gov/geo/tiger/TIGER2025/PRIMARYROADS/tl_2025_us_primaryroads.zip -> data/raw/infra/tiger/tl_2025_us_primaryroads.zip
+2026-10-21 18:18:25,133 fetch_infra INFO done tl_2025_us_primaryroads.zip (38.4 MB)
+2026-10-21 18:18:25,135 fetch_infra INFO download https://files.wri.org/aqueduct/aqueduct-4-0-water-risk-data.zip -> data/raw/infra/aqueduct/aqueduct-4-0-water-risk-data.zip
+2026-10-21 18:19:25,316 fetch_infra INFO done aqueduct-4-0-water-risk-data.zip (261.5 MB)
+2026-10-21 18:19:25,318 fetch_infra INFO fetch finished; failures: none
+2026-10-21 18:19:28,596 fetch_infra INFO start fetch (force=False only=mlrs)
+2026-10-21 18:19:34,625 fetch_infra INFO MLRS solar ROW: offset 0 got 500 (total 500)
+2026-10-21 18:19:36,027 fetch_infra INFO MLRS solar ROW: offset 500 got 354 (total 854)
+2026-10-21 18:19:36,121 fetch_infra INFO wrote data/raw/infra/blm_row/mlrs_solar_row.geojson (854 features)
+2026-10-21 18:19:36,125 fetch_infra INFO fetch finished; failures: none
+2026-10-21 18:19:39,338 fetch_infra INFO start fetch (force=False only=osm)
+2026-10-21 18:19:39,338 fetch_infra INFO overpass https://overpass-api.de/api/interpreter -> osm_telecom_lines.json
+2026-10-21 18:20:13,563 fetch_infra INFO wrote data/raw/infra/osm/osm_telecom_lines.json (997 elements)
+2026-10-21 18:20:13,565 fetch_infra INFO overpass https://overpass-api.de/api/interpreter -> osm_data_centers.json
+2026-10-21 18:20:42,078 fetch_infra INFO wrote data/raw/infra/osm/osm_data_centers.json (258 elements)
+2026-10-21 18:20:42,081 fetch_infra INFO fetch finished; failures: none
+2026-10-21 18:21:01,870 fetch_infra INFO start fetch (force=False only=None)
+2026-10-21 18:21:01,870 fetch_infra INFO skip (exists) data/raw/infra/eia860/eia8602025.zip
+2026-10-21 18:21:01,870 fetch_infra INFO skip (exists) data/raw/infra/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:21:01,870 fetch_infra INFO skip (exists) data/raw/infra/tiger/tl_2025_us_primaryroads.zip
+2026-10-21 18:21:01,871 fetch_infra INFO download https://www2.census.gov/geo/tiger/TIGER2025/RAILS/tl_2025_us_rails.zip -> data/raw/infra/tiger/tl_2025_us_rails.zip
+2026-10-21 18:21:12,003 fetch_infra INFO done tl_2025_us_rails.zip (34.2 MB)
+2026-10-21 18:21:12,005 fetch_infra INFO skip (exists) data/raw/infra/aqueduct/aqueduct-4-0-water-risk-data.zip
+2026-10-21 18:21:12,006 fetch_infra INFO skip (exists) data/raw/infra/blm_row/mlrs_solar_row.geojson
+2026-10-21 18:21:12,006 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_telecom_lines.json
+2026-10-21 18:21:12,006 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_data_centers.json
+2026-10-21 18:21:12,006 fetch_infra INFO fetch finished; failures: none
+2026-10-21 18:22:51,308 fetch_infra INFO start fetch (force=False only=None)
+2026-10-21 18:22:51,308 fetch_infra INFO skip (exists) data/raw/infra/eia860/eia8602025.zip
+2026-10-21 18:22:51,309 fetch_infra INFO skip (exists) data/raw/infra/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:22:51,309 fetch_infra INFO skip (exists) data/raw/infra/tiger/tl_2025_us_primaryroads.zip
+2026-10-21 18:22:51,309 fetch_infra INFO skip (exists) data/raw/infra/aqueduct/aqueduct-4-0-water-risk-data.zip
+2026-10-21 18:22:51,309 fetch_infra INFO skip (exists) data/raw/infra/blm_row/mlrs_solar_row.geojson
+2026-10-21 18:22:52,642 fetch_infra INFO NARN rail: offset 0 got 1000 (total 1000)
+2026-10-21 18:22:54,444 fetch_infra INFO NARN rail: offset 1000 got 1000 (total 2000)
+2026-10-21 18:22:56,035 fetch_infra INFO NARN rail: offset 2000 got 1000 (total 3000)
+2026-10-21 18:22:57,408 fetch_infra INFO NARN rail: offset 3000 got 1000 (total 4000)
+2026-10-21 18:22:58,251 fetch_infra INFO NARN rail: offset 4000 got 1000 (total 5000)
+2026-10-21 18:22:58,668 fetch_infra INFO NARN rail: offset 5000 got 8 (total 5008)
+2026-10-21 18:22:58,871 fetch_infra INFO wrote data/raw/infra/rail/narn_class1_mainline.geojson (5008 features)
+2026-10-21 18:22:58,881 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_telecom_lines.json
+2026-10-21 18:22:58,881 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_data_centers.json
+2026-10-21 18:22:58,881 fetch_infra INFO fetch finished; failures: none
+2026-10-21 18:23:36,080 fetch_infra INFO start fetch (force=False only=None)
+2026-10-21 18:23:36,080 fetch_infra INFO skip (exists) data/raw/infra/eia860/eia8602025.zip
+2026-10-21 18:23:36,080 fetch_infra INFO skip (exists) data/raw/infra/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:23:36,080 fetch_infra INFO skip (exists) data/raw/infra/tiger/tl_2025_us_primaryroads.zip
+2026-10-21 18:23:36,080 fetch_infra INFO skip (exists) data/raw/infra/aqueduct/aqueduct-4-0-water-risk-data.zip
+2026-10-21 18:23:36,081 fetch_infra INFO skip (exists) data/raw/infra/blm_row/mlrs_solar_row.geojson
+2026-10-21 18:23:36,081 fetch_infra INFO skip (exists) data/raw/infra/rail/narn_class1_mainline.geojson
+2026-10-21 18:23:38,597 fetch_infra INFO ADWR AMA/INA: offset 0 got 11 (total 11)
+2026-10-21 18:23:38,625 fetch_infra INFO wrote data/raw/infra/water/adwr_ama_ina.geojson (11 features)
+2026-10-21 18:23:38,626 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_telecom_lines.json
+2026-10-21 18:23:38,626 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_data_centers.json
+2026-10-21 18:23:38,626 fetch_infra INFO fetch finished; failures: none
+2026-10-21 19:10:27,406 fetch_infra INFO start fetch (force=False only=None)
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/eia860/eia8602025.zip
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/tiger/cb_2024_us_state_500k.zip
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/tiger/tl_2025_us_primaryroads.zip
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/aqueduct/aqueduct-4-0-water-risk-data.zip
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/blm_row/mlrs_solar_row.geojson
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/rail/narn_class1_mainline.geojson
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/water/adwr_ama_ina.geojson
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_telecom_lines.json
+2026-10-21 19:10:27,407 fetch_infra INFO skip (exists) data/raw/infra/osm/osm_data_centers.json
+2026-10-21 19:10:27,407 fetch_infra INFO fetch finished; failures: none
+2026-10-21 19:11:14,404 process_infra INFO wrote power_generators.csv (5989 generators)
+2026-10-21 19:11:20,008 process_infra INFO wrote data/processed/infra/power_plants.geojson (3025 features, 2.0 MB)
+2026-10-21 19:11:20,023 process_infra INFO EIA-860 2025 plants per state (status counts):
+status  canceled  operating  proposed  retired
+state                                         
+AZ             3        191        50       10
+CA            60       1877       184      129
+NM             4        161        37       12
+NV             8        117        15       12
+UT             2        126        20        7
+2026-10-21 19:11:20,024 process_infra INFO EIA-860 2025 operating nameplate MW per state:
+state
+AZ     40514.0
+CA    107433.0
+NM     13801.0
+NV     18959.0
+UT     11140.0
+2026-10-21 19:11:21,913 process_infra INFO wrote data/processed/infra/roads_major.geojson (1730 features, 1.3 MB)
+2026-10-21 19:11:23,432 process_infra INFO wrote data/processed/infra/fiber.geojson (1105 features, 1.0 MB)
+2026-10-21 19:11:23,480 process_infra INFO fiber features by basis: {'osm_telecom_line': 933, 'proxy_class1_rail_corridor': 116, 'proxy_interstate_corridor': 47, 'osm_fiber_tagged': 9}; km: {'osm_fiber_tagged': 2.0, 'osm_telecom_line': 285.0, 'proxy_class1_rail_corridor': 14501.0, 'proxy_interstate_corridor': 20123.0}
+2026-10-21 19:11:26,152 process_infra INFO wrote data/processed/infra/water_stress.geojson (0 features, 0.0 MB)
+2026-10-21 19:11:26,153 process_infra INFO water stress units: 0; by bws_label: {}
+2026-10-21 19:11:26,234 process_infra INFO wrote data/processed/infra/az_ama_ina.geojson (11 features, 0.1 MB)
+2026-10-21 19:11:26,777 process_infra INFO wrote data/processed/infra/blm_solar_row_cases.geojson (307 features, 0.5 MB)
+2026-10-21 19:11:26,938 process_infra INFO wrote data/processed/infra/blm_solar_row_cases_closed.geojson (500 features, 0.7 MB)
+2026-10-21 19:11:26,943 process_infra INFO BLM MLRS solar ROW cases by state/status:
+status  Authorized  Closed  Interim  Pending
+state                                       
+AZ               6      94        2       56
+CA              35     223        5       34
+NM               1      19        1       13
+NV              44     159        6      128
+UT               4      10        0       14
+2026-10-21 19:11:26,971 process_infra INFO wrote data/processed/infra/data_centers_osm.geojson (258 features, 0.1 MB)
+2026-10-21 19:11:26,973 process_infra INFO wrote data/processed/infra/MANIFEST.json (10 layers)
+2026-10-21 19:21:35,103 process_infra INFO wrote power_generators.csv (5989 generators)
+2026-10-21 19:21:40,142 process_infra INFO wrote data/processed/infra/power_plants.geojson (3025 features, 2.0 MB)
+2026-10-21 19:21:40,148 process_infra INFO EIA-860 2025 plants per state (status counts):
+status  canceled  operating  proposed  retired
+state                                         
+AZ             3        191        50       10
+CA            60       1877       184      129
+NM             4        161        37       12
+NV             8        117        15       12
+UT             2        126        20        7
+2026-10-21 19:21:40,148 process_infra INFO EIA-860 2025 operating nameplate MW per state:
+state
+AZ     40514.0
+CA    107433.0
+NM     13801.0
+NV     18959.0
+UT     11140.0
+2026-10-21 19:21:42,125 process_infra INFO wrote data/processed/infra/roads_major.geojson (1730 features, 1.3 MB)
+2026-10-21 19:21:43,172 process_infra INFO wrote data/processed/infra/fiber.geojson (1105 features, 1.0 MB)
+2026-10-21 19:21:43,219 process_infra INFO fiber features by basis: {'osm_telecom_line': 933, 'proxy_class1_rail_corridor': 116, 'proxy_interstate_corridor': 47, 'osm_fiber_tagged': 9}; km: {'osm_fiber_tagged': 2.0, 'osm_telecom_line': 285.0, 'proxy_class1_rail_corridor': 14501.0, 'proxy_interstate_corridor': 20123.0}
+2026-10-21 19:21:45,566 process_infra INFO wrote data/processed/infra/water_stress.geojson (0 features, 0.0 MB)
+2026-10-21 19:21:45,566 process_infra INFO water stress units: 0; by bws_label: {}
+2026-10-21 19:21:45,662 process_infra INFO wrote data/processed/infra/az_ama_ina.geojson (11 features, 0.1 MB)
+2026-10-21 19:21:46,049 process_infra INFO wrote data/processed/infra/blm_solar_row_cases.geojson (307 features, 0.5 MB)
+2026-10-21 19:21:46,152 process_infra INFO wrote data/processed/infra/blm_solar_row_cases_closed.geojson (500 features, 0.7 MB)
+2026-10-21 19:21:46,156 process_infra INFO BLM MLRS solar ROW cases by state/status:
+status  Authorized  Closed  Interim  Pending
+state                                       
+AZ               6      94        2       56
+CA              35     223        5       34
+NM               1      19        1       13
+NV              44     159        6      128
+UT               4      10        0       14
+2026-10-21 19:21:46,174 process_infra INFO wrote data/processed/infra/data_centers_osm.geojson (258 features, 0.1 MB)
+2026-10-21 19:21:46,175 process_infra INFO wrote data/processed/infra/MANIFEST.json (10 layers)
+2026-10-21 19:23:00,112 process_infra INFO wrote power_generators.csv (5989 generators)
+2026-10-21 19:23:05,582 process_infra INFO wrote data/processed/infra/power_plants.geojson (3025 features, 2.0 MB)
+2026-10-21 19:23:05,589 process_infra INFO EIA-860 2025 plants per state (status counts):
+status  canceled  operating  proposed  retired
+state                                         
+AZ             3        191        50       10
+CA            60       1877       184      129
+NM             4        161        37       12
+NV             8        117        15       12
+UT             2        126        20        7
+2026-10-21 19:23:05,590 process_infra INFO EIA-860 2025 operating nameplate MW per state:
+state
+AZ     40514.0
+CA    107433.0
+NM     13801.0
+NV     18959.0
+UT     11140.0
+2026-10-21 19:23:08,037 process_infra INFO wrote data/processed/infra/roads_major.geojson (1730 features, 1.3 MB)
+2026-10-21 19:23:09,698 process_infra INFO wrote data/processed/infra/fiber.geojson (1105 features, 1.0 MB)
+2026-10-21 19:23:09,746 process_infra INFO fiber features by basis: {'osm_telecom_line': 933, 'proxy_class1_rail_corridor': 116, 'proxy_interstate_corridor': 47, 'osm_fiber_tagged': 9}; km: {'osm_fiber_tagged': 2.0, 'osm_telecom_line': 285.0, 'proxy_class1_rail_corridor': 14501.0, 'proxy_interstate_corridor': 20123.0}
+2026-10-21 19:23:13,251 process_infra INFO wrote data/processed/infra/water_stress.geojson (583 features, 2.1 MB)
+2026-10-21 19:23:13,252 process_infra INFO water stress units: 583; by bws_label: {'Extremely High (>80%)': 195, 'Arid and Low Water Use': 125, 'Low (<10%)': 96, 'Low - Medium (10-20%)': 64, 'High (40-80%)': 53, 'Medium - High (20-40%)': 44, 'No Data': 6}
+2026-10-21 19:23:13,374 process_infra INFO wrote data/processed/infra/az_ama_ina.geojson (11 features, 0.1 MB)
+2026-10-21 19:23:13,987 process_infra INFO wrote data/processed/infra/blm_solar_row_cases.geojson (307 features, 0.5 MB)
+2026-10-21 19:23:14,176 process_infra INFO wrote data/processed/infra/blm_solar_row_cases_closed.geojson (500 features, 0.7 MB)
+2026-10-21 19:23:14,304 process_infra INFO BLM MLRS solar ROW cases by state/status:
+status  Authorized  Closed  Interim  Pending
+state                                       
+AZ               6      94        2       56
+CA              35     223        5       34
+NM               1      19        1       13
+NV              44     159        6      128
+UT               4      10        0       14
+2026-10-21 19:23:14,415 process_infra INFO wrote data/processed/infra/data_centers_osm.geojson (258 features, 0.1 MB)
+2026-10-21 19:23:14,416 process_infra INFO wrote data/processed/infra/MANIFEST.json (10 layers)
+2026-10-21 19:24:43,163 process_infra INFO wrote power_generators.csv (5989 generators)
+2026-10-21 19:24:48,521 process_infra INFO wrote data/processed/infra/power_plants.geojson (3025 features, 2.0 MB)
+2026-10-21 19:24:48,572 process_infra INFO EIA-860 2025 plants per state (status counts):
+status  canceled  operating  proposed  retired
+state                                         
+AZ             3        191        50       10
+CA            60       1877       184      129
+NM             4        161        37       12
+NV             8        117        15       12
+UT             2        126        20        7
+2026-10-21 19:24:48,574 process_infra INFO EIA-860 2025 operating nameplate MW per state:
+state
+AZ     40514.0
+CA    107433.0
+NM     13801.0
+NV     18959.0
+UT     11140.0
+2026-10-21 19:24:50,606 process_infra INFO wrote data/processed/infra/roads_major.geojson (1730 features, 1.3 MB)
+2026-10-21 19:24:51,757 process_infra INFO wrote data/processed/infra/fiber.geojson (1105 features, 1.0 MB)
+2026-10-21 19:24:51,806 process_infra INFO fiber features by basis: {'osm_telecom_line': 933, 'proxy_class1_rail_corridor': 116, 'proxy_interstate_corridor': 47, 'osm_fiber_tagged': 9}; km: {'osm_fiber_tagged': 2.0, 'osm_telecom_line': 285.0, 'proxy_class1_rail_corridor': 14501.0, 'proxy_interstate_corridor': 20123.0}
+2026-10-21 19:24:58,603 process_infra INFO wrote data/processed/infra/water_stress.geojson (583 features, 2.1 MB)
+2026-10-21 19:24:58,605 process_infra INFO water stress units: 583; by bws_label: {'Extremely High (>80%)': 195, 'Arid and Low Water Use': 125, 'Low (<10%)': 96, 'Low - Medium (10-20%)': 64, 'High (40-80%)': 53, 'Medium - High (20-40%)': 44, 'No Data': 6}
+2026-10-21 19:24:58,687 process_infra INFO wrote data/processed/infra/az_ama_ina.geojson (11 features, 0.1 MB)
+2026-10-21 19:24:59,263 process_infra INFO wrote data/processed/infra/blm_solar_row_cases.geojson (307 features, 0.5 MB)
+2026-10-21 19:24:59,368 process_infra INFO wrote data/processed/infra/blm_solar_row_cases_closed.geojson (500 features, 0.7 MB)
+2026-10-21 19:24:59,373 process_infra INFO BLM MLRS solar ROW cases by state/status:
+status  Authorized  Closed  Interim  Pending
+state                                       
+AZ               6      94        2       56
+CA              35     223        5       34
+NM               1      19        1       13
+NV              44     159        6      128
+UT               4      10        0       14
+2026-10-21 19:24:59,394 process_infra INFO wrote data/processed/infra/data_centers_osm.geojson (258 features, 0.1 MB)
+2026-10-21 19:24:59,396 process_infra INFO wrote data/processed/infra/MANIFEST.json (10 layers)
+2026-10-21 19:25:00,605 process_infra INFO all infra outputs exist; skipping (use --force to rebuild)

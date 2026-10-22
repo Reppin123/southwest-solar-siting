@@ -1,0 +1,528 @@
+2026-10-21 22:52:40,686 build_app sites: 25733 ranked candidate polygons
+2026-10-21 22:52:44,775 build_app sites_attr.json 19.7 MB
+2026-10-21 22:52:51,452 build_app Created 25,733 records
+2026-10-21 22:52:51,459 build_app sites_geom.geojson 10.7 MB
+2026-10-21 22:52:54,188 build_app Created 9,086 records
+2026-10-21 22:52:54,190 build_app layer transmission_lines       9086 features    4.0 MB
+2026-10-21 22:52:55,854 build_app Created 5,295 records
+2026-10-21 22:52:55,856 build_app layer substations              5295 features    2.6 MB
+2026-10-21 22:53:10,324 build_app Created 19,198 records
+2026-10-21 22:53:10,330 build_app layer blm_solar_available     19198 features   12.6 MB
+2026-10-21 22:53:10,487 build_app Created 26 records
+2026-10-21 22:53:10,488 build_app layer solar_energy_zones         26 features    0.1 MB
+2026-10-21 22:53:21,738 build_app Created 28,672 records
+2026-10-21 22:53:21,743 build_app layer ownership               28672 features    9.6 MB
+2026-10-21 22:53:26,560 build_app Created 1,619 records
+2026-10-21 22:53:26,562 build_app layer excl_wilderness          1619 features    1.8 MB
+2026-10-21 22:53:30,900 build_app Created 6,704 records
+2026-10-21 22:53:30,906 build_app layer excl_nca_acec            6704 features    2.5 MB
+2026-10-21 22:53:37,430 build_app Created 3,998 records
+2026-10-21 22:53:37,433 build_app layer excl_critical_habitat    3998 features    3.2 MB
+2026-10-21 22:54:00,039 build_app Created 22 records
+2026-10-21 22:54:00,062 build_app layer excl_flood_zone_a          22 features    7.5 MB
+2026-10-21 22:54:01,397 build_app Created 1,766 records
+2026-10-21 22:54:01,399 build_app layer excl_tribal              1766 features    0.9 MB
+2026-10-21 22:54:02,120 build_app Created 818 records
+2026-10-21 22:54:02,121 build_app layer excl_military             818 features    0.5 MB
+2026-10-21 22:54:20,829 build_app Created 30 records
+2026-10-21 22:54:20,833 build_app layer excl_wetlands              30 features    8.0 MB
+2026-10-21 22:55:11,283 build_app Created 15,074 records
+2026-10-21 22:55:11,292 build_app layer excl_slope_gt5          15074 features   15.8 MB
+2026-10-21 22:55:13,276 build_app Created 1,186 records
+2026-10-21 22:55:13,277 build_app layer excl_urban               1186 features    1.0 MB
+2026-10-21 22:55:14,006 build_app Created 495 records
+2026-10-21 22:55:14,006 build_app layer excl_nps                  495 features    0.4 MB
+2026-10-21 22:55:14,962 build_app Created 3,025 records
+2026-10-21 22:55:14,963 build_app layer power_plants             3025 features    1.0 MB
+2026-10-21 22:55:15,555 build_app Created 307 records
+2026-10-21 22:55:15,556 build_app layer blm_solar_row_cases       307 features    0.4 MB
+2026-10-21 22:55:16,437 build_app Created 1,105 records
+2026-10-21 22:55:16,438 build_app layer fiber                    1105 features    0.7 MB
+2026-10-21 22:55:18,364 build_app Created 583 records
+2026-10-21 22:55:18,365 build_app layer water_stress              583 features    1.1 MB
+2026-10-21 22:55:19,714 build_app Created 1,728 records
+2026-10-21 22:55:19,715 build_app layer roads_major              1728 features    0.8 MB
+2026-10-21 22:55:19,863 build_app Created 258 records
+2026-10-21 22:55:19,863 build_app layer data_centers_osm          258 features    0.1 MB
+2026-10-21 22:55:20,192 build_app Created 5 records
+2026-10-21 22:55:20,193 build_app layer admin_states                5 features    0.1 MB
+2026-10-21 22:55:21,610 build_app Created 152 records
+2026-10-21 22:55:21,611 build_app layer admin_counties            152 features    0.4 MB
+2026-10-21 22:55:24,732 build_app deliverables: 4 items, 16 memos, appendix True
+2026-10-21 22:55:24,736 build_app default weights from METHOD.md: {'solar': {'grid': 35.0, 'land': 30.0, 'sun': 20.0, 'permit': 15.0, 'dc': 0}, 'dc': {'grid': 30.0, 'land': 25.0, 'sun': 15.0, 'permit': 15.0, 'dc': 15.0}}
+2026-10-21 22:55:24,738 build_app wrote app/data/layers.json: 25 layers, 25733 sites, app/data 106 MB, 172 s
+2026-10-21 22:56:05,452 build_app sites: 25733 ranked candidate polygons
+2026-10-21 22:56:10,245 build_app sites_attr.json 14.4 MB
+2026-10-21 22:56:19,918 build_app Created 25,733 records
+2026-10-21 22:56:19,925 build_app sites_geom.geojson 10.7 MB
+2026-10-21 22:56:24,058 build_app Created 9,086 records
+2026-10-21 22:56:24,061 build_app layer transmission_lines       9086 features    4.0 MB
+2026-10-21 22:56:26,964 build_app Created 5,295 records
+2026-10-21 22:56:26,969 build_app layer substations              5295 features    2.6 MB
+2026-10-21 22:56:46,903 build_app Created 19,198 records
+2026-10-21 22:56:46,911 build_app layer blm_solar_available     19198 features   12.6 MB
+2026-10-21 22:56:47,405 build_app Created 26 records
+2026-10-21 22:56:47,406 build_app layer solar_energy_zones         26 features    0.1 MB
+2026-10-21 22:57:00,921 build_app Created 28,672 records
+2026-10-21 22:57:00,929 build_app layer ownership               28672 features    9.6 MB
+2026-10-21 22:57:04,066 build_app Created 1,619 records
+2026-10-21 22:57:04,067 build_app layer excl_wilderness          1619 features    1.8 MB
+2026-10-21 22:57:07,076 build_app Created 6,704 records
+2026-10-21 22:57:07,080 build_app layer excl_nca_acec            6704 features    2.5 MB
+2026-10-21 22:57:12,497 build_app Created 3,998 records
+2026-10-21 22:57:12,505 build_app layer excl_critical_habitat    3998 features    3.2 MB
+2026-10-21 22:57:34,320 build_app Created 22 records
+2026-10-21 22:57:34,323 build_app layer excl_flood_zone_a          22 features    7.5 MB
+2026-10-21 22:57:35,699 build_app Created 1,766 records
+2026-10-21 22:57:35,700 build_app layer excl_tribal              1766 features    0.9 MB
+2026-10-21 22:57:36,516 build_app Created 818 records
+2026-10-21 22:57:36,516 build_app layer excl_military             818 features    0.5 MB
+2026-10-21 22:57:59,590 build_app Created 30 records
+2026-10-21 22:57:59,592 build_app layer excl_wetlands              30 features    8.0 MB
+2026-10-21 22:58:41,897 build_app Created 15,074 records
+2026-10-21 22:58:41,904 build_app layer excl_slope_gt5          15074 features   15.8 MB
+2026-10-21 22:58:42,930 build_app Created 1,186 records
+2026-10-21 22:58:42,930 build_app layer excl_urban               1186 features    1.0 MB
+2026-10-21 22:58:43,265 build_app Created 495 records
+2026-10-21 22:58:43,265 build_app layer excl_nps                  495 features    0.4 MB
+2026-10-21 22:58:43,733 build_app Created 3,025 records
+2026-10-21 22:58:43,733 build_app layer power_plants             3025 features    1.0 MB
+2026-10-21 22:58:43,914 build_app Created 307 records
+2026-10-21 22:58:43,915 build_app layer blm_solar_row_cases       307 features    0.4 MB
+2026-10-21 22:58:44,365 build_app Created 1,105 records
+2026-10-21 22:58:44,367 build_app layer fiber                    1105 features    0.7 MB
+2026-10-21 22:58:45,528 build_app Created 583 records
+2026-10-21 22:58:45,529 build_app layer water_stress              583 features    1.1 MB
+2026-10-21 22:58:46,153 build_app Created 1,728 records
+2026-10-21 22:58:46,167 build_app layer roads_major              1728 features    0.8 MB
+2026-10-21 22:58:46,185 build_app Created 258 records
+2026-10-21 22:58:46,186 build_app layer data_centers_osm          258 features    0.1 MB
+2026-10-21 22:58:46,312 build_app Created 5 records
+2026-10-21 22:58:46,313 build_app layer admin_states                5 features    0.1 MB
+2026-10-21 22:58:47,202 build_app Created 152 records
+2026-10-21 22:58:47,204 build_app layer admin_counties            152 features    0.4 MB
+2026-10-21 22:58:48,368 build_app deliverables: 4 items, 16 memos, appendix True
+2026-10-21 22:58:48,369 build_app default weights from METHOD.md: {'solar': {'grid': 35.0, 'land': 30.0, 'sun': 20.0, 'permit': 15.0, 'dc': 0}, 'dc': {'grid': 30.0, 'land': 25.0, 'sun': 15.0, 'permit': 15.0, 'dc': 15.0}}
+2026-10-21 22:58:48,371 build_app wrote app/data/layers.json: 25 layers, 25733 sites, app/data 101 MB, 182 s
+2026-10-21 23:04:35 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-21 23:04:35 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all process_grid  skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all fetch_land    skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all process_land  skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all process_infra skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all screen        skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all memos         skip (outputs present and up to date)
+2026-10-21 23:04:35 run_all build_app     would run: /Users/akshitbansal/research/southwest-solar-siting/pipeline/build_app.py (inputs changed since last run)
+2026-10-21 23:04:39 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-21 23:04:39 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all process_grid  skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all fetch_land    skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all process_land  skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all process_infra skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all screen        skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all memos         skip (outputs present and up to date)
+2026-10-21 23:04:39 run_all build_app     run (inputs changed since last run): build_app.py
+2026-10-21 23:04:46,855 build_app sites: 25733 ranked candidate polygons
+2026-10-21 23:04:48,151 build_app sites_attr.json 14.4 MB
+2026-10-21 23:04:50,889 build_app Created 25,733 records
+2026-10-21 23:04:50,893 build_app sites_geom.geojson 10.7 MB
+2026-10-21 23:04:51,987 build_app Created 9,086 records
+2026-10-21 23:04:51,988 build_app layer transmission_lines       9086 features    4.0 MB
+2026-10-21 23:04:52,692 build_app Created 5,295 records
+2026-10-21 23:04:52,694 build_app layer substations              5295 features    2.6 MB
+2026-10-21 23:04:58,266 build_app Created 19,198 records
+2026-10-21 23:04:58,269 build_app layer blm_solar_available     19198 features   12.6 MB
+2026-10-21 23:04:58,392 build_app Created 26 records
+2026-10-21 23:04:58,392 build_app layer solar_energy_zones         26 features    0.1 MB
+2026-10-21 23:05:02,325 build_app Created 28,672 records
+2026-10-21 23:05:02,326 build_app layer ownership               28672 features    9.6 MB
+2026-10-21 23:05:03,322 build_app Created 1,619 records
+2026-10-21 23:05:03,323 build_app layer excl_wilderness          1619 features    1.8 MB
+2026-10-21 23:05:04,244 build_app Created 6,704 records
+2026-10-21 23:05:04,245 build_app layer excl_nca_acec            6704 features    2.5 MB
+2026-10-21 23:05:05,804 build_app Created 3,998 records
+2026-10-21 23:05:05,805 build_app layer excl_critical_habitat    3998 features    3.2 MB
+2026-10-21 23:05:11,938 build_app Created 22 records
+2026-10-21 23:05:11,941 build_app layer excl_flood_zone_a          22 features    7.5 MB
+2026-10-21 23:05:12,308 build_app Created 1,766 records
+2026-10-21 23:05:12,309 build_app layer excl_tribal              1766 features    0.9 MB
+2026-10-21 23:05:12,474 build_app Created 818 records
+2026-10-21 23:05:12,474 build_app layer excl_military             818 features    0.5 MB
+2026-10-21 23:05:17,679 build_app Created 30 records
+2026-10-21 23:05:17,681 build_app layer excl_wetlands              30 features    8.0 MB
+2026-10-21 23:05:37,406 build_app Created 15,074 records
+2026-10-21 23:05:37,688 build_app layer excl_slope_gt5          15074 features   15.8 MB
+2026-10-21 23:05:38,683 build_app Created 1,186 records
+2026-10-21 23:05:38,705 build_app layer excl_urban               1186 features    1.0 MB
+2026-10-21 23:05:39,052 build_app Created 495 records
+2026-10-21 23:05:39,053 build_app layer excl_nps                  495 features    0.4 MB
+2026-10-21 23:05:39,367 build_app Created 3,025 records
+2026-10-21 23:05:39,367 build_app layer power_plants             3025 features    1.0 MB
+2026-10-21 23:05:39,505 build_app Created 307 records
+2026-10-21 23:05:39,506 build_app layer blm_solar_row_cases       307 features    0.4 MB
+2026-10-21 23:05:39,746 build_app Created 1,105 records
+2026-10-21 23:05:39,746 build_app layer fiber                    1105 features    0.7 MB
+2026-10-21 23:05:40,325 build_app Created 583 records
+2026-10-21 23:05:40,327 build_app layer water_stress              583 features    1.1 MB
+2026-10-21 23:05:40,611 build_app Created 1,728 records
+2026-10-21 23:05:40,613 build_app layer roads_major              1728 features    0.8 MB
+2026-10-21 23:05:40,634 build_app Created 258 records
+2026-10-21 23:05:40,634 build_app layer data_centers_osm          258 features    0.1 MB
+2026-10-21 23:05:40,687 build_app Created 5 records
+2026-10-21 23:05:40,687 build_app layer admin_states                5 features    0.1 MB
+2026-10-21 23:05:41,152 build_app Created 152 records
+2026-10-21 23:05:41,160 build_app layer admin_counties            152 features    0.4 MB
+2026-10-21 23:05:41,772 build_app deliverables: 4 items, 16 memos, appendix True
+2026-10-21 23:05:41,773 build_app default weights from METHOD.md: {'solar': {'grid': 35.0, 'land': 30.0, 'sun': 20.0, 'permit': 15.0, 'dc': 0}, 'dc': {'grid': 30.0, 'land': 25.0, 'sun': 15.0, 'permit': 15.0, 'dc': 15.0}}
+2026-10-21 23:05:41,775 build_app wrote app/data/layers.json: 25 layers, 25733 sites, app/data 101 MB, 61 s
+2026-10-21 23:05:42 run_all build_app     ok in 62 s
+2026-10-21 23:49:24 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-21 23:49:24 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all process_grid  skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all fetch_land    skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all process_land  skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all process_infra skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all screen        skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all memos         skip (outputs present and up to date)
+2026-10-21 23:49:24 run_all build_app     skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-22 00:05:05 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all process_grid  skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all fetch_land    skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all process_land  skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all process_infra skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all screen        skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all memos         skip (outputs present and up to date)
+2026-10-22 00:05:05 run_all build_app     skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-22 00:14:04 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all process_grid  skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all fetch_land    skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all process_land  skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all process_infra skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all screen        skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all memos         skip (outputs present and up to date)
+2026-10-22 00:14:04 run_all build_app     skip (outputs present and up to date)
+== 2026-10-22 00:14:09 app-finish: headless test run
+[00:00] step: start test server
+[00:00] PASS  test server answers  http://localhost:8771/app/
+[00:02] step: load page (first)
+[00:07] PASS  page loads with data  4.7 s
+[00:07] PASS  Map is the default view
+[00:07] step: data covers five states
+[00:08] PASS  sites from all five states  25733 sites, ['AZ', 'CA', 'NM', 'NV', 'UT']
+[00:08] PASS  map libraries load locally (no CDN scripts)
+[00:08] step: ranking parity solar
+[00:09] PASS  default solar ranking matches pipeline rank_solar (top 25, within 2 places)  0 mismatches
+[00:09] step: ranking parity dc
+[00:11] PASS  default dc ranking matches pipeline rank_dc (top 25, within 2 places)  0 mismatches
+[00:12] 25 layers to toggle
+[00:12] step: toggle layer transmission_lines
+[00:12] PASS  layer on/off: transmission_lines  9086 features
+[00:12] step: toggle layer substations
+[00:13] PASS  layer on/off: substations  5295 features
+[00:13] step: toggle layer blm_solar_available
+[00:14] PASS  layer on/off: blm_solar_available  19198 features
+[00:14] step: toggle layer solar_energy_zones
+[00:14] PASS  layer on/off: solar_energy_zones  26 features
+[00:14] step: toggle layer ownership
+[00:15] PASS  layer on/off: ownership  28672 features
+[00:15] step: toggle layer excl_wilderness
+[00:16] PASS  layer on/off: excl_wilderness  1619 features
+[00:16] step: toggle layer excl_nca_acec
+[00:17] PASS  layer on/off: excl_nca_acec  6704 features
+[00:17] step: toggle layer excl_critical_habitat
+[00:18] PASS  layer on/off: excl_critical_habitat  3998 features
+[00:18] step: toggle layer excl_flood_zone_a
+[00:19] PASS  layer on/off: excl_flood_zone_a  22 features
+[00:19] step: toggle layer excl_tribal
+[00:21] PASS  layer on/off: excl_tribal  1766 features
+[00:21] step: toggle layer excl_military
+[00:21] PASS  layer on/off: excl_military  818 features
+[00:21] step: toggle layer excl_wetlands
+[00:22] PASS  layer on/off: excl_wetlands  30 features
+[00:22] step: toggle layer excl_slope_gt5
+[00:24] PASS  layer on/off: excl_slope_gt5  15074 features
+[00:24] step: toggle layer excl_urban
+[00:26] PASS  layer on/off: excl_urban  1186 features
+[00:26] step: toggle layer excl_nps
+[00:27] PASS  layer on/off: excl_nps  495 features
+[00:27] step: toggle layer power_plants
+[00:28] PASS  layer on/off: power_plants  3025 features
+[00:28] step: toggle layer blm_solar_row_cases
+[00:29] PASS  layer on/off: blm_solar_row_cases  307 features
+[00:29] step: toggle layer fiber
+[00:31] PASS  layer on/off: fiber  1105 features
+[00:31] step: toggle layer water_stress
+[00:31] PASS  layer on/off: water_stress  583 features
+[00:31] step: toggle layer roads_major
+[00:32] PASS  layer on/off: roads_major  1728 features
+[00:32] step: toggle layer data_centers_osm
+[00:34] PASS  layer on/off: data_centers_osm  258 features
+[00:34] step: toggle layer admin_states
+[00:34] PASS  layer on/off: admin_states  5 features
+[00:34] step: toggle layer admin_counties
+[00:35] PASS  layer on/off: admin_counties  152 features
+[00:35] step: toggle layer raster_ghi
+[00:36] PASS  layer on/off: raster_ghi  1 features
+[00:36] step: toggle layer raster_slope
+[00:37] PASS  layer on/off: raster_slope  1 features
+[00:37] step: toggle candidate sites layer
+[00:38] PASS  layer on/off: candidate sites
+[00:38] step: close browser (session 1)
+[00:40] step: load page (session 2)
+[00:43] step: basemap satellite
+[00:44] PASS  basemap switch: satellite
+[00:44] step: basemap terrain
+[00:44] PASS  basemap switch: terrain
+[00:44] step: basemap street
+[00:44] PASS  basemap switch: street
+[00:44] step: click top site on map
+[00:45]   jumped to SW-NM-00001
+[00:47]   map idle
+[00:47]   clicking at [876, 334.5]
+[00:47] PASS  click site on map opens scorecard  SW-NM-00001
+[00:47] PASS  scorecard shows substation, queue, GHI, BLM status, data center fit
+[00:47] step: provisional badge
+[00:48] PASS  provisional badge on scorecard  SW-NM-00097
+[00:48] step: weight slider re-ranks
+[00:49] PASS  weight slider (sun) re-ranks sites  sun weight 20 -> 45; top site SW-NM-00001
+[00:49] PASS  ranked table synced with new ranking  SW-NM-00001
+[00:50] step: filters
+[00:53] PASS  BLM-only filter  3,866 of 25,733 sites shown
+[00:54] step: switch Solar + Data Center
+[00:55] PASS  ranking switch to Solar + Data Center  top DC site SW-NM-00001
+[00:57] PASS  ranking switch back to Solar  top solar site SW-NM-00001
+[00:57] step: export CSV of current view
+[01:03] PASS  CSV export of current view  2001 rows, 55 columns, file southwest_sites_solar_g35-l30-s20-p15-d0_2001.csv
+[01:03] step: table sort and row click
+[01:04] PASS  table sorts by column  [5508.757, 5180.066, 5174.026, 4947.395, 4936.232]
+[01:06] PASS  table row click selects site
+[01:06] step: summary tab
+[01:10] PASS  Summary tab: charts render  4 charts
+[01:10] step: sources tab
+[01:10] PASS  Sources and Limits tab: datasets, provisional note, SCOPE limits, appendix link  23532 chars
+[01:10] step: deliverables tab and links
+[01:10] PASS  Deliverables tab: Excel, memos, BLM brief
+[01:11] PASS  every deliverable link resolves  21 links
+[01:11] step: How to Read This tab
+[01:11] PASS  How to Read This tab opens with all 10 sections  what, ask, good, map, use, score, prep, limits, next, glossary
+[01:11] PASS  How to Read This: answers red line / red dots, legend, limits, next steps, glossary  13272 chars
+[01:11] PASS  How to Read This: no em or en dashes
+[01:11] PASS  How to Read This: legend swatches drawn from layers.json  45 swatches
+[01:11] step: memo and appendix pages
+[01:12] PASS  methodology review appendix renders
+[01:13] PASS  site memo renders  01_SW-NM-00001.md
+[01:13] step: close browser (session 2)
+[01:13] step: load page (session 3)
+[01:18] step: layout 1440px
+[01:24] PASS  1440 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[01:24] step: screenshot overview 1440
+[01:31] PASS  screenshot overview 1440
+[01:31] step: screenshot scorecard 1440
+[01:34] PASS  screenshot scorecard open 1440
+[01:34] step: screenshot data center ranking 1440
+[01:40] PASS  screenshot data center ranking 1440
+[01:41] step: screenshot summary 1440
+[01:44] PASS  screenshot summary tab 1440
+[01:44] step: screenshot sources 1440
+[01:45] PASS  screenshot sources tab 1440
+[01:45] step: screenshot How to Read This 1440
+[01:47] PASS  screenshot How to Read This tab 1440
+[01:49] step: layout 1280px
+[01:53] PASS  1280 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[01:53] step: screenshot overview 1280
+[01:55] PASS  screenshot overview 1280
+[01:55] step: screenshot scorecard 1280
+[01:57] PASS  screenshot scorecard open 1280
+[01:57] step: screenshot data center ranking 1280
+[02:02] PASS  screenshot data center ranking 1280
+[02:02] step: screenshot summary 1280
+[02:04] PASS  screenshot summary tab 1280
+[02:04] step: screenshot sources 1280
+[02:05] PASS  screenshot sources tab 1280
+[02:05] step: screenshot How to Read This 1280
+[02:06] PASS  screenshot How to Read This tab 1280
+[02:07] step: close browser (session 3)
+[02:07] PASS  no console errors or page errors  none
+[02:07] step: project checks (README, run_all)
+[02:07] PASS  README.md present (run, refresh, sources, limits, folder map)
+[02:08] PASS  pipeline/run_all.py --help works
+[02:08] PASS  run_all skips completed stages by default (--dry-run, no re-run)  9 of 9 stages skipped
+[02:08] PASS  serve.py default port 8770
+
+76 passed, 0 failed
+2026-10-22 00:16:44 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-22 00:16:44 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all process_grid  skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all fetch_land    skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all process_land  skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all process_infra skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all screen        skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all memos         skip (outputs present and up to date)
+2026-10-22 00:16:44 run_all build_app     skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all start: stages fetch_grid, process_grid, fetch_land, process_land, fetch_infra, process_infra, screen, memos, build_app
+2026-10-22 00:19:23 run_all fetch_grid    skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all process_grid  skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all fetch_land    skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all process_land  skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all fetch_infra   skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all process_infra skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all screen        skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all memos         skip (outputs present and up to date)
+2026-10-22 00:19:23 run_all build_app     skip (outputs present and up to date)
+== 2026-10-22 00:19:23 app-finish: final full headless test
+[00:00] step: start test server
+[00:00] PASS  test server answers  http://localhost:8771/app/
+[00:03] step: load page (first)
+[00:10] PASS  page loads with data  7.2 s
+[00:10] PASS  Map is the default view
+[00:10] step: data covers five states
+[00:11] PASS  sites from all five states  25733 sites, ['AZ', 'CA', 'NM', 'NV', 'UT']
+[00:11] PASS  map libraries load locally (no CDN scripts)
+[00:11] step: ranking parity solar
+[00:13] PASS  default solar ranking matches pipeline rank_solar (top 25, within 2 places)  0 mismatches
+[00:13] step: ranking parity dc
+[00:16] PASS  default dc ranking matches pipeline rank_dc (top 25, within 2 places)  0 mismatches
+[00:18] 25 layers to toggle
+[00:18] step: toggle layer transmission_lines
+[00:19] PASS  layer on/off: transmission_lines  9086 features
+[00:19] step: toggle layer substations
+[00:20] PASS  layer on/off: substations  5295 features
+[00:20] step: toggle layer blm_solar_available
+[00:22] PASS  layer on/off: blm_solar_available  19198 features
+[00:22] step: toggle layer solar_energy_zones
+[00:24] PASS  layer on/off: solar_energy_zones  26 features
+[00:24] step: toggle layer ownership
+[00:26] PASS  layer on/off: ownership  28672 features
+[00:26] step: toggle layer excl_wilderness
+[00:29] PASS  layer on/off: excl_wilderness  1619 features
+[00:29] step: toggle layer excl_nca_acec
+[00:31] PASS  layer on/off: excl_nca_acec  6704 features
+[00:31] step: toggle layer excl_critical_habitat
+[00:33] PASS  layer on/off: excl_critical_habitat  3998 features
+[00:33] step: toggle layer excl_flood_zone_a
+[00:35] PASS  layer on/off: excl_flood_zone_a  22 features
+[00:35] step: toggle layer excl_tribal
+[00:37] PASS  layer on/off: excl_tribal  1766 features
+[00:37] step: toggle layer excl_military
+[00:38] PASS  layer on/off: excl_military  818 features
+[00:38] step: toggle layer excl_wetlands
+[00:41] PASS  layer on/off: excl_wetlands  30 features
+[00:41] step: toggle layer excl_slope_gt5
+[00:43] PASS  layer on/off: excl_slope_gt5  15074 features
+[00:43] step: toggle layer excl_urban
+[00:47] PASS  layer on/off: excl_urban  1186 features
+[00:47] step: toggle layer excl_nps
+[00:48] PASS  layer on/off: excl_nps  495 features
+[00:48] step: toggle layer power_plants
+[00:51] PASS  layer on/off: power_plants  3025 features
+[00:51] step: toggle layer blm_solar_row_cases
+[00:51] PASS  layer on/off: blm_solar_row_cases  307 features
+[00:51] step: toggle layer fiber
+[00:53] PASS  layer on/off: fiber  1105 features
+[00:53] step: toggle layer water_stress
+[00:53] PASS  layer on/off: water_stress  583 features
+[00:53] step: toggle layer roads_major
+[00:55] PASS  layer on/off: roads_major  1728 features
+[00:55] step: toggle layer data_centers_osm
+[00:56] PASS  layer on/off: data_centers_osm  258 features
+[00:56] step: toggle layer admin_states
+[00:57] PASS  layer on/off: admin_states  5 features
+[00:57] step: toggle layer admin_counties
+[00:58] PASS  layer on/off: admin_counties  152 features
+[00:58] step: toggle layer raster_ghi
+[00:59] PASS  layer on/off: raster_ghi  1 features
+[00:59] step: toggle layer raster_slope
+[01:00] PASS  layer on/off: raster_slope  1 features
+[01:00] step: toggle candidate sites layer
+[01:01] PASS  layer on/off: candidate sites
+[01:01] step: close browser (session 1)
+[01:04] step: load page (session 2)
+[01:08] step: basemap satellite
+[01:09] PASS  basemap switch: satellite
+[01:09] step: basemap terrain
+[01:09] PASS  basemap switch: terrain
+[01:09] step: basemap street
+[01:09] PASS  basemap switch: street
+[01:09] step: click top site on map
+[01:09]   jumped to SW-NM-00001
+[01:11]   map idle
+[01:11]   clicking at [876, 334.5]
+[01:11] PASS  click site on map opens scorecard  SW-NM-00001
+[01:11] PASS  scorecard shows substation, queue, GHI, BLM status, data center fit
+[01:11] step: provisional badge
+[01:12] PASS  provisional badge on scorecard  SW-NM-00097
+[01:12] step: weight slider re-ranks
+[01:14] PASS  weight slider (sun) re-ranks sites  sun weight 20 -> 45; top site SW-NM-00001
+[01:14] PASS  ranked table synced with new ranking  SW-NM-00001
+[01:15] step: filters
+[01:18] PASS  BLM-only filter  3,866 of 25,733 sites shown
+[01:19] step: switch Solar + Data Center
+[01:20] PASS  ranking switch to Solar + Data Center  top DC site SW-NM-00001
+[01:21] PASS  ranking switch back to Solar  top solar site SW-NM-00001
+[01:21] step: export CSV of current view
+[01:25] PASS  CSV export of current view  2001 rows, 55 columns, file southwest_sites_solar_g35-l30-s20-p15-d0_2001.csv
+[01:25] step: table sort and row click
+[01:26] PASS  table sorts by column  [5508.757, 5180.066, 5174.026, 4947.395, 4936.232]
+[01:27] PASS  table row click selects site
+[01:27] step: summary tab
+[01:30] PASS  Summary tab: charts render  4 charts
+[01:30] step: sources tab
+[01:30] PASS  Sources and Limits tab: datasets, provisional note, SCOPE limits, appendix link  23532 chars
+[01:30] step: deliverables tab and links
+[01:30] PASS  Deliverables tab: Excel, memos, BLM brief
+[01:30] PASS  every deliverable link resolves  21 links
+[01:30] step: How to Read This tab
+[01:31] PASS  How to Read This tab opens with all 10 sections  what, ask, good, map, use, score, prep, limits, next, glossary
+[01:31] PASS  How to Read This: answers red line / red dots, legend, limits, next steps, glossary  13272 chars
+[01:31] PASS  How to Read This: no em or en dashes
+[01:31] PASS  How to Read This: legend swatches drawn from layers.json  45 swatches
+[01:31] step: memo and appendix pages
+[01:32] PASS  methodology review appendix renders
+[01:32] PASS  site memo renders  01_SW-NM-00001.md
+[01:32] step: close browser (session 2)
+[01:33] step: load page (session 3)
+[01:41] step: layout 1440px
+[01:47] PASS  1440 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[01:47] step: screenshot overview 1440
+[01:52] PASS  screenshot overview 1440
+[01:52] step: screenshot scorecard 1440
+[01:58] PASS  screenshot scorecard open 1440
+[01:58] step: screenshot data center ranking 1440
+[02:05] PASS  screenshot data center ranking 1440
+[02:05] step: screenshot summary 1440
+[02:08] PASS  screenshot summary tab 1440
+[02:08] step: screenshot sources 1440
+[02:09] PASS  screenshot sources tab 1440
+[02:09] step: screenshot How to Read This 1440
+[02:10] PASS  screenshot How to Read This tab 1440
+[02:12] step: layout 1280px
+[02:16] PASS  1280 px layout: no overlapping panels  {"sidebarOverMap": false, "headerWrap": false, "tabsHitMode": false, "tableUnderMap": false, "docScrollX": false}
+[02:16] step: screenshot overview 1280
+[02:17] PASS  screenshot overview 1280
+[02:17] step: screenshot scorecard 1280
+[02:20] PASS  screenshot scorecard open 1280
+[02:20] step: screenshot data center ranking 1280
+[02:25] PASS  screenshot data center ranking 1280
+[02:26] step: screenshot summary 1280
+[02:28] PASS  screenshot summary tab 1280
+[02:28] step: screenshot sources 1280
+[02:29] PASS  screenshot sources tab 1280
+[02:29] step: screenshot How to Read This 1280
+[02:30] PASS  screenshot How to Read This tab 1280
+[02:32] step: close browser (session 3)
+[02:33] PASS  no console errors or page errors  none
+[02:33] step: project checks (README, run_all)
+[02:33] PASS  README.md present (run, refresh, sources, limits, folder map)
+[02:33] PASS  pipeline/run_all.py --help works
+[02:33] PASS  run_all skips completed stages by default (--dry-run, no re-run)  9 of 9 stages skipped
+[02:33] PASS  serve.py default port 8770
+
+76 passed, 0 failed

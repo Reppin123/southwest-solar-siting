@@ -1,0 +1,449 @@
+2026-10-21 20:57:29,990 INFO grid 1741 x 1462 cells of 1000 m (EPSG:5070)
+2026-10-21 20:57:54,006 INFO state/owner/BLM rasters done (24s)
+2026-10-21 20:58:28,739 INFO hard exclusion features: 166386
+2026-10-21 20:59:32,438 INFO hard exclusion share done (123s)
+2026-10-21 21:00:25,494 INFO slope aggregation done (176s)
+2026-10-21 21:00:27,155 INFO cells cached (177s)
+2026-10-21 21:00:27,192 INFO cells in states 1526265; kept after hard exclusions + slope 393419 (25.8%)
+2026-10-21 21:00:27,243 INFO blocks >= 3 cells: 12797
+2026-10-21 21:00:27,907 INFO merged 12041 small tile fragments
+2026-10-21 21:00:29,803 INFO Created 37,301 records
+2026-10-21 21:00:29,873 INFO raw sites: 37301
+2026-10-21 21:09:55,384 INFO hard exclusions subdivided into 282504 pieces (174s)
+2026-10-21 21:09:55,582 INFO 7564 site/exclusion pairs within 5 m (174s)
+2026-10-21 21:09:55,614 INFO clip 0/1500 (174s)
+2026-10-21 21:09:59,188 INFO clip: 1238 of 1500 sites were within 5 m of hard exclusions; 1497 site parts >= 600 acres remain
+2026-10-21 21:09:59,369 INFO Created 1,497 records
+2026-10-21 21:10:06,508 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 21:10:06,573 INFO sites_raw: using cache
+2026-10-21 21:13:51,136 INFO hard exclusions subdivided into 282504 pieces (224s)
+2026-10-21 21:13:52,647 INFO 164839 site/exclusion pairs within 5 m (226s)
+2026-10-21 21:13:52,720 INFO clip 0/37301 (226s)
+2026-10-21 21:14:00,596 INFO clip 5000/37301 (234s)
+2026-10-21 21:14:14,578 INFO clip 10000/37301 (248s)
+2026-10-21 21:14:24,265 INFO clip 15000/37301 (257s)
+2026-10-21 21:14:34,444 INFO clip 20000/37301 (268s)
+2026-10-21 21:14:51,699 INFO clip 25000/37301 (285s)
+2026-10-21 21:15:01,747 INFO clip 30000/37301 (295s)
+2026-10-21 21:15:10,779 INFO clip 35000/37301 (304s)
+2026-10-21 21:15:17,772 INFO clip: 26871 of 37301 sites were within 5 m of hard exclusions; 37781 site parts >= 600 acres remain
+2026-10-21 21:15:18,707 INFO Created 37,781 records
+2026-10-21 21:16:18,376 INFO grid distances done (59s)
+2026-10-21 21:19:33,388 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 21:19:33,609 INFO sites_raw: using cache
+2026-10-21 21:19:34,376 INFO sites_clipped: using cache
+2026-10-21 21:20:28,568 INFO grid distances done (54s)
+2026-10-21 21:24:17,491 INFO water join done (282s)
+2026-10-21 21:24:17,492 INFO infra distances done (282s)
+2026-10-21 21:24:18,404 INFO acec/nca flags (283s)
+2026-10-21 21:24:28,204 INFO critical habitat flag (293s)
+2026-10-21 21:24:33,280 INFO wetlands flag (298s)
+2026-10-21 21:24:36,235 INFO constraints done (301s)
+2026-10-21 21:24:55,658 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 21:24:55,728 INFO sites_raw: using cache
+2026-10-21 21:24:55,906 INFO sites_clipped: using cache
+2026-10-21 21:25:10,237 INFO Created 37,781 records
+2026-10-21 21:25:13,917 WARNING Skipping field constraints_soft: unsupported OGR type: 5
+2026-10-21 21:39:50,964 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 21:39:51,048 INFO sites_raw: using cache
+2026-10-21 21:39:51,358 INFO sites_clipped: using cache
+2026-10-21 21:40:57,625 INFO grid distances done (66s)
+2026-10-21 21:46:39,969 INFO water join done (408s)
+2026-10-21 21:46:39,971 INFO infra distances done (408s)
+2026-10-21 21:46:40,907 INFO acec/nca flags (409s)
+2026-10-21 21:46:57,155 INFO critical habitat flag (425s)
+2026-10-21 21:47:03,536 INFO wetlands flag (432s)
+2026-10-21 21:47:09,560 INFO constraints done (438s)
+2026-10-21 21:47:10,163 INFO candidate pool: 25737 of 37781 sites within 30 km of a 115 kV+ substation
+2026-10-21 21:47:39,634 INFO Created 25,737 records
+2026-10-21 21:47:41,650 WARNING Skipping field constraints_soft: unsupported OGR type: 5
+2026-10-21 21:47:54,671 INFO check exclusions_full.gpkg:nps: 0 sites intersect
+2026-10-21 21:47:59,398 INFO check exclusions_full.gpkg:wilderness: 0 sites intersect
+2026-10-21 21:48:00,383 INFO check exclusions_full.gpkg:nca_acec: 0 sites intersect
+2026-10-21 21:48:05,453 INFO check exclusions_full.gpkg:critical_habitat: 0 sites intersect
+2026-10-21 21:48:09,280 INFO check exclusions_full.gpkg:flood_zone_a: 0 sites intersect
+2026-10-21 21:48:11,077 INFO check exclusions_full.gpkg:tribal: 0 sites intersect
+2026-10-21 21:48:11,473 INFO check exclusions_full.gpkg:military: 0 sites intersect
+2026-10-21 21:48:12,429 INFO check exclusions_full.gpkg:urban: 0 sites intersect
+2026-10-21 21:49:19,477 INFO check exclusions_full.gpkg:slope_gt5: 0 sites intersect
+2026-10-21 21:49:20,079 INFO check exclusions/critical_habitat.geojson: 0 sites intersect
+2026-10-21 21:49:42,469 INFO check exclusions/flood_zone_a.geojson: 0 sites intersect
+2026-10-21 21:49:42,524 INFO check exclusions/military.geojson: 0 sites intersect
+2026-10-21 21:49:42,604 INFO check exclusions/nca_acec.geojson: 0 sites intersect
+2026-10-21 21:49:42,778 INFO check exclusions/nps.geojson: 0 sites intersect
+2026-10-21 22:22:10,894 INFO stage: cells
+2026-10-21 22:22:10,897 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 22:22:11,217 INFO stage: blocks and sites
+2026-10-21 22:22:11,217 INFO sites_raw: using cache
+2026-10-21 22:22:14,345 INFO stage: exact hard-exclusion cut
+2026-10-21 22:22:14,349 INFO sites_clipped: using cache
+2026-10-21 22:22:19,318 INFO stage: load attribute cache
+2026-10-21 22:22:20,243 INFO stage: nearest POI substation search
+2026-10-21 22:22:21,355 INFO POI filter: 3539 substations >= 115 kV; removed 700 (sub_type_excluded 630, generator_or_collector 68, hvdc_converter 2); 2839 kept, 1016 of them provisional
+2026-10-21 22:22:30,872 INFO queue confidence: 8619 sites high, 29162 low (7093 of them in counties with 0 active MW, scored neutral)
+2026-10-21 22:22:30,986 INFO candidate pool: 25733 of 37781 sites within 30 km of a usable 115 kV+ substation
+2026-10-21 22:22:30,986 INFO stage: inset and simplify polygons
+2026-10-21 22:22:38,181 INFO heartbeat: still working on 'inset and simplify polygons' (30s elapsed)
+2026-10-21 22:22:49,320 INFO stage: scores and ranks
+2026-10-21 22:22:57,933 INFO stage: write candidate_sites.geojson
+2026-10-21 22:23:09,571 INFO heartbeat: still working on 'write candidate_sites.geojson' (61s elapsed)
+2026-10-21 22:23:39,659 INFO heartbeat: still working on 'write candidate_sites.geojson' (92s elapsed)
+2026-10-21 22:23:43,433 INFO stage: write candidate_sites.gpkg
+2026-10-21 22:23:57,196 INFO Created 25,733 records
+2026-10-21 22:23:58,265 INFO stage: hard-exclusion check
+2026-10-21 22:24:09,768 INFO heartbeat: still working on 'hard-exclusion check' (122s elapsed)
+2026-10-21 22:24:40,124 INFO heartbeat: still working on 'hard-exclusion check' (152s elapsed)
+2026-10-21 22:24:48,871 INFO check exclusions_full.gpkg:nps: 0 sites intersect
+2026-10-21 22:25:00,919 INFO check exclusions_full.gpkg:wilderness: 0 sites intersect
+2026-10-21 22:25:01,893 INFO check exclusions_full.gpkg:nca_acec: 0 sites intersect
+2026-10-21 22:25:09,045 INFO check exclusions_full.gpkg:critical_habitat: 0 sites intersect
+2026-10-21 22:25:13,406 INFO heartbeat: still working on 'hard-exclusion check' (185s elapsed)
+2026-10-21 22:25:17,985 INFO check exclusions_full.gpkg:flood_zone_a: 0 sites intersect
+2026-10-21 22:25:19,077 INFO check exclusions_full.gpkg:tribal: 0 sites intersect
+2026-10-21 22:25:19,352 INFO check exclusions_full.gpkg:military: 0 sites intersect
+2026-10-21 22:25:20,128 INFO check exclusions_full.gpkg:urban: 0 sites intersect
+2026-10-21 22:25:43,481 INFO heartbeat: still working on 'hard-exclusion check' (215s elapsed)
+2026-10-21 22:26:13,544 INFO heartbeat: still working on 'hard-exclusion check' (245s elapsed)
+2026-10-21 22:26:43,590 INFO heartbeat: still working on 'hard-exclusion check' (275s elapsed)
+2026-10-21 22:26:58,170 INFO check exclusions_full.gpkg:slope_gt5: 0 sites intersect
+2026-10-21 22:26:58,712 INFO check exclusions/critical_habitat.geojson: 0 sites intersect
+2026-10-21 22:27:13,646 INFO heartbeat: still working on 'hard-exclusion check' (306s elapsed)
+2026-10-21 22:27:26,377 INFO check exclusions/flood_zone_a.geojson: 0 sites intersect
+2026-10-21 22:27:26,487 INFO check exclusions/military.geojson: 0 sites intersect
+2026-10-21 22:27:26,613 INFO check exclusions/nca_acec.geojson: 0 sites intersect
+2026-10-21 22:27:26,785 INFO check exclusions/nps.geojson: 0 sites intersect
+2026-10-21 22:27:43,648 INFO heartbeat: still working on 'hard-exclusion check' (336s elapsed)
+2026-10-21 22:28:13,724 INFO heartbeat: still working on 'hard-exclusion check' (366s elapsed)
+2026-10-21 22:28:41,480 INFO check exclusions/slope_gt5.geojson: 0 sites intersect
+2026-10-21 22:28:41,644 INFO check exclusions/tribal.geojson: 0 sites intersect
+2026-10-21 22:28:41,763 INFO check exclusions/urban.geojson: 0 sites intersect
+2026-10-21 22:28:41,960 INFO check exclusions/wilderness.geojson: 0 sites intersect
+2026-10-21 22:28:43,742 INFO heartbeat: still working on 'hard-exclusion check' (396s elapsed)
+2026-10-21 22:28:48,593 INFO check ownership.gpkg: Tribal/NPS/DOD: 0 sites intersect
+2026-10-21 22:28:48,614 INFO hard exclusion check:
+                                layer  hard_features  sites_intersecting  overlap_acres
+             exclusions_full.gpkg:nps            495                   0            0.0
+      exclusions_full.gpkg:wilderness           1638                   0            0.0
+        exclusions_full.gpkg:nca_acec           5602                   0            0.0
+exclusions_full.gpkg:critical_habitat           4007                   0            0.0
+    exclusions_full.gpkg:flood_zone_a         102749                   0            0.0
+          exclusions_full.gpkg:tribal           1768                   0            0.0
+        exclusions_full.gpkg:military            818                   0            0.0
+        exclusions_full.gpkg:wetlands              0                   0            0.0
+           exclusions_full.gpkg:urban           1189                   0            0.0
+       exclusions_full.gpkg:slope_gt5          15074                   0            0.0
+  exclusions/critical_habitat.geojson           4007                   0            0.0
+      exclusions/flood_zone_a.geojson             22                   0            0.0
+          exclusions/military.geojson            818                   0            0.0
+          exclusions/nca_acec.geojson           5602                   0            0.0
+               exclusions/nps.geojson            495                   0            0.0
+         exclusions/slope_gt5.geojson          15074                   0            0.0
+            exclusions/tribal.geojson           1768                   0            0.0
+             exclusions/urban.geojson           1189                   0            0.0
+          exclusions/wetlands.geojson              0                   0            0.0
+        exclusions/wilderness.geojson           1638                   0            0.0
+       ownership.gpkg: Tribal/NPS/DOD           2808                   0            0.0
+2026-10-21 22:28:48,876 INFO stage: POI check
+2026-10-21 22:28:49,035 INFO POI check:
+                                ranking             field  sites  sites_using_excluded_poi
+                           top 50 solar    nearest_sub_id     50                         0
+                           top 50 solar nearest_sub230_id     50                         0
+                              top 50 dc    nearest_sub_id     50                         0
+                              top 50 dc nearest_sub230_id     50                         0
+v1 top 50 (before fixes, for reference)    nearest_sub_id     50                         0
+2026-10-21 22:28:49,048 INFO sites by state:
+       sites         acres  blm_available  best_solar  best_dc
+state                                                         
+CA      5058  1.144172e+07            136       87.30    84.58
+AZ      4942  8.784899e+06            664       88.98    85.86
+NV      3930  8.574332e+06           1351       81.44    77.76
+NM      8542  1.948145e+07            933       95.94    88.18
+UT      3261  7.346134e+06            782       81.24    80.34
+2026-10-21 22:28:49,048 INFO stage: METHOD.md
+2026-10-21 22:28:49,429 INFO stage: Excel workbook
+2026-10-21 22:28:49,513 INFO stage: Excel All Sites sheet
+2026-10-21 22:28:50,048 INFO Excel All Sites: 0 / 37781 rows
+2026-10-21 22:28:52,391 INFO Excel All Sites: 10000 / 37781 rows
+2026-10-21 22:28:54,770 INFO Excel All Sites: 20000 / 37781 rows
+2026-10-21 22:28:57,100 INFO Excel All Sites: 30000 / 37781 rows
+2026-10-21 22:29:00,916 INFO Excel written: /Users/akshitbansal/research/southwest-solar-siting/deliverables/Southwest_Solar_Sites.xlsx
+2026-10-21 22:29:00,946 INFO screen done: 25733 ranked sites, 37781 scored (413s)
+2026-10-21 22:30:02,358 INFO stage: cells
+2026-10-21 22:30:02,359 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 22:30:02,431 INFO stage: blocks and sites
+2026-10-21 22:30:02,431 INFO sites_raw: using cache
+2026-10-21 22:30:02,707 INFO stage: exact hard-exclusion cut
+2026-10-21 22:30:02,708 INFO sites_clipped: using cache
+2026-10-21 22:30:03,035 INFO stage: load attribute cache
+2026-10-21 22:30:03,209 INFO stage: nearest POI substation search
+2026-10-21 22:30:03,383 INFO POI filter: 3539 substations >= 115 kV; removed 700 (hvdc_converter 2, retired_or_not_in_service 0, generator_or_collector 68, sub_type_excluded 630); 2839 kept, 1016 of them provisional
+2026-10-21 22:30:05,494 INFO queue confidence: 8619 sites high, 29162 low (7093 of them in counties with 0 active MW, scored neutral)
+2026-10-21 22:30:05,509 INFO candidate pool: 25733 of 37781 sites within 30 km of a usable 115 kV+ substation
+2026-10-21 22:30:05,509 INFO stage: inset and simplify polygons
+2026-10-21 22:30:10,953 INFO stage: scores and ranks
+2026-10-21 22:30:11,806 INFO stage: write candidate_sites.geojson
+2026-10-21 22:30:19,669 INFO stage: write candidate_sites.gpkg
+2026-10-21 22:30:20,885 INFO Created 25,733 records
+2026-10-21 22:30:20,953 INFO stage: hard-exclusion check
+2026-10-21 22:30:32,378 INFO heartbeat: still working on 'hard-exclusion check' (30s elapsed)
+2026-10-21 22:30:34,752 INFO check exclusions_full.gpkg:nps: 0 sites intersect
+2026-10-21 22:30:38,126 INFO check exclusions_full.gpkg:wilderness: 0 sites intersect
+2026-10-21 22:30:38,634 INFO check exclusions_full.gpkg:nca_acec: 0 sites intersect
+2026-10-21 22:30:41,572 INFO check exclusions_full.gpkg:critical_habitat: 0 sites intersect
+2026-10-21 22:30:44,956 INFO check exclusions_full.gpkg:flood_zone_a: 0 sites intersect
+2026-10-21 22:30:46,117 INFO check exclusions_full.gpkg:tribal: 0 sites intersect
+2026-10-21 22:30:46,380 INFO check exclusions_full.gpkg:military: 0 sites intersect
+2026-10-21 22:30:47,303 INFO check exclusions_full.gpkg:urban: 0 sites intersect
+2026-10-21 22:31:02,442 INFO heartbeat: still working on 'hard-exclusion check' (60s elapsed)
+2026-10-21 22:31:32,465 INFO heartbeat: still working on 'hard-exclusion check' (90s elapsed)
+2026-10-21 22:31:58,250 INFO check exclusions_full.gpkg:slope_gt5: 0 sites intersect
+2026-10-21 22:31:58,947 INFO check exclusions/critical_habitat.geojson: 0 sites intersect
+2026-10-21 22:32:02,510 INFO heartbeat: still working on 'hard-exclusion check' (120s elapsed)
+2026-10-21 22:32:32,586 INFO heartbeat: still working on 'hard-exclusion check' (150s elapsed)
+2026-10-21 22:32:44,849 INFO check exclusions/flood_zone_a.geojson: 0 sites intersect
+2026-10-21 22:32:44,940 INFO check exclusions/military.geojson: 0 sites intersect
+2026-10-21 22:32:45,117 INFO check exclusions/nca_acec.geojson: 0 sites intersect
+2026-10-21 22:32:45,602 INFO check exclusions/nps.geojson: 0 sites intersect
+2026-10-21 22:33:02,615 INFO heartbeat: still working on 'hard-exclusion check' (180s elapsed)
+2026-10-21 22:33:32,692 INFO heartbeat: still working on 'hard-exclusion check' (210s elapsed)
+2026-10-21 22:34:02,774 INFO heartbeat: still working on 'hard-exclusion check' (240s elapsed)
+2026-10-21 22:34:32,854 INFO heartbeat: still working on 'hard-exclusion check' (270s elapsed)
+2026-10-21 22:34:37,813 INFO check exclusions/slope_gt5.geojson: 0 sites intersect
+2026-10-21 22:34:38,158 INFO check exclusions/tribal.geojson: 0 sites intersect
+2026-10-21 22:34:38,413 INFO check exclusions/urban.geojson: 0 sites intersect
+2026-10-21 22:34:38,691 INFO check exclusions/wilderness.geojson: 0 sites intersect
+2026-10-21 22:34:52,154 INFO check ownership.gpkg: Tribal/NPS/DOD: 0 sites intersect
+2026-10-21 22:34:52,186 INFO hard exclusion check:
+                                layer  hard_features  sites_intersecting  overlap_acres
+             exclusions_full.gpkg:nps            495                   0            0.0
+      exclusions_full.gpkg:wilderness           1638                   0            0.0
+        exclusions_full.gpkg:nca_acec           5602                   0            0.0
+exclusions_full.gpkg:critical_habitat           4007                   0            0.0
+    exclusions_full.gpkg:flood_zone_a         102749                   0            0.0
+          exclusions_full.gpkg:tribal           1768                   0            0.0
+        exclusions_full.gpkg:military            818                   0            0.0
+        exclusions_full.gpkg:wetlands              0                   0            0.0
+           exclusions_full.gpkg:urban           1189                   0            0.0
+       exclusions_full.gpkg:slope_gt5          15074                   0            0.0
+  exclusions/critical_habitat.geojson           4007                   0            0.0
+      exclusions/flood_zone_a.geojson             22                   0            0.0
+          exclusions/military.geojson            818                   0            0.0
+          exclusions/nca_acec.geojson           5602                   0            0.0
+               exclusions/nps.geojson            495                   0            0.0
+         exclusions/slope_gt5.geojson          15074                   0            0.0
+            exclusions/tribal.geojson           1768                   0            0.0
+             exclusions/urban.geojson           1189                   0            0.0
+          exclusions/wetlands.geojson              0                   0            0.0
+        exclusions/wilderness.geojson           1638                   0            0.0
+       ownership.gpkg: Tribal/NPS/DOD           2808                   0            0.0
+2026-10-21 22:34:52,577 INFO stage: POI check
+2026-10-21 22:34:52,654 INFO POI check:
+                                ranking             field  sites  sites_using_excluded_poi
+                           top 50 solar    nearest_sub_id     50                         0
+                           top 50 solar nearest_sub230_id     50                         0
+                              top 50 dc    nearest_sub_id     50                         0
+                              top 50 dc nearest_sub230_id     50                         0
+v1 top 50 (before fixes, for reference)    nearest_sub_id     50                         0
+2026-10-21 22:34:52,672 INFO sites by state:
+       sites         acres  blm_available  best_solar  best_dc
+state                                                         
+CA      5058  1.144172e+07            136       87.30    84.58
+AZ      4942  8.784899e+06            664       88.98    85.86
+NV      3930  8.574332e+06           1351       81.44    77.76
+NM      8542  1.948145e+07            933       95.94    88.18
+UT      3261  7.346134e+06            782       81.24    80.34
+2026-10-21 22:34:52,672 INFO stage: METHOD.md
+2026-10-21 22:34:53,094 INFO stage: Excel workbook
+2026-10-21 22:34:53,227 INFO stage: Excel All Sites sheet
+2026-10-21 22:34:54,317 INFO Excel All Sites: 0 / 37781 rows
+2026-10-21 22:34:58,864 INFO Excel All Sites: 10000 / 37781 rows
+2026-10-21 22:35:01,797 INFO Excel All Sites: 20000 / 37781 rows
+2026-10-21 22:35:02,881 INFO heartbeat: still working on 'Excel All Sites sheet' (301s elapsed)
+2026-10-21 22:35:06,237 INFO Excel All Sites: 30000 / 37781 rows
+2026-10-21 22:35:14,675 INFO Excel written: /Users/akshitbansal/research/southwest-solar-siting/deliverables/Southwest_Solar_Sites.xlsx
+2026-10-21 22:35:14,820 INFO screen done: 25733 ranked sites, 37781 scored (312s)
+2026-10-21 22:35:59,692 INFO memos: wrote 15 memos + README (9s)
+2026-10-21 22:36:32,251 INFO stage: cells
+2026-10-21 22:36:32,252 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 22:36:32,333 INFO stage: blocks and sites
+2026-10-21 22:36:32,333 INFO sites_raw: using cache
+2026-10-21 22:36:33,064 INFO stage: exact hard-exclusion cut
+2026-10-21 22:36:33,064 INFO sites_clipped: using cache
+2026-10-21 22:36:33,430 INFO stage: load attribute cache
+2026-10-21 22:36:33,605 INFO stage: nearest POI substation search
+2026-10-21 22:36:33,960 INFO POI filter: 3539 substations >= 115 kV; removed 702 (hvdc_converter 4, retired_or_not_in_service 0, generator_or_collector 68, sub_type_excluded 630); 2837 kept, 1016 of them provisional
+2026-10-21 22:36:37,093 INFO queue confidence: 8619 sites high, 29162 low (7093 of them in counties with 0 active MW, scored neutral)
+2026-10-21 22:36:37,108 INFO candidate pool: 25733 of 37781 sites within 30 km of a usable 115 kV+ substation
+2026-10-21 22:36:37,108 INFO stage: inset and simplify polygons
+2026-10-21 22:36:40,122 INFO stage: scores and ranks
+2026-10-21 22:36:40,959 INFO stage: write candidate_sites.geojson
+2026-10-21 22:36:48,855 INFO stage: write candidate_sites.gpkg
+2026-10-21 22:36:51,444 INFO Created 25,733 records
+2026-10-21 22:36:51,584 INFO stage: hard-exclusion check
+2026-10-21 22:37:02,753 INFO heartbeat: still working on 'hard-exclusion check' (31s elapsed)
+2026-10-21 22:37:21,139 INFO check exclusions_full.gpkg:nps: 0 sites intersect
+2026-10-21 22:37:24,424 INFO check exclusions_full.gpkg:wilderness: 0 sites intersect
+2026-10-21 22:37:24,930 INFO check exclusions_full.gpkg:nca_acec: 0 sites intersect
+2026-10-21 22:37:27,971 INFO check exclusions_full.gpkg:critical_habitat: 0 sites intersect
+2026-10-21 22:37:31,794 INFO check exclusions_full.gpkg:flood_zone_a: 0 sites intersect
+2026-10-21 22:37:32,841 INFO heartbeat: still working on 'hard-exclusion check' (61s elapsed)
+2026-10-21 22:37:32,851 INFO check exclusions_full.gpkg:tribal: 0 sites intersect
+2026-10-21 22:37:33,109 INFO check exclusions_full.gpkg:military: 0 sites intersect
+2026-10-21 22:37:33,862 INFO check exclusions_full.gpkg:urban: 0 sites intersect
+2026-10-21 22:38:02,894 INFO heartbeat: still working on 'hard-exclusion check' (91s elapsed)
+2026-10-21 22:38:32,899 INFO heartbeat: still working on 'hard-exclusion check' (121s elapsed)
+2026-10-21 22:38:55,705 INFO check exclusions_full.gpkg:slope_gt5: 0 sites intersect
+2026-10-21 22:38:56,254 INFO check exclusions/critical_habitat.geojson: 0 sites intersect
+2026-10-21 22:39:02,956 INFO heartbeat: still working on 'hard-exclusion check' (151s elapsed)
+2026-10-21 22:39:18,128 INFO check exclusions/flood_zone_a.geojson: 0 sites intersect
+2026-10-21 22:39:18,178 INFO check exclusions/military.geojson: 0 sites intersect
+2026-10-21 22:39:18,257 INFO check exclusions/nca_acec.geojson: 0 sites intersect
+2026-10-21 22:39:18,429 INFO check exclusions/nps.geojson: 0 sites intersect
+2026-10-21 22:39:33,014 INFO heartbeat: still working on 'hard-exclusion check' (181s elapsed)
+2026-10-21 22:40:03,089 INFO heartbeat: still working on 'hard-exclusion check' (211s elapsed)
+2026-10-21 22:40:14,510 INFO check exclusions/slope_gt5.geojson: 0 sites intersect
+2026-10-21 22:40:14,679 INFO check exclusions/tribal.geojson: 0 sites intersect
+2026-10-21 22:40:14,799 INFO check exclusions/urban.geojson: 0 sites intersect
+2026-10-21 22:40:14,993 INFO check exclusions/wilderness.geojson: 0 sites intersect
+2026-10-21 22:40:21,573 INFO check ownership.gpkg: Tribal/NPS/DOD: 0 sites intersect
+2026-10-21 22:40:21,634 INFO hard exclusion check:
+                                layer  hard_features  sites_intersecting  overlap_acres
+             exclusions_full.gpkg:nps            495                   0            0.0
+      exclusions_full.gpkg:wilderness           1638                   0            0.0
+        exclusions_full.gpkg:nca_acec           5602                   0            0.0
+exclusions_full.gpkg:critical_habitat           4007                   0            0.0
+    exclusions_full.gpkg:flood_zone_a         102749                   0            0.0
+          exclusions_full.gpkg:tribal           1768                   0            0.0
+        exclusions_full.gpkg:military            818                   0            0.0
+        exclusions_full.gpkg:wetlands              0                   0            0.0
+           exclusions_full.gpkg:urban           1189                   0            0.0
+       exclusions_full.gpkg:slope_gt5          15074                   0            0.0
+  exclusions/critical_habitat.geojson           4007                   0            0.0
+      exclusions/flood_zone_a.geojson             22                   0            0.0
+          exclusions/military.geojson            818                   0            0.0
+          exclusions/nca_acec.geojson           5602                   0            0.0
+               exclusions/nps.geojson            495                   0            0.0
+         exclusions/slope_gt5.geojson          15074                   0            0.0
+            exclusions/tribal.geojson           1768                   0            0.0
+             exclusions/urban.geojson           1189                   0            0.0
+          exclusions/wetlands.geojson              0                   0            0.0
+        exclusions/wilderness.geojson           1638                   0            0.0
+       ownership.gpkg: Tribal/NPS/DOD           2808                   0            0.0
+2026-10-21 22:40:21,882 INFO stage: POI check
+2026-10-21 22:40:21,986 INFO POI check:
+                                ranking             field  sites  sites_using_excluded_poi
+                           top 50 solar    nearest_sub_id     50                         0
+                           top 50 solar nearest_sub230_id     50                         0
+                              top 50 dc    nearest_sub_id     50                         0
+                              top 50 dc nearest_sub230_id     50                         0
+v1 top 50 (before fixes, for reference)    nearest_sub_id     50                         0
+2026-10-21 22:40:22,012 INFO sites by state:
+       sites         acres  blm_available  best_solar  best_dc
+state                                                         
+CA      5058  1.144172e+07            136       87.30    84.58
+AZ      4942  8.784899e+06            664       88.98    85.86
+NV      3930  8.574332e+06           1351       81.44    77.76
+NM      8542  1.948145e+07            933       95.94    88.18
+UT      3261  7.346134e+06            782       81.24    80.34
+2026-10-21 22:40:22,013 INFO stage: METHOD.md
+2026-10-21 22:40:22,372 INFO stage: Excel workbook
+2026-10-21 22:40:22,474 INFO stage: Excel All Sites sheet
+2026-10-21 22:40:23,018 INFO Excel All Sites: 0 / 37781 rows
+2026-10-21 22:40:25,404 INFO Excel All Sites: 10000 / 37781 rows
+2026-10-21 22:40:27,870 INFO Excel All Sites: 20000 / 37781 rows
+2026-10-21 22:40:30,227 INFO Excel All Sites: 30000 / 37781 rows
+2026-10-21 22:40:33,165 INFO heartbeat: still working on 'Excel All Sites sheet' (241s elapsed)
+2026-10-21 22:40:34,104 INFO Excel written: /Users/akshitbansal/research/southwest-solar-siting/deliverables/Southwest_Solar_Sites.xlsx
+2026-10-21 22:40:34,146 INFO screen done: 25733 ranked sites, 37781 scored (242s)
+2026-10-21 22:40:39,383 INFO memos: wrote 15 memos + README (4s)
+2026-10-21 22:41:25,478 INFO stage: cells
+2026-10-21 22:41:25,478 INFO cells: using cache /Users/akshitbansal/research/southwest-solar-siting/data/processed/sites/work/cells.npz
+2026-10-21 22:41:25,539 INFO stage: blocks and sites
+2026-10-21 22:41:25,539 INFO sites_raw: using cache
+2026-10-21 22:41:25,728 INFO stage: exact hard-exclusion cut
+2026-10-21 22:41:25,728 INFO sites_clipped: using cache
+2026-10-21 22:41:25,955 INFO stage: load attribute cache
+2026-10-21 22:41:26,029 INFO stage: nearest POI substation search
+2026-10-21 22:41:26,167 INFO POI filter: 3539 substations >= 115 kV; removed 702 (hvdc_converter 4, retired_or_not_in_service 0, generator_or_collector 68, sub_type_excluded 630); 2837 kept, 1016 of them provisional
+2026-10-21 22:41:27,495 INFO queue confidence: 8619 sites high, 29162 low (7093 of them in counties with 0 active MW, scored neutral)
+2026-10-21 22:41:27,506 INFO candidate pool: 25733 of 37781 sites within 30 km of a usable 115 kV+ substation
+2026-10-21 22:41:27,506 INFO stage: inset and simplify polygons
+2026-10-21 22:41:30,482 INFO stage: scores and ranks
+2026-10-21 22:41:31,315 INFO stage: write candidate_sites.geojson
+2026-10-21 22:41:39,512 INFO stage: write candidate_sites.gpkg
+2026-10-21 22:41:40,854 INFO Created 25,733 records
+2026-10-21 22:41:40,925 INFO stage: hard-exclusion check
+2026-10-21 22:41:54,073 INFO check exclusions_full.gpkg:nps: 0 sites intersect
+2026-10-21 22:41:55,552 INFO heartbeat: still working on 'hard-exclusion check' (30s elapsed)
+2026-10-21 22:41:57,491 INFO check exclusions_full.gpkg:wilderness: 0 sites intersect
+2026-10-21 22:41:58,000 INFO check exclusions_full.gpkg:nca_acec: 0 sites intersect
+2026-10-21 22:42:00,937 INFO check exclusions_full.gpkg:critical_habitat: 0 sites intersect
+2026-10-21 22:42:04,173 INFO check exclusions_full.gpkg:flood_zone_a: 0 sites intersect
+2026-10-21 22:42:05,221 INFO check exclusions_full.gpkg:tribal: 0 sites intersect
+2026-10-21 22:42:05,480 INFO check exclusions_full.gpkg:military: 0 sites intersect
+2026-10-21 22:42:06,233 INFO check exclusions_full.gpkg:urban: 0 sites intersect
+2026-10-21 22:42:25,559 INFO heartbeat: still working on 'hard-exclusion check' (60s elapsed)
+2026-10-21 22:42:55,649 INFO heartbeat: still working on 'hard-exclusion check' (90s elapsed)
+2026-10-21 22:43:05,147 INFO check exclusions_full.gpkg:slope_gt5: 0 sites intersect
+2026-10-21 22:43:05,802 INFO check exclusions/critical_habitat.geojson: 0 sites intersect
+2026-10-21 22:43:25,726 INFO heartbeat: still working on 'hard-exclusion check' (120s elapsed)
+2026-10-21 22:43:28,403 INFO check exclusions/flood_zone_a.geojson: 0 sites intersect
+2026-10-21 22:43:28,455 INFO check exclusions/military.geojson: 0 sites intersect
+2026-10-21 22:43:28,535 INFO check exclusions/nca_acec.geojson: 0 sites intersect
+2026-10-21 22:43:28,709 INFO check exclusions/nps.geojson: 0 sites intersect
+2026-10-21 22:43:55,789 INFO heartbeat: still working on 'hard-exclusion check' (150s elapsed)
+2026-10-21 22:44:25,854 INFO heartbeat: still working on 'hard-exclusion check' (180s elapsed)
+2026-10-21 22:44:27,138 INFO check exclusions/slope_gt5.geojson: 0 sites intersect
+2026-10-21 22:44:27,301 INFO check exclusions/tribal.geojson: 0 sites intersect
+2026-10-21 22:44:27,419 INFO check exclusions/urban.geojson: 0 sites intersect
+2026-10-21 22:44:27,612 INFO check exclusions/wilderness.geojson: 0 sites intersect
+2026-10-21 22:44:34,272 INFO check ownership.gpkg: Tribal/NPS/DOD: 0 sites intersect
+2026-10-21 22:44:34,280 INFO hard exclusion check:
+                                layer  hard_features  sites_intersecting  overlap_acres
+             exclusions_full.gpkg:nps            495                   0            0.0
+      exclusions_full.gpkg:wilderness           1638                   0            0.0
+        exclusions_full.gpkg:nca_acec           5602                   0            0.0
+exclusions_full.gpkg:critical_habitat           4007                   0            0.0
+    exclusions_full.gpkg:flood_zone_a         102749                   0            0.0
+          exclusions_full.gpkg:tribal           1768                   0            0.0
+        exclusions_full.gpkg:military            818                   0            0.0
+        exclusions_full.gpkg:wetlands              0                   0            0.0
+           exclusions_full.gpkg:urban           1189                   0            0.0
+       exclusions_full.gpkg:slope_gt5          15074                   0            0.0
+  exclusions/critical_habitat.geojson           4007                   0            0.0
+      exclusions/flood_zone_a.geojson             22                   0            0.0
+          exclusions/military.geojson            818                   0            0.0
+          exclusions/nca_acec.geojson           5602                   0            0.0
+               exclusions/nps.geojson            495                   0            0.0
+         exclusions/slope_gt5.geojson          15074                   0            0.0
+            exclusions/tribal.geojson           1768                   0            0.0
+             exclusions/urban.geojson           1189                   0            0.0
+          exclusions/wetlands.geojson              0                   0            0.0
+        exclusions/wilderness.geojson           1638                   0            0.0
+       ownership.gpkg: Tribal/NPS/DOD           2808                   0            0.0
+2026-10-21 22:44:34,470 INFO stage: POI check
+2026-10-21 22:44:34,616 INFO POI check:
+                                ranking             field  sites  sites_using_excluded_poi
+                           top 50 solar    nearest_sub_id     50                         0
+                           top 50 solar nearest_sub230_id     50                         0
+                              top 50 dc    nearest_sub_id     50                         0
+                              top 50 dc nearest_sub230_id     50                         0
+v1 top 50 (before fixes, for reference)    nearest_sub_id     50                         0
+2026-10-21 22:44:34,705 INFO sites by state:
+       sites         acres  blm_available  best_solar  best_dc
+state                                                         
+CA      5058  1.144172e+07            136       87.30    84.58
+AZ      4942  8.784899e+06            664       88.98    85.86
+NV      3930  8.574332e+06           1351       81.44    77.76
+NM      8542  1.948145e+07            933       95.94    88.18
+UT      3261  7.346134e+06            782       81.24    80.34
+2026-10-21 22:44:34,706 INFO stage: METHOD.md
+2026-10-21 22:44:35,178 INFO stage: Excel workbook
+2026-10-21 22:44:35,307 INFO stage: Excel All Sites sheet
+2026-10-21 22:44:36,232 INFO Excel All Sites: 0 / 37781 rows
+2026-10-21 22:44:39,448 INFO Excel All Sites: 10000 / 37781 rows
+2026-10-21 22:44:42,677 INFO Excel All Sites: 20000 / 37781 rows
+2026-10-21 22:44:45,346 INFO Excel All Sites: 30000 / 37781 rows
+2026-10-21 22:44:49,861 INFO Excel written: /Users/akshitbansal/research/southwest-solar-siting/deliverables/Southwest_Solar_Sites.xlsx
+2026-10-21 22:44:49,993 INFO screen done: 25733 ranked sites, 37781 scored (205s)
+2026-10-21 22:44:55,817 INFO memos: wrote 15 memos + README (5s)

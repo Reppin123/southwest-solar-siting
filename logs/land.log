@@ -1,0 +1,502 @@
+2026-10-21 19:16:36,335 fetch_land INFO downloaded cb_2024_us_state_500k.zip (3.2 MB)
+2026-10-21 19:16:36,791 fetch_land INFO downloaded cb_2024_us_county_500k.zip (11.6 MB)
+2026-10-21 19:16:37,116 fetch_land INFO downloaded tl_2024_us_aiannh.zip (9.1 MB)
+2026-10-21 19:16:37,255 fetch_land INFO downloaded tl_2024_us_mil.zip (3.0 MB)
+2026-10-21 19:16:38,953 fetch_land INFO downloaded tl_2024_us_uac20.zip (73.8 MB)
+2026-10-21 19:16:38,953 fetch_land INFO skip (exists) BLM-National-Solar-PEIS-ROD.gdb.zip
+2026-10-21 19:17:03,871 fetch_land INFO downloaded SMA_WM.gdb.zip (1113.1 MB)
+2026-10-21 19:17:22,791 fetch_land INFO downloaded nsrdbv3_ghi.zip (140.1 MB)
+2026-10-21 19:17:30,810 fetch_land INFO extracted SMA_WM.gdb.zip -> SMA_WM.gdb
+2026-10-21 19:17:33,599 fetch_land INFO extracted nsrdbv3_ghi.zip -> nsrdbv3_ghi
+2026-10-21 19:17:33,600 fetch_land INFO fetch_land done
+2026-10-21 19:18:31,989 fetch_land INFO sez: 1 tiles, 153 features on disk (153 new this run)
+2026-10-21 19:18:33,133 fetch_land INFO drecp_dfa: 1 tiles, 171 features on disk (171 new this run)
+2026-10-21 19:18:33,656 fetch_land INFO drecp_variance: 1 tiles, 7 features on disk (7 new this run)
+2026-10-21 19:19:23,690 fetch_land INFO wilderness_nwps: 1 tiles, 483 features on disk (483 new this run)
+2026-10-21 19:19:37,238 fetch_land INFO wsa_blm: 1 tiles, 831 features on disk (831 new this run)
+2026-10-21 19:19:46,700 fetch_land INFO nlcs_nm_nca: 1 tiles, 48 features on disk (48 new this run)
+2026-10-21 19:20:24,062 fetch_land INFO acec: 54 tiles, 822 features on disk (822 new this run)
+2026-10-21 19:21:27,195 fetch_land INFO critical_habitat: 54 tiles, 456 features on disk (456 new this run)
+2026-10-21 19:21:27,196 fetch_land INFO fetch_land done
+2026-10-21 19:22:40,408 fetch_land INFO fema_flood_av: 677 tiles, 86789 features on disk (86789 new this run)
+2026-10-21 19:22:40,410 fetch_land INFO fetch_land done
+2026-10-21 19:25:29,052 fetch_land INFO nwi_wetlands_40ac: 188 tiles, 37258 features on disk (37258 new this run)
+2026-10-21 19:25:29,053 fetch_land INFO fetch_land done
+2026-10-21 19:25:34,625 fetch_land INFO terrain z11: 6681 tiles needed, 6681 to download
+2026-10-21 19:25:42,738 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,738 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,747 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,754 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,759 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,887 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,913 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:42,933 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,031 fetch_land INFO terrain: 1000 / 6681
+2026-10-21 19:25:43,169 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,171 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,192 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,533 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,533 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,535 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,538 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,540 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,545 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,563 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:43,565 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:44,301 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:44,306 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:44,306 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:44,322 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:49,003 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:49,055 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 8
+2026-10-21 19:25:49,064 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:51,245 fetch_land INFO terrain: 2000 / 6681
+2026-10-21 19:25:53,197 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:25:59,064 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 9
+2026-10-21 19:25:59,081 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 8
+2026-10-21 19:25:59,194 fetch_land INFO terrain: 3000 / 6681
+2026-10-21 19:26:02,693 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:02,713 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:02,728 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:02,732 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:02,739 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:02,750 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:08,481 fetch_land INFO terrain: 4000 / 6681
+2026-10-21 19:26:11,025 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:12,932 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:12,946 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:12,955 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:12,963 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:12,983 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,054 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,055 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,055 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,056 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,058 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,059 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,067 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,072 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,110 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,120 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,138 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,140 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,697 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,700 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,701 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,712 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,712 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,714 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,726 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,751 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,752 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:14,753 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:15,718 fetch_land INFO terrain: 5000 / 6681
+2026-10-21 19:26:17,794 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:17,836 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:17,837 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:17,847 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:17,875 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:23,609 fetch_land INFO terrain: 6000 / 6681
+2026-10-21 19:26:29,550 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,554 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,565 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,572 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,592 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,598 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,600 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,602 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,607 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,645 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,669 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,686 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,729 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,770 fetch_land WARNING Connection pool is full, discarding connection: s3.amazonaws.com. Connection pool size: 10
+2026-10-21 19:26:29,772 fetch_land INFO terrain: downloaded 6681 of 6681
+2026-10-21 19:26:29,773 fetch_land INFO fetch_land done
+2026-10-21 19:26:41,644 fetch_land INFO skip (exists) cb_2024_us_state_500k.zip
+2026-10-21 19:26:41,645 fetch_land INFO skip (exists) cb_2024_us_county_500k.zip
+2026-10-21 19:26:41,645 fetch_land INFO skip (exists) tl_2024_us_aiannh.zip
+2026-10-21 19:26:41,645 fetch_land INFO skip (exists) tl_2024_us_mil.zip
+2026-10-21 19:26:41,645 fetch_land INFO skip (exists) tl_2024_us_uac20.zip
+2026-10-21 19:26:41,645 fetch_land INFO skip (extracted) BLM_Natl_Solar_PEIS_ROD.gdb
+2026-10-21 19:26:41,645 fetch_land INFO skip (extracted) SMA_WM.gdb
+2026-10-21 19:26:41,645 fetch_land INFO skip (extracted) nsrdbv3_ghi
+2026-10-21 19:26:41,647 fetch_land INFO sez: 1 tiles, 153 features on disk (0 new this run)
+2026-10-21 19:26:41,647 fetch_land INFO drecp_dfa: 1 tiles, 171 features on disk (0 new this run)
+2026-10-21 19:26:41,648 fetch_land INFO drecp_variance: 1 tiles, 7 features on disk (0 new this run)
+2026-10-21 19:26:41,649 fetch_land INFO wilderness_nwps: 1 tiles, 483 features on disk (0 new this run)
+2026-10-21 19:26:41,650 fetch_land INFO wsa_blm: 1 tiles, 831 features on disk (0 new this run)
+2026-10-21 19:26:41,651 fetch_land INFO nlcs_nm_nca: 1 tiles, 48 features on disk (0 new this run)
+2026-10-21 19:26:42,626 fetch_land INFO acec: 54 tiles, 822 features on disk (0 new this run)
+2026-10-21 19:26:42,702 fetch_land INFO critical_habitat: 54 tiles, 456 features on disk (0 new this run)
+2026-10-21 19:26:42,965 fetch_land INFO fema_flood_av: 677 tiles, 86789 features on disk (0 new this run)
+2026-10-21 19:26:43,084 fetch_land INFO nwi_wetlands_40ac: 188 tiles, 37258 features on disk (0 new this run)
+2026-10-21 19:26:43,877 fetch_land INFO terrain z11: 6681 tiles needed, 0 to download
+2026-10-21 19:26:43,878 fetch_land INFO terrain: downloaded 0 of 0
+2026-10-21 19:26:43,878 fetch_land INFO fetch_land done
+2026-10-21 19:32:19,854 process_land INFO stage admin
+2026-10-21 19:32:19,993 process_land INFO Created 5 records
+2026-10-21 19:32:20,347 process_land INFO Created 152 records
+2026-10-21 19:32:20,349 process_land INFO admin: 5 states, 152 counties
+2026-10-21 19:32:20,349 process_land INFO stage blm
+2026-10-21 19:32:22,797 process_land INFO Western Solar Plan ROD categories (acres):
+State       ApprovedPlan
+Arizona     Available        2813851.0
+            Avoidance          11131.0
+            DRECP/CDCA            50.0
+            Excluded         8981275.0
+            Other             279601.0
+California  Available         163776.0
+            Avoidance          21465.0
+            DRECP/CDCA      10832710.0
+            Excluded         3956927.0
+            Other               8007.0
+Nevada      Available        8851811.0
+            Avoidance        2988289.0
+            DRECP/CDCA           670.0
+            Excluded        32894663.0
+            Other            2481675.0
+New Mexico  Available        4018878.0
+            Avoidance           9272.0
+            Excluded         8645637.0
+            Other             815866.0
+Utah        Available        4782795.0
+            Avoidance         227461.0
+            Excluded        16375108.0
+            Other            1374479.0
+2026-10-21 19:41:16,508 process_land INFO stage blm
+2026-10-21 19:41:19,088 process_land INFO Western Solar Plan ROD categories (acres):
+State       ApprovedPlan
+Arizona     Available        2813851.0
+            Avoidance          11131.0
+            DRECP/CDCA            50.0
+            Excluded         8981275.0
+            Other             279601.0
+California  Available         163776.0
+            Avoidance          21465.0
+            DRECP/CDCA      10832710.0
+            Excluded         3956927.0
+            Other               8007.0
+Nevada      Available        8851811.0
+            Avoidance        2988289.0
+            DRECP/CDCA           670.0
+            Excluded        32894663.0
+            Other            2481675.0
+New Mexico  Available        4018878.0
+            Avoidance           9272.0
+            Excluded         8645637.0
+            Other             815866.0
+Utah        Available        4782795.0
+            Avoidance         227461.0
+            Excluded        16375108.0
+            Other            1374479.0
+2026-10-21 19:45:25,078 process_land INFO DRECP DFA acres 388750, variance acres 40165
+2026-10-21 19:45:57,742 process_land INFO Created 19,320 records
+2026-10-21 19:46:27,560 process_land INFO Created 19,320 records
+2026-10-21 19:46:27,567 process_land INFO blm_solar_available.geojson is 156.0 MB; retry with simplify 0.0005 deg
+2026-10-21 19:46:43,266 process_land INFO Created 19,320 records
+2026-10-21 19:46:43,269 process_land INFO blm_solar_available.geojson is 48.2 MB; retry with simplify 0.0010 deg
+2026-10-21 19:46:54,841 process_land INFO Created 19,320 records
+2026-10-21 19:46:54,844 process_land INFO blm_solar_available.geojson is 37.8 MB; retry with simplify 0.0020 deg
+2026-10-21 19:47:03,686 process_land INFO Created 19,320 records
+2026-10-21 19:47:03,689 process_land INFO blm_solar_available.geojson is 33.0 MB; retry with simplify 0.0040 deg
+2026-10-21 19:47:11,547 process_land INFO Created 19,320 records
+2026-10-21 19:47:11,549 process_land INFO blm_solar_available.geojson is 30.8 MB; retry with simplify 0.0080 deg
+2026-10-21 19:47:18,960 process_land INFO Created 19,320 records
+2026-10-21 19:47:18,962 process_land INFO blm_solar_available.geojson is 29.8 MB; retry with simplify 0.0160 deg
+2026-10-21 19:47:26,230 process_land INFO Created 19,320 records
+2026-10-21 19:47:26,231 process_land INFO blm_solar_available.geojson is 29.4 MB; retry with simplify 0.0320 deg
+2026-10-21 19:47:33,349 process_land INFO Created 19,320 records
+2026-10-21 19:47:33,351 process_land INFO blm_solar_available.geojson is 29.2 MB; retry with simplify 0.0640 deg
+2026-10-21 19:47:40,465 process_land INFO Created 19,320 records
+2026-10-21 19:47:40,467 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 0.1280 deg
+2026-10-21 19:47:47,537 process_land INFO Created 19,320 records
+2026-10-21 19:47:47,538 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 0.2560 deg
+2026-10-21 19:47:54,574 process_land INFO Created 19,320 records
+2026-10-21 19:47:54,575 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 0.5120 deg
+2026-10-21 19:48:01,660 process_land INFO Created 19,320 records
+2026-10-21 19:48:01,663 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 1.0240 deg
+2026-10-21 19:48:08,786 process_land INFO Created 19,320 records
+2026-10-21 19:48:08,791 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 2.0480 deg
+2026-10-21 19:48:15,882 process_land INFO Created 19,320 records
+2026-10-21 19:48:15,883 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 4.0960 deg
+2026-10-21 19:48:22,928 process_land INFO Created 19,320 records
+2026-10-21 19:48:22,930 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 8.1920 deg
+2026-10-21 19:48:30,038 process_land INFO Created 19,320 records
+2026-10-21 19:48:30,039 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 16.3840 deg
+2026-10-21 19:48:37,080 process_land INFO Created 19,320 records
+2026-10-21 19:48:37,082 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 32.7680 deg
+2026-10-21 19:48:44,111 process_land INFO Created 19,320 records
+2026-10-21 19:48:44,113 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 65.5360 deg
+2026-10-21 19:48:51,149 process_land INFO Created 19,320 records
+2026-10-21 19:48:51,151 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 131.0720 deg
+2026-10-21 19:48:58,188 process_land INFO Created 19,320 records
+2026-10-21 19:48:58,189 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 262.1440 deg
+2026-10-21 19:49:05,340 process_land INFO Created 19,320 records
+2026-10-21 19:49:05,344 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 524.2880 deg
+2026-10-21 19:49:12,416 process_land INFO Created 19,320 records
+2026-10-21 19:49:12,417 process_land INFO blm_solar_available.geojson is 29.1 MB; retry with simplify 1048.5760 deg
+2026-10-21 19:51:56,558 process_land INFO stage blm
+2026-10-21 19:51:59,159 process_land INFO Western Solar Plan ROD categories (acres):
+State       ApprovedPlan
+Arizona     Available        2813851.0
+            Avoidance          11131.0
+            DRECP/CDCA            50.0
+            Excluded         8981275.0
+            Other             279601.0
+California  Available         163776.0
+            Avoidance          21465.0
+            DRECP/CDCA      10832710.0
+            Excluded         3956927.0
+            Other               8007.0
+Nevada      Available        8851811.0
+            Avoidance        2988289.0
+            DRECP/CDCA           670.0
+            Excluded        32894663.0
+            Other            2481675.0
+New Mexico  Available        4018878.0
+            Avoidance           9272.0
+            Excluded         8645637.0
+            Other             815866.0
+Utah        Available        4782795.0
+            Avoidance         227461.0
+            Excluded        16375108.0
+            Other            1374479.0
+2026-10-21 19:56:06,557 process_land INFO DRECP DFA acres 388750, variance acres 40165
+2026-10-21 19:56:38,878 process_land INFO Created 19,319 records
+2026-10-21 19:57:08,517 process_land INFO Created 19,319 records
+2026-10-21 19:57:08,531 process_land INFO blm_solar_available.geojson is 156.0 MB with simplify 0.0 deg; stepping up
+2026-10-21 19:57:24,217 process_land INFO Created 19,319 records
+2026-10-21 19:57:24,219 process_land INFO blm_solar_available.geojson is 48.2 MB with simplify 0.0005 deg; stepping up
+2026-10-21 19:57:38,047 process_land INFO Created 19,279 records
+2026-10-21 19:57:38,049 process_land INFO blm_solar_available.geojson is 35.5 MB with simplify 0.0005 deg, holes and parts under 2 acres removed; stepping up
+2026-10-21 19:57:47,576 process_land INFO Created 19,198 records
+2026-10-21 19:57:47,578 process_land INFO wrote blm_solar_available.geojson (19198 features, 20.8 MB, simplify 0.001 deg, holes and parts under 5 acres removed)
+2026-10-21 19:57:47,637 process_land INFO Created 26 records
+2026-10-21 19:57:47,647 process_land INFO blm: 19319 available polygons; 26 SEZ records: ['Afton', 'Agua Caliente', 'Amargosa Valley', 'Brenda', 'Dry Lake', 'Dry Lake Valley North', 'Escalante Valley', 'Gillespie', 'Gold Point', 'Imperial East', 'Milford Flats South', 'Millers', 'Riverside East', 'Wah Wah Valley', 'West Chocolate Mountains']
+2026-10-21 19:57:48,116 process_land INFO process_land done; manifest has 4 layers
+2026-10-21 19:57:53,754 process_land INFO stage ownership
+2026-10-21 19:58:04,779 process_land INFO ownership: 502 SMA features in bbox
+2026-10-21 20:07:33,166 process_land INFO stage ownership
+2026-10-21 20:07:44,114 process_land INFO ownership: 502 SMA features in bbox
+2026-10-21 20:09:30,179 process_land INFO Created 83,826 records
+2026-10-21 20:09:30,500 process_land INFO ownership acres by state/category:
+state  category
+AZ     BLM         12055268.0
+       DOD          2786007.0
+       NPS          2624427.0
+       Other        1993635.0
+       Private     12739887.0
+       State        9272077.0
+       Tribal      20289734.0
+       USFS        11176734.0
+CA     BLM         15002702.0
+       DOD          4324798.0
+       NPS          7686844.0
+       Other        1219684.0
+       Private     48844592.0
+       State        2645621.0
+       Tribal        701403.0
+       USFS        20801937.0
+NM     BLM         13324261.0
+       DOD          2671956.0
+       NPS           476048.0
+       Other         708486.0
+       Private     33893956.0
+       State        9221030.0
+       Tribal       8295411.0
+       USFS         9226382.0
+NV     BLM         46801004.0
+       DOD          3919171.0
+       NPS           772560.0
+       Other        2790555.0
+       Private      9514970.0
+       State         116602.0
+       Tribal       1089676.0
+       USFS         5761584.0
+UT     BLM         22790640.0
+       DOD          1812154.0
+       NPS          2098192.0
+       Other         108901.0
+       Private     11503984.0
+       State        5379110.0
+       Tribal       2448346.0
+       USFS         8194039.0
+2026-10-21 20:09:41,148 process_land INFO Created 65,080 records
+2026-10-21 20:09:41,152 process_land INFO ownership.geojson is 43.0 MB with simplify 0.001 deg; stepping up
+2026-10-21 20:09:55,277 process_land INFO Created 65,080 records
+2026-10-21 20:09:55,280 process_land INFO ownership.geojson is 42.3 MB with simplify 0.001 deg, holes and parts under 5 acres removed; stepping up
+2026-10-21 20:10:09,242 process_land INFO Created 65,080 records
+2026-10-21 20:10:09,245 process_land INFO ownership.geojson is 42.0 MB with simplify 0.001 deg, holes and parts under 10 acres removed; stepping up
+2026-10-21 20:10:21,941 process_land INFO Created 65,080 records
+2026-10-21 20:10:21,946 process_land INFO ownership.geojson is 37.5 MB with simplify 0.002 deg, holes and parts under 20 acres removed; stepping up
+2026-10-21 20:10:33,430 process_land INFO Created 65,051 records
+2026-10-21 20:10:33,444 process_land INFO ownership.geojson is 32.8 MB with simplify 0.003 deg, holes and parts under 40 acres removed; stepping up
+2026-10-21 20:10:43,171 process_land INFO Created 55,308 records
+2026-10-21 20:10:43,173 process_land INFO ownership.geojson is 25.2 MB with simplify 0.005 deg, holes and parts under 80 acres removed; stepping up
+2026-10-21 20:10:51,342 process_land INFO Created 46,546 records
+2026-10-21 20:10:51,345 process_land INFO wrote ownership.geojson (46546 features, 18.7 MB, simplify 0.01 deg, holes and parts under 160 acres removed)
+2026-10-21 20:10:51,405 process_land INFO Created 495 records
+2026-10-21 20:10:51,981 process_land INFO Created 495 records
+2026-10-21 20:10:51,981 process_land INFO wrote nps.geojson (495 features, 0.8 MB, simplify 0.0005 deg)
+2026-10-21 20:10:52,054 process_land INFO process_land done; manifest has 6 layers
+2026-10-21 20:11:12,905 process_land INFO stage exclusions
+2026-10-21 20:11:12,905 process_land INFO exclusion wilderness
+2026-10-21 20:11:21,328 process_land INFO Created 1,638 records
+2026-10-21 20:11:24,810 process_land INFO Created 1,638 records
+2026-10-21 20:11:24,843 process_land INFO wrote wilderness.geojson (1638 features, 3.9 MB, simplify 0.0005 deg)
+2026-10-21 20:11:24,844 process_land INFO exclusion nca_acec
+2026-10-21 20:11:31,932 process_land INFO Created 7,054 records
+2026-10-21 20:11:32,861 process_land INFO Created 7,054 records
+2026-10-21 20:11:32,867 process_land INFO wrote nca_acec.geojson (7054 features, 4.0 MB, simplify 0.0005 deg)
+2026-10-21 20:11:32,869 process_land INFO exclusion critical_habitat
+2026-10-21 20:12:23,345 process_land INFO Created 4,007 records
+2026-10-21 20:12:25,645 process_land INFO Created 4,007 records
+2026-10-21 20:12:25,647 process_land INFO wrote critical_habitat.geojson (4007 features, 6.5 MB, simplify 0.0005 deg)
+2026-10-21 20:12:25,652 process_land INFO exclusion flood_zone_a
+2026-10-21 20:12:40,224 process_land INFO Created 102,749 records
+2026-10-21 20:13:17,488 process_land INFO Created 23 records
+2026-10-21 20:13:17,498 process_land INFO flood_zone_a.geojson is 30.4 MB with simplify 0.0005 deg; stepping up
+2026-10-21 20:13:24,236 process_land INFO Created 23 records
+2026-10-21 20:13:24,245 process_land INFO flood_zone_a.geojson is 30.4 MB with simplify 0.0005 deg; stepping up
+2026-10-21 20:13:33,600 process_land INFO Created 22 records
+2026-10-21 20:13:33,601 process_land INFO wrote flood_zone_a.geojson (22 features, 23.6 MB, simplify 0.0005 deg, holes and parts under 2 acres removed)
+2026-10-21 20:13:33,651 process_land INFO exclusion tribal
+2026-10-21 20:13:34,126 process_land INFO Created 1,768 records
+2026-10-21 20:13:34,455 process_land INFO Created 1,768 records
+2026-10-21 20:13:34,456 process_land INFO wrote tribal.geojson (1768 features, 1.3 MB, simplify 0.0005 deg)
+2026-10-21 20:13:34,457 process_land INFO exclusion military
+2026-10-21 20:13:34,830 process_land INFO Created 818 records
+2026-10-21 20:13:35,014 process_land INFO Created 818 records
+2026-10-21 20:13:35,015 process_land INFO wrote military.geojson (818 features, 0.7 MB, simplify 0.0005 deg)
+2026-10-21 20:13:35,015 process_land INFO exclusion wetlands
+2026-10-21 20:18:01,580 process_land INFO Created 1,152,936 records
+2026-10-21 20:26:38,264 process_land INFO Created 30 records
+2026-10-21 20:26:38,267 process_land INFO wetlands.geojson is 239.0 MB with simplify 0.0005 deg; stepping up
+2026-10-21 20:27:58,217 process_land INFO Created 30 records
+2026-10-21 20:27:58,229 process_land INFO wetlands.geojson is 239.0 MB with simplify 0.0005 deg; stepping up
+2026-10-21 20:29:12,907 process_land INFO Created 30 records
+2026-10-21 20:29:12,912 process_land INFO wetlands.geojson is 109.3 MB with simplify 0.0005 deg, holes and parts under 2 acres removed; stepping up
+2026-10-21 20:29:57,813 process_land INFO Created 30 records
+2026-10-21 20:29:57,818 process_land INFO wetlands.geojson is 52.5 MB with simplify 0.001 deg, holes and parts under 5 acres removed; stepping up
+2026-10-21 20:30:32,435 process_land INFO Created 30 records
+2026-10-21 20:30:32,437 process_land INFO wetlands.geojson is 31.4 MB with simplify 0.001 deg, holes and parts under 10 acres removed; stepping up
+2026-10-21 20:30:59,534 process_land INFO Created 30 records
+2026-10-21 20:30:59,545 process_land INFO wrote wetlands.geojson (30 features, 13.5 MB, simplify 0.002 deg, holes and parts under 20 acres removed)
+2026-10-21 20:31:00,407 process_land INFO exclusion urban
+2026-10-21 20:31:03,829 process_land INFO Created 1,189 records
+2026-10-21 20:31:04,707 process_land INFO Created 1,189 records
+2026-10-21 20:31:04,710 process_land INFO wrote urban.geojson (1189 features, 2.0 MB, simplify 0.0005 deg)
+2026-10-21 20:31:06,200 process_land INFO process_land done; manifest has 14 layers
+2026-10-21 20:31:19,042 process_land INFO stage ghi
+2026-10-21 20:31:22,947 process_land INFO ghi: 96395 cells, 3.70..6.17
+2026-10-21 20:31:22,948 process_land INFO process_land done; manifest has 15 layers
+2026-10-21 20:31:33,045 process_land INFO stage slope
+2026-10-21 20:31:33,294 process_land INFO slope: 6681 of 6681 terrain tiles on disk
+2026-10-21 20:31:37,891 process_land INFO slope block 1 (x 315, y 759) done
+2026-10-21 20:31:40,941 process_land INFO slope block 2 (x 315, y 775) done
+2026-10-21 20:31:42,236 process_land INFO slope block 3 (x 315, y 791) done
+2026-10-21 20:31:45,005 process_land INFO slope block 4 (x 331, y 759) done
+2026-10-21 20:31:49,662 process_land INFO slope block 5 (x 331, y 775) done
+2026-10-21 20:31:54,091 process_land INFO slope block 6 (x 331, y 791) done
+2026-10-21 20:31:55,837 process_land INFO slope block 7 (x 331, y 807) done
+2026-10-21 20:31:56,492 process_land INFO slope block 8 (x 331, y 823) done
+2026-10-21 20:31:59,145 process_land INFO slope block 9 (x 347, y 759) done
+2026-10-21 20:32:02,128 process_land INFO slope block 10 (x 347, y 775) done
+2026-10-21 20:32:05,640 process_land INFO slope block 11 (x 347, y 791) done
+2026-10-21 20:32:08,355 process_land INFO slope block 12 (x 347, y 807) done
+2026-10-21 20:32:09,452 process_land INFO slope block 13 (x 347, y 823) done
+2026-10-21 20:32:12,222 process_land INFO slope block 14 (x 363, y 759) done
+2026-10-21 20:32:15,334 process_land INFO slope block 15 (x 363, y 775) done
+2026-10-21 20:32:18,234 process_land INFO slope block 16 (x 363, y 791) done
+2026-10-21 20:32:21,070 process_land INFO slope block 17 (x 363, y 807) done
+2026-10-21 20:32:22,617 process_land INFO slope block 18 (x 363, y 823) done
+2026-10-21 20:32:24,992 process_land INFO slope block 19 (x 379, y 759) done
+2026-10-21 20:32:27,762 process_land INFO slope block 20 (x 379, y 775) done
+2026-10-21 20:32:30,602 process_land INFO slope block 21 (x 379, y 791) done
+2026-10-21 20:32:33,403 process_land INFO slope block 22 (x 379, y 807) done
+2026-10-21 20:32:35,795 process_land INFO slope block 23 (x 379, y 823) done
+2026-10-21 20:32:36,946 process_land INFO slope block 24 (x 395, y 759) done
+2026-10-21 20:32:38,738 process_land INFO slope block 25 (x 395, y 775) done
+2026-10-21 20:32:41,708 process_land INFO slope block 26 (x 395, y 791) done
+2026-10-21 20:32:45,606 process_land INFO slope block 27 (x 395, y 807) done
+2026-10-21 20:32:48,169 process_land INFO slope block 28 (x 395, y 823) done
+2026-10-21 20:32:50,246 process_land INFO slope block 29 (x 411, y 791) done
+2026-10-21 20:32:54,687 process_land INFO slope block 30 (x 411, y 807) done
+2026-10-21 20:32:56,809 process_land INFO slope block 31 (x 411, y 823) done
+2026-10-21 20:32:58,733 process_land INFO slope block 32 (x 427, y 791) done
+2026-10-21 20:33:01,458 process_land INFO slope block 33 (x 427, y 807) done
+2026-10-21 20:33:03,033 process_land INFO slope block 34 (x 427, y 823) done
+2026-10-21 20:33:56,865 process_land INFO slope: 222320661 valid cells, 55.5% over 5%
+2026-10-21 20:34:18,981 process_land INFO stage slope
+2026-10-21 20:34:19,069 process_land INFO slope: 6681 of 6681 terrain tiles on disk
+2026-10-21 20:34:21,958 process_land INFO slope block 1 (x 315, y 759) done
+2026-10-21 20:34:23,743 process_land INFO slope block 2 (x 315, y 775) done
+2026-10-21 20:34:24,806 process_land INFO slope block 3 (x 315, y 791) done
+2026-10-21 20:34:27,047 process_land INFO slope block 4 (x 331, y 759) done
+2026-10-21 20:34:29,811 process_land INFO slope block 5 (x 331, y 775) done
+2026-10-21 20:34:32,287 process_land INFO slope block 6 (x 331, y 791) done
+2026-10-21 20:34:34,074 process_land INFO slope block 7 (x 331, y 807) done
+2026-10-21 20:34:34,757 process_land INFO slope block 8 (x 331, y 823) done
+2026-10-21 20:34:37,320 process_land INFO slope block 9 (x 347, y 759) done
+2026-10-21 20:34:39,832 process_land INFO slope block 10 (x 347, y 775) done
+2026-10-21 20:34:42,581 process_land INFO slope block 11 (x 347, y 791) done
+2026-10-21 20:34:45,337 process_land INFO slope block 12 (x 347, y 807) done
+2026-10-21 20:34:46,469 process_land INFO slope block 13 (x 347, y 823) done
+2026-10-21 20:34:48,820 process_land INFO slope block 14 (x 363, y 759) done
+2026-10-21 20:34:51,342 process_land INFO slope block 15 (x 363, y 775) done
+2026-10-21 20:34:56,506 process_land INFO slope block 16 (x 363, y 791) done
+2026-10-21 20:34:59,412 process_land INFO slope block 17 (x 363, y 807) done
+2026-10-21 20:35:01,446 process_land INFO slope block 18 (x 363, y 823) done
+2026-10-21 20:35:04,516 process_land INFO slope block 19 (x 379, y 759) done
+2026-10-21 20:35:07,502 process_land INFO slope block 20 (x 379, y 775) done
+2026-10-21 20:35:10,423 process_land INFO slope block 21 (x 379, y 791) done
+2026-10-21 20:35:13,271 process_land INFO slope block 22 (x 379, y 807) done
+2026-10-21 20:35:15,517 process_land INFO slope block 23 (x 379, y 823) done
+2026-10-21 20:35:16,691 process_land INFO slope block 24 (x 395, y 759) done
+2026-10-21 20:35:18,559 process_land INFO slope block 25 (x 395, y 775) done
+2026-10-21 20:35:21,188 process_land INFO slope block 26 (x 395, y 791) done
+2026-10-21 20:35:24,002 process_land INFO slope block 27 (x 395, y 807) done
+2026-10-21 20:35:26,403 process_land INFO slope block 28 (x 395, y 823) done
+2026-10-21 20:35:29,091 process_land INFO slope block 29 (x 411, y 791) done
+2026-10-21 20:35:31,917 process_land INFO slope block 30 (x 411, y 807) done
+2026-10-21 20:35:33,934 process_land INFO slope block 31 (x 411, y 823) done
+2026-10-21 20:35:36,672 process_land INFO slope block 32 (x 427, y 791) done
+2026-10-21 20:35:39,800 process_land INFO slope block 33 (x 427, y 807) done
+2026-10-21 20:35:41,173 process_land INFO slope block 34 (x 427, y 823) done
+2026-10-21 20:36:33,932 process_land INFO slope: 222320661 valid cells, 55.5% over 5%
+2026-10-21 20:38:53,390 process_land INFO Created 15,074 records
+2026-10-21 20:39:00,585 process_land INFO Created 15,074 records
+2026-10-21 20:39:00,589 process_land INFO wrote slope_gt5.geojson (15074 features, 19.4 MB, simplify 0.002 deg)
+2026-10-21 20:39:00,787 process_land INFO process_land done; manifest has 17 layers
+2026-10-21 20:42:48,824 process_land INFO stage ghi
+2026-10-21 20:42:49,552 process_land INFO ghi: 96395 cells, 3.70..6.17
+2026-10-21 20:42:49,553 process_land INFO process_land done; manifest has 17 layers
+2026-10-21 20:44:28,881 fetch_land INFO skip (exists) cb_2024_us_state_500k.zip
+2026-10-21 20:44:28,882 fetch_land INFO skip (exists) cb_2024_us_county_500k.zip
+2026-10-21 20:44:28,882 fetch_land INFO skip (exists) tl_2024_us_aiannh.zip
+2026-10-21 20:44:28,882 fetch_land INFO skip (exists) tl_2024_us_mil.zip
+2026-10-21 20:44:28,882 fetch_land INFO skip (exists) tl_2024_us_uac20.zip
+2026-10-21 20:44:28,882 fetch_land INFO skip (extracted) BLM_Natl_Solar_PEIS_ROD.gdb
+2026-10-21 20:44:28,882 fetch_land INFO skip (extracted) SMA_WM.gdb
+2026-10-21 20:44:28,882 fetch_land INFO skip (extracted) nsrdbv3_ghi
+2026-10-21 20:44:28,883 fetch_land INFO sez: 1 tiles, 153 features on disk (0 new this run)
+2026-10-21 20:44:28,884 fetch_land INFO drecp_dfa: 1 tiles, 171 features on disk (0 new this run)
+2026-10-21 20:44:28,884 fetch_land INFO drecp_variance: 1 tiles, 7 features on disk (0 new this run)
+2026-10-21 20:44:28,885 fetch_land INFO wilderness_nwps: 1 tiles, 483 features on disk (0 new this run)
+2026-10-21 20:44:28,886 fetch_land INFO wsa_blm: 1 tiles, 831 features on disk (0 new this run)
+2026-10-21 20:44:28,887 fetch_land INFO nlcs_nm_nca: 1 tiles, 48 features on disk (0 new this run)
+2026-10-21 20:44:30,059 fetch_land INFO acec: 54 tiles, 822 features on disk (0 new this run)
+2026-10-21 20:44:30,131 fetch_land INFO critical_habitat: 54 tiles, 456 features on disk (0 new this run)
+2026-10-21 20:44:30,388 fetch_land INFO fema_flood_av: 677 tiles, 86789 features on disk (0 new this run)
+2026-10-21 20:44:30,492 fetch_land INFO nwi_wetlands_40ac: 188 tiles, 37258 features on disk (0 new this run)
+2026-10-21 20:44:31,274 fetch_land INFO terrain z11: 6681 tiles needed, 0 to download
+2026-10-21 20:44:31,275 fetch_land INFO terrain: downloaded 0 of 0
+2026-10-21 20:44:31,275 fetch_land INFO fetch_land done
+2026-10-21 20:44:32,433 process_land INFO stage admin
+2026-10-21 20:44:32,434 process_land INFO stage blm
+2026-10-21 20:44:32,435 process_land INFO stage ownership
+2026-10-21 20:44:32,435 process_land INFO stage exclusions
+2026-10-21 20:44:32,435 process_land INFO stage ghi
+2026-10-21 20:44:32,436 process_land INFO stage slope
+2026-10-21 20:44:32,436 process_land INFO process_land done; manifest has 17 layers

@@ -1,0 +1,137 @@
+2026-10-21 18:15:03,537 fetch_grid INFO === fetch_grid start (force=False)
+2026-10-21 18:15:03,538 fetch_grid INFO download https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip -> data/raw/grid/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:15:04,917 fetch_grid INFO download https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip -> data/raw/grid/tiger/cb_2024_us_county_500k.zip
+2026-10-21 18:15:11,482 fetch_grid INFO HIFLD transmission lines: 11178 features in bbox at https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0 (page 2000)
+2026-10-21 18:15:31,251 fetch_grid INFO HIFLD transmission lines: fetched 11178 features
+2026-10-21 18:15:32,118 fetch_grid INFO HIFLD substations: 9148 features in bbox at https://services5.arcgis.com/HDRa0B57OVrv2E1q/arcgis/rest/services/Electric_Substations/FeatureServer/0 (page 2000)
+2026-10-21 18:15:37,337 fetch_grid INFO HIFLD substations: fetched 9148 features
+2026-10-21 18:15:37,339 fetch_grid INFO download https://eta-publications.lbl.gov/sites/default/files/2026-05/lbnl_ix_queue_data_file_thru2025.xlsx -> data/raw/grid/queued_up/lbnl_ix_queue_data_file_thru2025.xlsx
+2026-10-21 18:15:46,779 fetch_grid INFO download https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf -> data/raw/grid/queued_up/queued_up_2026_edition.pdf
+2026-10-21 18:15:51,551 fetch_grid INFO download https://www.caiso.com/documents/publicqueuereport.xlsx -> data/raw/grid/caiso/publicqueuereport.xlsx
+2026-10-21 18:15:53,124 fetch_grid WARNING attempt 1/3 failed for https://overpass-api.de/api/interpreter: 406 Client Error: Not Acceptable for url: https://overpass-api.de/api/interpreter; retry in 3s
+2026-10-21 18:15:56,830 fetch_grid WARNING attempt 2/3 failed for https://overpass-api.de/api/interpreter: 406 Client Error: Not Acceptable for url: https://overpass-api.de/api/interpreter; retry in 6s
+2026-10-21 18:16:03,534 fetch_grid WARNING attempt 3/3 failed for https://overpass-api.de/api/interpreter: 406 Client Error: Not Acceptable for url: https://overpass-api.de/api/interpreter; retry in 12s
+2026-10-21 18:16:15,611 fetch_grid WARNING overpass tile osm_subs_31.2_-124.6.json failed at https://overpass-api.de/api/interpreter: giving up on https://overpass-api.de/api/interpreter
+2026-10-21 18:20:33,582 fetch_grid WARNING attempt 1/3 failed for https://overpass.kumi.systems/api/interpreter: HTTP 504; retry in 3s
+2026-10-21 18:21:14,331 fetch_grid WARNING attempt 2/3 failed for https://overpass.kumi.systems/api/interpreter: HTTP 504; retry in 6s
+2026-10-21 18:25:58,138 fetch_grid INFO === fetch_grid start (force=False)
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/tiger/cb_2024_us_state_500k.zip
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/tiger/cb_2024_us_county_500k.zip
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/hifld_lines
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/hifld_substations
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/queued_up/lbnl_ix_queue_data_file_thru2025.xlsx
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/queued_up/queued_up_2026_edition.pdf
+2026-10-21 18:25:58,139 fetch_grid INFO skip (exists) data/raw/grid/caiso/publicqueuereport.xlsx
+2026-10-21 18:28:08,862 fetch_grid WARNING attempt 1/2 failed for https://maps.mail.ru/osm/tools/overpass/api/interpreter: HTTPSConnectionPool(host='maps.mail.ru', port=443): Read timed out. (read timeout=130); retry in 3s
+2026-10-21 18:28:12,023 fetch_grid WARNING attempt 2/2 failed for https://maps.mail.ru/osm/tools/overpass/api/interpreter: HTTPSConnectionPool(host='maps.mail.ru', port=443): Max retries exceeded with url: /osm/tools/overpass/api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='maps.mail.ru', port=443): Failed to resolve 'maps.mail.ru' ([Errno 8] nodename nor servname provided, or not known)")); retry in 6s
+2026-10-21 18:28:18,173 fetch_grid WARNING overpass tile osm_subs_31.2_-124.6.json failed at https://maps.mail.ru/osm/tools/overpass/api/interpreter: giving up on https://maps.mail.ru/osm/tools/overpass/api/interpreter
+2026-10-21 18:28:18,179 fetch_grid WARNING attempt 1/2 failed for https://overpass-api.de/api/interpreter: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass-api.de', port=443): Failed to resolve 'overpass-api.de' ([Errno 8] nodename nor servname provided, or not known)")); retry in 3s
+2026-10-21 18:28:21,332 fetch_grid WARNING attempt 2/2 failed for https://overpass-api.de/api/interpreter: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass-api.de', port=443): Failed to resolve 'overpass-api.de' ([Errno 8] nodename nor servname provided, or not known)")); retry in 6s
+2026-10-21 18:28:27,481 fetch_grid WARNING overpass tile osm_subs_31.2_-124.6.json failed at https://overpass-api.de/api/interpreter: giving up on https://overpass-api.de/api/interpreter
+2026-10-21 18:28:27,487 fetch_grid WARNING attempt 1/2 failed for https://overpass.kumi.systems/api/interpreter: HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass.kumi.systems', port=443): Failed to resolve 'overpass.kumi.systems' ([Errno 8] nodename nor servname provided, or not known)")); retry in 3s
+2026-10-21 18:28:30,631 fetch_grid WARNING attempt 2/2 failed for https://overpass.kumi.systems/api/interpreter: HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass.kumi.systems', port=443): Failed to resolve 'overpass.kumi.systems' ([Errno 8] nodename nor servname provided, or not known)")); retry in 6s
+2026-10-21 18:28:36,751 fetch_grid WARNING overpass tile osm_subs_31.2_-124.6.json failed at https://overpass.kumi.systems/api/interpreter: giving up on https://overpass.kumi.systems/api/interpreter
+2026-10-21 18:28:36,757 fetch_grid WARNING attempt 1/2 failed for https://overpass.private.coffee/api/interpreter: HTTPSConnectionPool(host='overpass.private.coffee', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass.private.coffee', port=443): Failed to resolve 'overpass.private.coffee' ([Errno 8] nodename nor servname provided, or not known)")); retry in 3s
+2026-10-21 18:28:39,911 fetch_grid WARNING attempt 2/2 failed for https://overpass.private.coffee/api/interpreter: HTTPSConnectionPool(host='overpass.private.coffee', port=443): Max retries exceeded with url: /api/interpreter (Caused by NameResolutionError("HTTPSConnection(host='overpass.private.coffee', port=443): Failed to resolve 'overpass.private.coffee' ([Errno 8] nodename nor servname provided, or not known)")); retry in 6s
+2026-10-21 18:28:46,060 fetch_grid WARNING overpass tile osm_subs_31.2_-124.6.json failed at https://overpass.private.coffee/api/interpreter: giving up on https://overpass.private.coffee/api/interpreter
+2026-10-21 18:28:46,061 fetch_grid WARNING OSM Overpass cross-check incomplete (optional): overpass tile osm_subs_31.2_-124.6.json failed on all mirrors
+2026-10-21 18:28:46,061 fetch_grid INFO === fetch_grid done
+2026-10-21 19:11:32,712 fetch_grid INFO === fetch_grid start (force=False)
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/tiger/cb_2024_us_state_500k.zip
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/tiger/cb_2024_us_county_500k.zip
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/hifld_lines
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/hifld_substations
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/queued_up/lbnl_ix_queue_data_file_thru2025.xlsx
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/queued_up/queued_up_2026_edition.pdf
+2026-10-21 19:11:32,713 fetch_grid INFO skip (exists) data/raw/grid/caiso/publicqueuereport.xlsx
+2026-10-21 19:12:12,768 fetch_grid INFO overpass CA: 866 elements via https://overpass-api.de/api/interpreter
+2026-10-21 19:12:48,920 fetch_grid INFO overpass AZ: 315 elements via https://overpass-api.de/api/interpreter
+2026-10-21 19:13:22,321 fetch_grid INFO overpass NV: 267 elements via https://overpass-api.de/api/interpreter
+2026-10-21 19:13:54,171 fetch_grid INFO overpass NM: 447 elements via https://overpass-api.de/api/interpreter
+2026-10-21 19:14:42,177 fetch_grid INFO overpass UT: 299 elements via https://overpass-api.de/api/interpreter
+2026-10-21 19:14:47,256 fetch_grid INFO === fetch_grid done
+2026-10-21 19:18:44,602 process_grid INFO === process_grid start
+2026-10-21 19:18:47,523 process_grid INFO HIFLD lines in bbox: 11178
+2026-10-21 19:18:49,648 process_grid INFO line pieces in 5 states: 9086; by class {'<115': 4452, '115-161': 2660, '230': 1079, 'unknown': 577, '345': 163, '500+': 155}
+2026-10-21 19:18:50,034 process_grid INFO HIFLD substations in bbox: 9148
+2026-10-21 19:18:54,650 process_grid INFO === process_grid start
+2026-10-21 19:18:55,814 process_grid INFO HIFLD lines in bbox: 11178
+2026-10-21 19:18:57,944 process_grid INFO line pieces in 5 states: 9086; by class {'<115': 4452, '115-161': 2660, '230': 1079, 'unknown': 577, '345': 163, '500+': 155}
+2026-10-21 19:18:58,318 process_grid INFO HIFLD substations in bbox: 9148
+2026-10-21 19:19:06,281 process_grid INFO Queued Up rows in 5 states: 6051
+2026-10-21 19:19:07,682 process_grid INFO Created 9,086 records
+2026-10-21 19:19:08,308 process_grid INFO Created 9,086 records
+2026-10-21 19:19:08,321 process_grid INFO wrote data/processed/grid/transmission_lines.geojson (6.2 MB) and data/processed/grid/transmission_lines.gpkg
+2026-10-21 19:19:08,410 process_grid INFO Created 7,883 records
+2026-10-21 19:19:08,621 process_grid INFO Created 7,883 records
+2026-10-21 19:19:08,633 process_grid INFO wrote data/processed/grid/substations.geojson (4.5 MB) and data/processed/grid/substations.gpkg
+2026-10-21 19:19:08,683 process_grid INFO queue state check:
+  state  ours_active_gw_all  ours_active_gw_solar  ours_active_gw_storage  ours_n_active  lbnl_report_gw_5types  lbnl_report_gw_solar  lbnl_report_gw_storage  solar_ratio  storage_ratio
+0    AZ             108.582                51.957                  28.577            281                118.391                50.159                  59.112        1.036          0.483
+1    CA             179.177                64.286                 100.171            464                189.276                64.116                 114.835        1.003          0.872
+2    NM              33.159                16.252                   7.095            159                 37.904                14.977                  17.434        1.085          0.407
+3    NV              81.330                46.599                  22.473            248                 67.860                29.201                  33.658        1.596          0.668
+4    UT              33.691                19.973                   9.893            153                 43.018                18.199                  21.597        1.097          0.458
+2026-10-21 19:19:08,684 process_grid INFO 500+ kV line pieces by state: {'AZ': 48, 'CA': 73, 'NM': 3, 'NV': 28, 'UT': 3}
+2026-10-21 19:19:08,694 process_grid INFO === process_grid done: lines 9086, substations 7883, queue 6051, counties 107
+2026-10-21 19:19:39,312 process_grid INFO === process_grid start
+2026-10-21 19:19:40,505 process_grid INFO HIFLD lines in bbox: 11178
+2026-10-21 19:19:42,632 process_grid INFO line pieces in 5 states: 9086; by class {'<115': 4452, '115-161': 2660, '230': 1079, 'unknown': 577, '345': 163, '500+': 155}
+2026-10-21 19:19:43,022 process_grid INFO HIFLD substations in bbox: 9148
+2026-10-21 19:19:51,271 process_grid INFO Queued Up rows in 5 states: 6051
+2026-10-21 19:19:52,786 process_grid INFO Created 9,086 records
+2026-10-21 19:19:53,508 process_grid INFO Created 9,086 records
+2026-10-21 19:19:53,519 process_grid INFO wrote data/processed/grid/transmission_lines.geojson (6.2 MB) and data/processed/grid/transmission_lines.gpkg
+2026-10-21 19:19:53,646 process_grid INFO Created 7,883 records
+2026-10-21 19:19:53,934 process_grid INFO Created 7,883 records
+2026-10-21 19:19:53,963 process_grid INFO wrote data/processed/grid/substations.geojson (4.5 MB) and data/processed/grid/substations.gpkg
+2026-10-21 19:19:54,042 process_grid INFO queue state check:
+  state  ours_active_gw_all  ours_active_gw_solar  ours_active_gw_storage  ours_n_active  lbnl_report_gw_5types  lbnl_report_gw_solar  lbnl_report_gw_storage  solar_ratio  storage_ratio
+0    AZ             106.609                50.159                  28.402            273                118.391                50.159                  59.112          1.0          0.480
+1    CA             177.933                64.116                 100.112            460                189.276                64.116                 114.835          1.0          0.872
+2    NM              27.909                14.977                   6.920            144                 37.904                14.977                  17.434          1.0          0.397
+3    NV              54.958                29.201                  16.093            173                 67.860                29.201                  33.658          1.0          0.478
+4    UT              31.857                18.199                   9.873            141                 43.018                18.199                  21.597          1.0          0.457
+2026-10-21 19:19:54,044 process_grid INFO 500+ kV line pieces by state: {'AZ': 48, 'CA': 73, 'NM': 3, 'NV': 28, 'UT': 3}
+2026-10-21 19:19:54,053 process_grid INFO === process_grid done: lines 9086, substations 7883, queue 6051, counties 104
+2026-10-21 19:21:07,589 process_grid INFO === process_grid start
+2026-10-21 19:21:09,145 process_grid INFO HIFLD lines in bbox: 11178
+2026-10-21 19:21:13,120 process_grid INFO line pieces in 5 states: 9086; by class {'<115': 4452, '115-161': 2660, '230': 1079, 'unknown': 577, '345': 163, '500+': 155}
+2026-10-21 19:21:13,796 process_grid INFO HIFLD substations in bbox: 9148
+2026-10-21 19:21:27,099 process_grid INFO Queued Up rows in 5 states: 6051
+2026-10-21 19:21:29,706 process_grid INFO Created 9,086 records
+2026-10-21 19:21:30,961 process_grid INFO Created 9,086 records
+2026-10-21 19:21:31,020 process_grid INFO wrote data/processed/grid/transmission_lines.geojson (6.2 MB) and data/processed/grid/transmission_lines.gpkg
+2026-10-21 19:21:31,206 process_grid INFO Created 7,883 records
+2026-10-21 19:21:31,577 process_grid INFO Created 7,883 records
+2026-10-21 19:21:31,589 process_grid INFO wrote data/processed/grid/substations.geojson (4.5 MB) and data/processed/grid/substations.gpkg
+2026-10-21 19:21:31,657 process_grid INFO queue state check:
+  state  ours_active_gw_all  ours_active_gw_solar  ours_active_gw_storage  ours_n_active  lbnl_report_gw_5types  lbnl_report_gw_solar  lbnl_report_gw_storage  solar_ratio  storage_ratio
+0    AZ             106.609                50.159                  28.402            273                118.391                50.159                  59.112          1.0          0.480
+1    CA             177.933                64.116                 100.112            460                189.276                64.116                 114.835          1.0          0.872
+2    NM              27.909                14.977                   6.920            144                 37.904                14.977                  17.434          1.0          0.397
+3    NV              54.958                29.201                  16.093            173                 67.860                29.201                  33.658          1.0          0.478
+4    UT              31.857                18.199                   9.873            141                 43.018                18.199                  21.597          1.0          0.457
+2026-10-21 19:21:31,660 process_grid INFO 500+ kV line pieces by state: {'AZ': 48, 'CA': 73, 'NM': 3, 'NV': 28, 'UT': 3}
+2026-10-21 19:21:31,678 process_grid INFO === process_grid done: lines 9086, substations 7883, queue 6051, counties 104
+2026-10-21 19:21:33,789 process_grid INFO process_grid: outputs exist, skip (use --force)
+2026-10-21 19:22:58,485 process_grid INFO === process_grid start
+2026-10-21 19:22:59,755 process_grid INFO HIFLD lines in bbox: 11178
+2026-10-21 19:23:02,069 process_grid INFO line pieces in 5 states: 9086; by class {'<115': 4452, '115-161': 2660, '230': 1079, 'unknown': 577, '345': 163, '500+': 155}
+2026-10-21 19:23:02,689 process_grid INFO HIFLD substations in bbox: 9148
+2026-10-21 19:23:11,810 process_grid INFO Queued Up rows in 5 states: 6051
+2026-10-21 19:23:13,602 process_grid INFO Created 9,086 records
+2026-10-21 19:23:14,343 process_grid INFO Created 9,086 records
+2026-10-21 19:23:14,358 process_grid INFO wrote data/processed/grid/transmission_lines.geojson (6.2 MB) and data/processed/grid/transmission_lines.gpkg
+2026-10-21 19:23:14,512 process_grid INFO Created 7,883 records
+2026-10-21 19:23:14,717 process_grid INFO Created 7,883 records
+2026-10-21 19:23:14,732 process_grid INFO wrote data/processed/grid/substations.geojson (4.5 MB) and data/processed/grid/substations.gpkg
+2026-10-21 19:23:14,794 process_grid INFO queue state check:
+  state  ours_active_gw_all  ours_active_gw_solar  ours_active_gw_storage  ours_n_active  lbnl_report_gw_5types  lbnl_report_gw_solar  lbnl_report_gw_storage  solar_ratio  storage_ratio
+0    AZ             106.609                50.159                  28.402            273                118.391                50.159                  59.112          1.0          0.480
+1    CA             177.933                64.116                 100.112            460                189.276                64.116                 114.835          1.0          0.872
+2    NM              27.909                14.977                   6.920            144                 37.904                14.977                  17.434          1.0          0.397
+3    NV              54.958                29.201                  16.093            173                 67.860                29.201                  33.658          1.0          0.478
+4    UT              31.857                18.199                   9.873            141                 43.018                18.199                  21.597          1.0          0.457
+2026-10-21 19:23:14,797 process_grid INFO 500+ kV line pieces by state: {'AZ': 48, 'CA': 73, 'NM': 3, 'NV': 28, 'UT': 3}
+2026-10-21 19:23:14,831 process_grid INFO === process_grid done: lines 9086, substations 7883, queue 6051, counties 104
