@@ -1,0 +1,32 @@
+{
+ "goal": "An end-to-end Southwest (CA, AZ, NV, NM, UT) siting platform for utility-scale solar and data centers: public grid, land, BLM and infrastructure data in, scored candidate sites and a map-based decision dashboard out, plus a BLM application brief. (Run 4: finish and verify the already-built dashboard only.)",
+ "user_words": "Are you able to access the grid electric grid, and substations in see where there's a good way to connect power and also good land for large scale solar projects. And data centers and and a BLM land that I should apply for. In the Southwest Region. ... Add california to scope out the project identify the sources, and launch multiple agents. With clear tasks and help me build like a nice dashboard or, a proper end to end product that intakes all the data and spells out like... Proper map based visualizations and whatever required. To aid adequate decision making. ... go ahead and build",
+ "deliverable": "~/research/southwest-solar-siting: app/ (run uv run --script app/serve.py), pipeline/ (uv run --script pipeline/run_all.py), deliverables/ (Excel ranking, site memos, BLM brief)",
+ "workdir": "/Users/akshitbansal/research/southwest-solar-siting",
+ "parallel": 3,
+ "tasks": [
+  {
+   "id": "app-finish",
+   "title": "Finish, verify and add How to Read This page",
+   "brief": "briefs/app-finish.md",
+   "owns": [
+    "app/**",
+    "pipeline/run_all.py",
+    "pipeline/build_app.py",
+    "README.md",
+    "logs/app.log"
+   ],
+   "accept": [
+    "test -s app/index.html",
+    "test -s app/serve.py",
+    "test -s pipeline/run_all.py",
+    "ls app/screenshots/*.png",
+    "! grep -Eiq '<script[^>]+src=\"https?:' app/index.html",
+    "test -s README.md",
+    "test -s app/tests/RESULTS.md",
+    "grep -rqi 'How to Read This' app/index.html app/app.js"
+   ],
+   "max_minutes": 60
+  }
+ ]
+}

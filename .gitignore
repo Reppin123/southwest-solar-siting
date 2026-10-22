@@ -1,0 +1,42 @@
+# --- Raw downloads (11 GB). Re-fetch with: uv run --script pipeline/run_all.py
+data/raw/
+
+# --- Intermediate screening caches (regenerable by pipeline/screen.py)
+data/processed/sites/work/
+
+# --- Processed files over 95 MB (GitHub blocks files over 100 MB).
+#     These are attached to the GitHub release v1.0-data instead. See DATA.md.
+data/processed/land/slope.tif
+data/processed/land/exclusions_full.gpkg
+data/processed/land/ownership.gpkg
+data/processed/land/blm_solar_available.gpkg
+
+# --- Work in progress by other teams (added later)
+app-v3/
+video/
+
+# --- Build output and tool state
+site-build/
+release-staging/
+.wrangler/
+deploy-site/last_deploy.log
+deploy-site/URL
+**/node_modules/
+**/.venv/
+__pycache__/
+*.pyc
+
+# --- Agent team scratch (logs, run transcripts, locks, board state)
+**/TEAM/logs/
+**/TEAM/runs/
+**/TEAM/locks/
+**/TEAM/board*.json
+**/TEAM/run.lock
+
+# --- OS and secrets
+.DS_Store
+.env
+.env.*
+.dev.vars*
+*.pem
+*.key

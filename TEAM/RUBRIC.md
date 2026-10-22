@@ -1,0 +1,7 @@
+- Real downloaded public data in data/raw, with MANIFEST entries (source URL, date, counts). No invented numbers.
+- Coverage is all five states (CA, AZ, NV, NM, UT); spot-check a known feature (e.g. a 500 kV line or a named SEZ such as Dry Lake or Riverside East) exists.
+- Data contract field names exactly as SPEC.md.
+- Screening respects hard exclusions; scores reproducible from pipeline/screen.py; weights match SCOPE.md.
+- App opens via app/serve.py with no CDN, layers toggle, sites clickable, sliders re-rank, sources panel present, looks professional and calm (not cartoony).
+- Caveats stated honestly (capacity unknown from public maps, proxies used, 2025 federal policy changes).
+- No em dashes in user-facing text.

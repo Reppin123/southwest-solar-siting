@@ -1,0 +1,13 @@
+# Brief: app (decision dashboard + end-to-end runner)
+Objective: build the map-first decision dashboard described in SPEC "What the finished product is", plus pipeline/run_all.py and pipeline/build_app.py that package processed data for the app.
+Owns: app/**, pipeline/run_all.py, pipeline/build_app.py, README.md (project root), logs/app.log. Read-only on data/** and deliverables/**. Sites now carry two rankings (score_total_solar / score_total_dc, rank_solar / rank_dc) and provisional substation flags: add a Solar vs Solar+Data Center ranking toggle, show provisional badges on scorecards and a Provisional data note in Sources and Limits, and link the GPT methodology review (../southwest-solar-siting-review/review/METHODOLOGY_REVIEW.md) as an appendix. Must not touch other tasks' files or TEAM/**.
+User's words: "help me build like a nice dashboard or, a proper end to end product that intakes all the data and spells out like... Proper map based visualizations and whatever required. To aid adequate decision making."
+Do:
+1. build_app.py: copy/simplify processed layers into app/data/ (GeoJSON, or PMTiles/FlatGeobuf if a layer is too heavy; vendor the reader lib), a raster overlay for GHI (PNG + bounds, or tiles), and app/data/layers.json listing layers with style, legend and MANIFEST metadata.
+2. app/index.html + JS/CSS: MapLibre GL JS (vendored) or Leaflet (vendored); basemap switcher; layer panel with legends; candidate sites coloured by score; click scorecard; weight sliders and filters re-rank in the browser using the factor scores; synced sortable table; CSV export of current view; summary charts (vendored Chart.js or similar); Sources and Limits panel generated from MANIFESTs and SCOPE section 7; links to deliverables (Excel, memos, BLM brief) when present.
+3. app/serve.py: tiny static server (stdlib http.server) on 8765 that opens the browser.
+4. pipeline/run_all.py: runs fetch/process for grid, land, infra, then screen.py, memos.py, build_app.py in order, skipping done stages unless --force; prints a summary.
+5. README.md: what it is, how to run, how to refresh, data sources, limits, folder map.
+6. Visual quality: calm professional palette (light UI, slate greys, one accent; voltage colours consistent with common utility maps), legible at 1440 px and 1280 px, no overlapping panels, no em dashes in text.
+7. Test with headless Chrome (playwright via uv) : load page, no console errors, toggle each layer, click a site, move a slider, export CSV; save screenshots to app/screenshots/.
+Done means: serve.py loads the app with real data from all five states, all listed interactions work in the headless test, screenshots saved.

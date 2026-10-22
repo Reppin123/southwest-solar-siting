@@ -1,0 +1,55 @@
+{
+ "goal": "Share and host the Southwest siting project: dashboards live on the user's Cloudflare, everything committed to a private GitHub repo with large data as release downloads, and a share guide.",
+ "user_words": "launch another agent. Job is to commit the entire project, everything that we have done into a GitHub. And, basically, I wrote all the files as well. I basically need to share this entire project with someone think about the best way of sharing the entire project. Including all the CSV files and everything. And, number two is let us host this website as well. Like, let's host this mean, let's host this website on my cloud fare. So, yeah, just think about the ways of just, like, completing this project. And after that, I will ask you to send it over... Send it across to someone on WhatsApp.",
+ "deliverable": "Live Cloudflare URL (deploy-site/LIVE.md), private GitHub repo Reppin123/southwest-solar-siting with release v1.0-data, SHARE.md with WhatsApp message",
+ "workdir": "/Users/akshitbansal/research/southwest-solar-siting",
+ "parallel": 1,
+ "tasks": [
+  {
+   "id": "host",
+   "title": "Host dashboards on Cloudflare",
+   "brief": "briefs/host.md",
+   "owns": [
+    "site-build/**",
+    "deploy-site/**",
+    "wrangler.jsonc",
+    "scripts/build_site.py",
+    "scripts/deploy_site.sh"
+   ],
+   "accept": [
+    "test -s deploy-site/LIVE.md",
+    "test -s wrangler.jsonc",
+    "ls deploy-site/*.png"
+   ],
+   "max_minutes": 60
+  },
+  {
+   "id": "repo",
+   "title": "Private GitHub repo, release data and share guide",
+   "brief": "briefs/repo.md",
+   "depends_on": [
+    "host"
+   ],
+   "owns": [
+    ".git/**",
+    ".gitignore",
+    ".gitattributes",
+    "README.md",
+    "DATA.md",
+    "SHARE.md",
+    "LICENSES.md",
+    "review/**",
+    "scripts/package_release.sh",
+    "release-staging/**"
+   ],
+   "accept": [
+    "test -d .git",
+    "test -s SHARE.md",
+    "test -s DATA.md",
+    "/opt/homebrew/bin/gh repo view Reppin123/southwest-solar-siting --json name >/dev/null",
+    "test -z \"$(git ls-files -z | xargs -0 du -k 2>/dev/null | awk '$1>97000')\""
+   ],
+   "max_minutes": 75
+  }
+ ]
+}
